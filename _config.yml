@@ -87,7 +87,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: Computer History Museum
-map-text-location: 41401 N Shoreline Blvd, Mountain View, CA 94043
-map-lat: 37.4145135
-map-lng: -122.0787026
+map-text: ESTREL
+map-text-location: Sonnenallee 225, 12057 Berlin, Germany
+map-lat: 52.4736275
+map-lng: 13.4588496
