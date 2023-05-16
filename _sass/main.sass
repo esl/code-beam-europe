@@ -406,6 +406,24 @@ a
   @media only screen and (max-width: 634px)
     padding: 0 2em 2em 2em
 
+  .talk-highlight-items
+    display: flex
+    flex-flow: row wrap
+    color: #e32dfd
+    line-height: 2em
+    justify-content: center
+
+    .highlight-item-row
+      display: flex
+      flex-flow: column nowrap
+      justify-content: space-between
+      align-items: center
+      padding-right: 1em
+
+      span
+        &:nth-child(0)
+          color: #fff
+
 .column
   float: left
   width: 25%
