@@ -8,6 +8,8 @@
 #  link: "newsletter"
 - name: Call for Talks & Training
   link: "cft"
+- name: Programme Committee
+  link: "members"
 #- name: Call for Training
 #  link: "call-for-training"
 #- name: All Recordings
@@ -40,8 +42,6 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-#- name: Programme Committee
-#  link: "members"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
