@@ -1,7 +1,7 @@
 ---
 name: Francesco Cesarini
 pic_url: "/assets/images/francesco-cesarini.jpg"
-tagline: Founder/Manager Director of Erlang Solutions
+tagline: Founder/Managing Director of Erlang Solutions
 github: ''
 twitter: FrancescoC
 
