@@ -2,11 +2,11 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome"
-#- name: Register
-#  link: "register"
+- name: Register
+  link: "register"
 # name: Newsletter
 #  link: "newsletter"
-- name: Call for Talks & Training
+- name: Call for Talks
   link: "cft"
 - name: Programme Committee
   link: "members"
@@ -22,10 +22,10 @@
 #  link: schedule
 #- name: Speakers
 #  link: "keynotes"
-#- name: Trainers
-#  link: "trainers"
-#- name: Training
-#  link: "training"
+- name: Trainers
+  link: "trainers"
+- name: Training
+  link: "training"
 #- name: Diversity
 #  link: "diversity"
 #- name: Volunteer

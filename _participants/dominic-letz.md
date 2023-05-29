@@ -7,4 +7,5 @@ github: dominicletz
 twitter: DominicLetz
 
 ---
-Dominic has been working with Erlang & Elixir since 2013 and working with open source all along. His most recent contribution to Erlang is support for the new :wxWebView that enables conversion of Web app to native apps in Erlang natively. He is a Co-Founder of Diode.io a company focused on decentralization and privacy trying to remove the grip Google has on our private data with a privacy-preserving decentralized alternative to Google Drive.
+Dominic is a long-term Erlang and Elixir enthusiast with a passion for Open Source. He is the creator of the elixir-desktop project allowing to build mobile and desktop applications using Elixir that can be distributed and sold via the native platform app stores.
+Dominic is CTO at Diode a zero trust network security company focused on build a new generation of trust technologies based on Web3 technology. Before that Dominic worked in IoT where met the BEAM for the first time working with large fleets of connected devices.

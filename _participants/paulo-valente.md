@@ -1,6 +1,6 @@
 ---
 name: Paulo Valente
-pic_url: "/assets/images/paulo-valente.jpg"
+pic_url: "/assets/images/paulo-valente.jpeg"
 tagline: Elixir enthusiast, Nx maintainer and Sr Software Engineer at DockYard
 github: ''
 twitter: polvalente
