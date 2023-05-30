@@ -15,5 +15,8 @@ Welcome to the one-day observability and debugging tutorial for Erlang and Elixi
 2. Understand how to use counters, logs and alarms for pre-emptive support
 3. Understand how distributed tracing tools on the BEAM work
 
+**Target audience:**
+Developers and architects with Erlang and Elixir experience who want to further their knowledge in designing systems with high availability and reliability.
+
 **Training prerequisites:**
 Install the latest version of Erlang and Elixir. We will provide examples which we can use to add monitoring, test and debug. 
