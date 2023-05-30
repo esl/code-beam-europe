@@ -1,7 +1,7 @@
 ---
 experience:
 - Intermediate Users
-name: From basics to RTMP and HLS broadcasting; Unleash the power of Membrane
+name: From basics to RTMP and HLS broadcasting -> Unleash the power of Membrane
 type: training
 trainers:
 - _participants/dominik-artur-wolek.md
