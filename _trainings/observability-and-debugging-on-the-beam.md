@@ -5,6 +5,7 @@ name: Observability & Debugging on the BEAM
 type: training
 trainers:
 - _participants/natalia-chechina.md
+- _participants/francesco-cesarini-new.md
 event_date: 18 October, in person
 title: "Observability & Debugging on the BEAM"
 
