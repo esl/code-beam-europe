@@ -1,6 +1,6 @@
 ---
 name: Łukasz Kita
-pic_url: "/assets/images/lukasz-kita.png"
+pic_url: "/assets/images/lukasz-kita.jpeg"
 tagline: Working on the Membrane Framework @ Software Mansion
 github: varsill
 twitter: ''
