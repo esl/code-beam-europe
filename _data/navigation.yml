@@ -8,8 +8,6 @@
 #  link: "newsletter"
 - name: Call for Talks
   link: "cft"
-- name: Programme Committee
-  link: "members"
 #- name: Call for Training
 #  link: "call-for-training"
 #- name: All Recordings
@@ -26,6 +24,8 @@
   link: "trainers"
 - name: Training
   link: "training"
+- name: Programme Committee
+  link: "members"
 #- name: Diversity
 #  link: "diversity"
 #- name: Volunteer
