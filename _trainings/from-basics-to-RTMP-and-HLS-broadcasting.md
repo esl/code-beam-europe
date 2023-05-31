@@ -7,6 +7,9 @@ trainers:
 - _participants/dominik-artur-wolek.md
 - _participants/lukasz-kita.md
 event_date: 18 October, in person
+title:
+  preserve_case: true
+  default: "From basics to RTMP & HLS broadcasting: Unleash the power of Membrane"
 
 ---
 This training demystifies the intricacies of the Membrane Framework, a powerful Elixir-based platform for multimedia processing! By completing this workshop, you will unlock the skills to build cutting-edge multimedia broadcasting platforms, empowering your multimedia projects. 
