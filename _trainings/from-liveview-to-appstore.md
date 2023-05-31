@@ -6,6 +6,7 @@ type: training
 trainers:
 - _participants/dominic-letz.md
 event_date: 18 October, in person
+title: "Developing Mobile Apps - From LiveView to AppStore"
 
 ---
 During this course we want to walk participants through creating a simple LiveView application locally, package it and release as a AppStore package (or GooglePlay Android package) using https://github.com/elixir-desktop/.

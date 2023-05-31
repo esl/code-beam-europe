@@ -6,6 +6,7 @@ type: training
 trainers:
 - _participants/lukasz-pauszek.md
 event_date: 18 October, in person
+title: "Deepdive into LiveView for Phoenix Developers"
 
 ---
 This tutorial will teach you how to create dynamic and stateful Phoenix.LiveView components. It will focus on the creation and customisation of components, describing how to make them reusable We will learn how to perform actions based on changes in the state, as well as different techniques on storing state between calls. Topics covered include attributes, styles, dynamic styles, and using a component inside a LiveView application.

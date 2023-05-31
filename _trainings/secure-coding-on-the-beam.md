@@ -6,6 +6,7 @@ type: training
 trainers:
 - _participants/tba.md
 event_date: 18 October, in person
+title: "Secure coding on the BEAM"
 
 ---
 So you have mastered Elixir. Now the time has come to ask yourself a question: how secure is the code you are running? Do you know about BEAM potential vulnerabilities, the ways to attack it and how to defend against it? Join the Secure Coding in Elixir course to learn about Elixir good practices, which corners avoid and crush the BEAM in all sorts of funny ways.
