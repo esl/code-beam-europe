@@ -6,15 +6,29 @@
   font-family: "Montserrat", sans-serif;
   padding: 14px 14px 14px 14px;
   position: fixed;
+  max-width: 360px;
   left: 16px;
   right: 16px;
   bottom: 20px;
   z-index: 999;
+  @media only screen and (min-width: 768px) {
+    align-items: center;
+    left: auto;
+    right: 16px;
+    flex-wrap: nowrap;
+    max-width: none;
+    padding: 14px 17px;
+  }
 
   .dismiss-container {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+
+    @media only screen and (min-width: 768px) {
+      width: 0;
+      //   justify-content: flex-start;
+    }
     .countdown-dismiss {
       align-items: center;
       display: flex;
@@ -22,11 +36,14 @@
       cursor: pointer;
       justify-content: center;
       border-radius: 50%;
-      height: 40px;
-      margin: -30px;
+      height: 35px;
+      margin: -168px -26px 0 0;
       padding: 8px;
       position: absolute;
-      width: 40px;
+      width: 35px;
+      @media only screen and (min-width: 768px) {
+        margin: -64px -24px 0 0;
+      }
       .dismiss-icon {
         height: 30px;
       }
@@ -36,7 +53,12 @@
     display: flex;
     margin-bottom: 14px;
     justify-content: space-between;
+    max-width: 360px;
     width: 100%;
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 0;
+      width: 299px;
+    }
     .countdown-content {
       width: 54px;
 
@@ -44,6 +66,10 @@
         color: #020002;
         font-size: 12px;
         margin-bottom: 8px;
+        @media only screen and (min-width: 768px) {
+          font-weight: 600;
+          margin-bottom: 6px;
+        }
       }
       .countdown-square {
         align-items: center;
@@ -61,6 +87,10 @@
 
   .countdown-cta-container {
     width: 100%;
+    @media only screen and (min-width: 768px) {
+      width: unset;
+      padding: 20px 0 0 12px;
+    }
     .countdown-cta-button {
       align-items: center;
       background: none;
@@ -74,6 +104,7 @@
       letter-spacing: 0.16em;
       padding: 0.5em 2.7em;
       text-transform: uppercase;
+      white-space: nowrap;
     }
   }
 }
