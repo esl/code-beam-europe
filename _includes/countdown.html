@@ -1,56 +1,62 @@
 <div id="countdown" class="countdown-container">
-  <div class="countdown-title">Days</div>
-  <div class="countdown-square">
-    <div class="countdown-value" id="countdown-days"></div>
+  <div class="dismiss-container">
+    <div class="countdown-dismiss">
+      <svg
+        class="dismiss-icon"
+        onclick="dismissCountdown()"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path fill="#888" d="M19 13H5v-2h14v2z" />
+      </svg>
+    </div>
   </div>
-  <div class="countdown-title">Hours</div>
-  <div class="countdown-square">
-    <div class="countdown-value" id="countdown-hours"></div>
+
+  <div class="countdown-row">
+    <div class="countdown-content">
+      <div class="countdown-title">Months</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-months"></div>
+      </div>
+    </div>
+
+    <div class="countdown-content">
+      <div class="countdown-title">Days</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-days"></div>
+      </div>
+    </div>
+
+    <div class="countdown-content">
+      <div class="countdown-title">Hours</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-hours"></div>
+      </div>
+    </div>
+
+    <div class="countdown-content">
+      <div class="countdown-title">Minutes</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-minutes"></div>
+      </div>
+    </div>
+
+    <div class="countdown-content">
+      <div class="countdown-title">Seconds</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-seconds"></div>
+      </div>
+    </div>
   </div>
-  <div class="countdown-title">Minutes</div>
-  <div class="countdown-square">
-    <div class="countdown-value" id="countdown-minutes"></div>
-  </div>
-  <div class="countdown-title">Seconds</div>
-  <div class="countdown-square">
-    <div class="countdown-value" id="countdown-seconds"></div>
+
+  <div class="countdown-cta-container">
+    <a
+      class="countdown-cta-button"
+      href="https://www.eventbrite.com/e/code-beam-europe-2023-in-person-tickets-416802205617?keep_tld=1"
+      >Get tickets</a
+    >
   </div>
 </div>
-
-<style>
-  .countdown-container {
-    background-color: #020002;
-    border-radius: 8px;
-    display: flex;
-    font-family: "Montserrat", sans-serif;
-    padding: 20px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 999;
-  }
-
-  .countdown-square {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10px;
-    padding: 10px;
-    background-color: #f2f2f2;
-    border-radius: 4px;
-  }
-
-  .countdown-value {
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .countdown-title {
-    font-size: 14px;
-    color: #888;
-    margin-top: 5px;
-  }
-</style>
 
 <script>
   // Set the target date for your conference
@@ -70,8 +76,11 @@
       document.getElementById("countdown").innerHTML =
         "Conference is happening now!";
     } else {
-      // Calculate the days, hours, minutes, and seconds
-      var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+      // Calculate the months, days, hours, minutes, and seconds
+      var months = Math.floor(timeRemaining / (1000 * 60 * 60 * 24 * 30));
+      var days = Math.floor(
+        (timeRemaining % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
+      );
       var hours = Math.floor(
         (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
@@ -81,10 +90,16 @@
       var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
       // Update the countdown elements
+      document.getElementById("countdown-months").innerHTML = months;
       document.getElementById("countdown-days").innerHTML = days;
       document.getElementById("countdown-hours").innerHTML = hours;
       document.getElementById("countdown-minutes").innerHTML = minutes;
       document.getElementById("countdown-seconds").innerHTML = seconds;
     }
   }, 1000);
+
+  function dismissCountdown() {
+    clearInterval(countdownInterval);
+    document.getElementById("countdown").style.display = "none";
+  }
 </script>
