@@ -3,7 +3,6 @@ name: Ioana Rosu
 pic_url: "/assets/images/ioana-rosu.jpg"
 tagline: "Solaris SE, Software Engineer"
 linkedin: /in/ioana-rosu
-github: alexanderspace100
 twitter: alexanderspace_
 
 ---
