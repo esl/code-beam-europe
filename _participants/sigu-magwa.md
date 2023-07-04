@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/Sigu-magwa.jpg"
+pic_url: "/assets/images/sigu-magwa.jpg"
 name: Sigu Magwa
 tagline: Community Lover, Software Writer, Team Builder
 twitter: s_igu
