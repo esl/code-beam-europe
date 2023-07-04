@@ -6,7 +6,7 @@ type: training
 trainers:
 - _participants/lukasz-pauszek.md
 event_date: 18 October, in person
-title: "Building a front-end without the front-end: Reusable and Dynamic Phoenix.LiveView Components."
+title: "Building a front-end without the front-end: Reusable and Dynamic Phoenix.LiveView Components"
 
 ---
 Take a deep dive into LiveView with this tutorial for Phoenix Developers.
