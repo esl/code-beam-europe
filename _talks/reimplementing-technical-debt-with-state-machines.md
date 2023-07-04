@@ -3,8 +3,9 @@ tags:
 - state-machine, legacy-firefighting, technical-debt
 level: Intermediate
 title: 	"Reimplementing Technical Debt with State Machines"
-speakers: _participants/nelson-vides.md
-		  _participants/pawel-chrzaszcz.md
+speakers: 
+- _participants/nelson-vides.md
+- _participants/pawel-chrzaszcz.md
 
 ---
 An extensible protocol implementation means that its core code has to be extensible, right? But it also means the core is the first piece of code ever written for this project, and which everything else will depend on, which means, well, highly likely future technical debt.
@@ -13,7 +14,7 @@ In our chat’s backend service, we kept coming back to this topic, until one da
 Let's solve the quagmire putting together old code, RFCs, state machines and a telemetry-like event mechanism.
 
 **Key Takeaways:**
-All the bells and whistles OTP's gen_statem has to offer, which is often the right tool for the job and just as often a tool forgotten about. A set of ideas on how to make a core protocol meant to be extensible implemented and stable.
+- All the bells and whistles OTP's gen_statem has to offer, which is often the right tool for the job and just as often a tool forgotten about. A set of ideas on how to make a core protocol meant to be extensible implemented and stable.
 
 **Target audience:**
 - Legacy-code firefighters as well as people implementing extensible protocols from scratch.
