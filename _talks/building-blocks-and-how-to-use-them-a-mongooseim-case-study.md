@@ -7,7 +7,7 @@ tags:
 - OpenSource
 title: 'Building blocks and how to use them: a MongooseIM case study'
 speakers:
-- _participants/nelson-vides.md
+
 
 ---
 This is a talk about open source and the community, with MongooseIM as its backbone. MongooseIM is Erlang Solutions’ robust, scalable and customisable messaging server, and using it as a “case study”, I want to tell the story of the evolution of a big and old open source project. I’ll start presenting common Erlang design patterns for a server – the supervision trees, the many processes, the NIFs when they are needed, and most importantly, the ways to preserve a big project manageable and continuously evolving.   
