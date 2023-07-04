@@ -3,9 +3,9 @@ audience:
 - Introductory and overview
 tags:
 - Elixir
-title: Elixir Update
+title: Update from the Elixir Core Team
 speakers:
-- _participants/andrea-leopardi.md
+- _participants/jose-valim.md
 
 ---
-Andrea will give updates on what the Elixir team has done in the last few months, what projects they're working on, what's going on on the research side, and what features will be in the next release.
+José will give updates on what the Elixir team has done in the last few months, what projects they're working on, what's going on on the research side, and what features will be in the next release.

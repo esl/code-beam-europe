@@ -5,7 +5,7 @@ audience:
 tags: []
 title: Bringing OpenCV to the Elixir world
 speakers:
-- _participants/cocoa-xu.md
+
 
 ---
 Evision is an Elixir library that brings OpenCV into Elixir. It uses code to generate NIFs that cover most OpenCV modules in the main OpenCV repo. In this way, it largely reduces the amount of time manually porting OpenCV to Elixir. Most importantly, it allows people to do computer vision with the most widely used library and has the potential to build their computer vision machine learning pipelines in Elixir.
