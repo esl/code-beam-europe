@@ -1,6 +1,6 @@
 ---
 name: Jade Allen
-pic_url: "/assets/images/jade-allen.jpg"
+pic_url: "/assets/images/jade-allen.jpeg"
 tagline: Software Developer @ Nova Labs
 github: ''
 twitter: avocadoSuperFan

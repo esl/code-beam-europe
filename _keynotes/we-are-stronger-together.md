@@ -8,7 +8,7 @@ tags:
 title: We are stronger together
 speakers:
 - _participants/maxim-fedorov.md
-- _participants/andrea-leopardi.md
+
 
 ---
 The BEAM is living its best days. The ecosystem is thriving, big companies are picking up our languages, innovation is sprawling, and BEAM-based solutions are getting traction in new domains.  
