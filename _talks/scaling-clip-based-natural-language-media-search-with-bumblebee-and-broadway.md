@@ -17,7 +17,7 @@ Attendees will gain insights on how to harness the power of Elixir libraries for
 2. Understanding how combination of Bumblebee, Nx and Broadway can be used to deploy production grade machine learning applications.
 3. Learning how natural language media search can be implemented at scale in Elixir.
 
-**Target audience:**
+**Target Audience:**
 - Software engineers who have experience with or interest in Elixir and want to explore its capabilities for machine learning applications
 - Technical leads and decision-makers seeking insights into the potential of Elixir for machine learning in their organizations
 - Anyone interested in natural language media search and its practical implementation using Elixir libraries

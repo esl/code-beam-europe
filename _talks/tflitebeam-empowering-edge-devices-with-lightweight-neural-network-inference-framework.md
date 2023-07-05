@@ -17,5 +17,5 @@ Thirdly, using TFLiteBEAM also allows us to run models on Edge TPU like Coral, a
 
 Lastly, as its name suggests, this library can benefit all BEAM languages (as long as they have support for using Erlang NIF libraries).
 
-**Target audience:**
+**Target Audience:**
 - Anyone who's interested in a neural network inference library for edge/mobile/embedded devices like Raspberry Pi.

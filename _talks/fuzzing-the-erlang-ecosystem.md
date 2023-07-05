@@ -14,7 +14,7 @@ In this talk I'll explain how erlfuzz works, what tricks were used to detect sub
 - Various important points to make fuzzing work in practice, e.g. having a good test case minimizer, avoiding trivially invalid inputs, finding good correctness oracles.
 - Erlang scoping rules are weird and inconsistent, but they are now documented.
 
-**Target audience:**
+**Target Audience:**
 - people interested in fuzzing tricks and bug-finding techniques in general
 - people who work on any tool ingesting Erlang code
 - people who are simply curious about dark corners of the language, such as its scoping rules.

@@ -15,5 +15,5 @@ Building applications in the BEAM ecosystem is generally a good developer experi
 * Script application configuration using tools like ansible
 * Manage application upgrades across fleets of infrastructure
 
-**Target audience:**
+**Target Audience:**
 - People who want to manage BEAM applications running on large sets of infrastructure.

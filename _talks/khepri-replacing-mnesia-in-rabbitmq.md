@@ -15,7 +15,7 @@ Khepri is a tree-like, replicated database library from the RabbitMQ team using 
 **Key Takeaways:**
 - The RabbitMQ team is working on replacing Mnesia with Khepri, our tree-like, replicated database library based on the Raft distributed consensus algorithm. You'll hear about why we want to move away from Mnesia, previous attempts we made, and our recent and promising progress. I'll introduce you to Khepri and we'll discuss the challenges we've faced and the changes we've made to match Mnesia's speed and improve ergonomics.
 
-**Target audience:**
+**Target Audience:**
 - Anyone interested in distributed computing on the BEAM, replication and databases.
 - Users or those interested in RabbitMQ.
 - Those curious about alternatives to Mnesia.

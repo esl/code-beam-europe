@@ -16,6 +16,6 @@ Livebook is a web app for writing interactive and collaborative notebooks. It gi
 
 * I want everyone to leave knowing more about what Livebook is and how they can use it in their workplaces.
 
-**Target audience:**
+**Target Audience:**
 
 * Everyone

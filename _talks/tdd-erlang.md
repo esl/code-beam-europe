@@ -13,5 +13,5 @@ This talk covers exactly that. It's the answer to the question "How can I easily
 **Key Takeaways:**
 - This talk will show a couple of techniques and present more than a few tips and tricks that will help anybody practice TDD easily and successfully when working with Erlang.
 
-**Target audience:**
+**Target Audience:**
 - Erlang developers or people learning Erlang.

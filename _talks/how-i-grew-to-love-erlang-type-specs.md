@@ -15,6 +15,6 @@ Erlang is a typeless language, but our programs have types. Large teams and long
 - improve code through clear type specs
 - becoming a better engineer
 
-**Target audience:**
+**Target Audience:**
 - Erlang developers
 - code maintainers

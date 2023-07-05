@@ -14,5 +14,5 @@ In this talk, I will share my experience and the rules of thumb for working with
 **Key Takeaways:**
 - Observability is one of the key elements of code development and maintenance.
 
-**Target audience:**
+**Target Audience:**
 - everybody involved in code development

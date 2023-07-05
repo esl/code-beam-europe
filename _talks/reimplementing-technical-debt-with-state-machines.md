@@ -16,5 +16,5 @@ Let's solve the quagmire putting together old code, RFCs, state machines and a t
 **Key Takeaways:**
 - All the bells and whistles OTP's gen_statem has to offer, which is often the right tool for the job and just as often a tool forgotten about. A set of ideas on how to make a core protocol meant to be extensible implemented and stable.
 
-**Target audience:**
+**Target Audience:**
 - Legacy-code firefighters as well as people implementing extensible protocols from scratch.

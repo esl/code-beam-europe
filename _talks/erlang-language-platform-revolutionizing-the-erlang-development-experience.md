@@ -17,5 +17,5 @@ In this talk we provide a high-level introduction to the project, discover what 
 **Key Takeaways:**
 - Discover how this next-generation tool will enhance Erlang development workflows, offering real-time feedback, intelligent auto-completion and comprehensive code navigation, while opening to a world of possibilities, from linting to refactoring.
 
-**Target audience:**
+**Target Audience:**
 - Erlang enthusiasts, software engineers, anyone who is curious about the future of Erlang development.

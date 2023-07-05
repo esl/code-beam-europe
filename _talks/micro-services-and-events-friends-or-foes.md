@@ -14,6 +14,6 @@ In the last 3 years, Community has built a SaaS platform based on a very sophist
 
 * After the talk, the audience will have learned what questions to ask if/when you want to build a large, scalable SaaS platform that needs to deliver on a very specific set of business requirements.
 
-**Target audience:**
+**Target Audience:**
 
 * Senior and Principal Sofware Engineers that need to make design decisions every day.

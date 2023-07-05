@@ -19,7 +19,7 @@ Bondy is written in Erlang and uses Partisan for scalable clustering and distrib
 - Learn how to use Bondy through a hands-on demonstration.
 Discover Bondy's roadmap.
 
-**Target audience:**
+**Target Audience:**
 - Developers who want to rediscover the joy of developing distributed applications. 
 - Developers who are searching for a real-time, two-way communication solution that works across the whole stack (front, back and embedded). 
 - Managers interested in increasing time-to-market and developer morale. 

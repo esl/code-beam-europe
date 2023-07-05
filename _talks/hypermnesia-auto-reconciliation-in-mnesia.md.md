@@ -20,5 +20,5 @@ This project is a collaboration between the University of Cambridge and Erlang S
 * overhead of eventual consistency in Mnesia
 * Example usage of the new API
 
-**Target audience:**
+**Target Audience:**
 - Mnesia users, CRDTs developers, and people with a general interest in distributed system consistency.

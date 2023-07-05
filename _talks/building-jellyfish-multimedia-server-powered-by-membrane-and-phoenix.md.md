@@ -14,5 +14,5 @@ In this talk, I’ll dive into the architecture of Jellyfish, discuss the underl
 **Key Takeaways:**
 - Basics of multimedia streaming, quirks of creating media processing solutions in Elixir, designing API and architecture for systems at scale.
 
-**Target audience:**
+**Target Audience:**
 - Folks interested in multimedia, video-conferencing or streaming solutions, new use cases of Elixir and BEAM, designing API and architecture for systems at scale.
