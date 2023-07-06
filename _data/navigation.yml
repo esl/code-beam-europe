@@ -26,10 +26,10 @@
   link: "training"
 - name: Programme Committee
   link: "members"
-#- name: Diversity
-#  link: "diversity"
-#- name: Volunteer
-#  link: "volunteer"
+- name: Diversity
+  link: "diversity"
+- name: Volunteer
+  link: "volunteer"
 - name: Venue
   link: "venue"
 #- name: Hotels
