@@ -2,7 +2,7 @@
 name: Raj Rajhans
 pic_url: "/assets/images/raj-rajhans.png"
 tagline: Software Engineer at InVideo
-github: ''
+github: rajrajhans
 twitter: _rajrajhans
 linkedin: /in/rajrajhans/
 

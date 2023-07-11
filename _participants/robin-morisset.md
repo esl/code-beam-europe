@@ -2,9 +2,9 @@
 name: Robin Morisset
 pic_url: "/assets/images/robin-morisset.jpg"
 tagline: WhatsApp's Compiler, Types, and Tooling Team
-github: ''
+github: RobinMorisset
 twitter: RobinMorisset
-linkedin: /in/robinmorisset/?locale=en_US
+linkedin: /in/robinmorisset/
 
 ---
 Robin Morisset did his PhD on the interaction between compiler optimizations and the C++ memory model. This included some work fuzzing GCC to find optimisations that are right for a single-threaded program but wrong for a multi-threaded one.

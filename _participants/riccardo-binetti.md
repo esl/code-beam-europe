@@ -4,6 +4,7 @@ pic_url: "/assets/images/riccardo-binetti.jpg"
 tagline: "Astarte And Edgehog Core Team Member, Cloud Specialist @ SECO Mind"
 github: ''
 twitter: errebino
+mastodon: patavium.social/@rbino
 
 
 ---

@@ -2,7 +2,7 @@
 name: Łukasz Wala
 pic_url: "/assets/images/lukasz-wala.jpg"
 tagline: Membrane Framework Team Member, working on multimedia streaming solutions @ Software Mansion
-github: ''
+github: LVala
 twitter: ''
 
 ---
