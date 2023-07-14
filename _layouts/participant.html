@@ -36,6 +36,11 @@
                             <i class="fa fa-linkedin"></i>
                         </a>
                         {% endif %}
+                        {% if page.mastodon %}
+                        <a href="https://mastodon.social/{{ page.mastodon }}">
+                            <i class="fa fa-mastodon"></i>
+                        </a>
+                        {% endif %}
                     </div>
                     <div class="speaker-desc">{{ page.content | markdownify }}</div>
 
