@@ -5,6 +5,7 @@ level: Introductory and overview
 title: 	"Erlang Language Platform: Revolutionizing the Erlang Development Experience"
 speakers:
 - _participants/roberto-aloi.md
+- _participants/michal-muskala.md
 
 ---
 In this talk we unveil the "Erlang Language Platform" (in short "ELP"), a groundbreaking, open-source project poised to transform the development experience for the Erlang programming language.
