@@ -4,7 +4,7 @@ tags:
 level: Intermediate
 title: 	"Hypermnesia: Auto Reconciliation in Mnesia"
 speakers: 
-- _participants/shuntian-liu.md
+- _participants/vincent-liu.md
 
 ---
 Mnesia is an embedded database for Erlang/OTP applications that offers outstanding performance thanks to its tight integration with Erlang. However, its lack of conflict resolution after network partitions is a notable limitation that demands manual restart by developers to reconcile replicas.
