@@ -1,6 +1,6 @@
 ---
 tags:	
-- 
+- pragmatic problem solving
 level: Intermediate
 title: 	"Against the Grain"
 speakers:
@@ -11,5 +11,9 @@ This talk tells the story of developing a bespoke Kafka client. None of the exis
 
 So what can we do in such situation? Join me and find out how by making some atypical choices we got ourselves out of a tricky situation.
 
-**Target audience:**
-This talk is fairly technical, and assumes that the audience is familiar with some BEAM language, especially with its concurrency model. The code snippets will be given in Elixir. No knowledge of Kafka is required.
+**Key Takeaways:**
+- question the established practices and think about whether they make sense in your context
+- overcome the deficiencies in the BEAM ecosystem
+
+**Target Audience:**
+- This talk is fairly technical, and assumes that the audience is familiar with some BEAM language, especially with its concurrency model. The code snippets will be given in Elixir. No knowledge of Kafka is required.
