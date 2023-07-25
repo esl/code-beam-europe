@@ -1,6 +1,6 @@
 ---
 pic_url: "/assets/images/shuntian-liu.png"
-name: Shuntian Liu
+name: Vinctent Liu
 tagline: Master Student @ University Of Cambridge
 github: Vincent-lau
 twitter: Incipit0
