@@ -5,7 +5,7 @@ tagline: Erlang Engineer @ Baxter, Member of the Education Working Group
 github: elbrujohalcon
 twitter: elbrujohalcon
 linkedin: /in/elbrujohalcon/
-mastodon: mastodon.social/@elbrujohalcon
+mastodon: @elbrujohalcon
 
 ---
 Brujo has been an active member of the Erlang Ecosystem for almost 15 years.
