@@ -1,6 +1,6 @@
 title: Code BEAM Europe
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Code BEAM Europe, a conference organised by Code Sync. Code BEAM Europe is the Erlang and Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate BEAM-related talks and two days of training.
+  The Erlang and Elixir conference in Europe: 2 days of talks,discussions and networking for the BEAM community.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://codebeameurope.com" # the base hostname & protocol for your site
 
