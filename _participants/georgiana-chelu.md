@@ -4,7 +4,7 @@ pic_url: "/assets/images/georgiana-chelu.jpg"
 tagline: Erlang Developer @ Crafting Software
 github: giach
 twitter: giach10
-linkedin: /in/georgiana-chelu-9b596045/
+linkedin: /in/georgiana-chelu-9b596045
 mastodon: /@giach
 
 ---
