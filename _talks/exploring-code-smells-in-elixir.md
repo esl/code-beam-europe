@@ -16,7 +16,7 @@ In this talk, we will dive into the world of Elixir and uncover code smells that
 **Key Takeaways:**
 - Understanding code smells and why they can impact overall code quality.
 - Learning how to identify them in Elixir, and how to apply refactoring techniques to reduce the code smell impact on a codebase.
-- Introduction to the `Catalog of Elixir-specific code smells`, maintained by Lucas Vegi and Marco Tulio Valente.
+- Introduction to the "Catalog of Elixir-specific code smells", maintained by Lucas Vegi and Marco Tulio Valente.
 - Discussion about code quality, maintainability, and legacy code in Elixir.
 
 **Target Audience:**
