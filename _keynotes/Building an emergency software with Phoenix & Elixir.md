@@ -1,7 +1,7 @@
 ---
 speakers:
 - _participants/linda-otieno.md
-- _participants/sigu-magwa.md
+
 title: Building an emergency software with Phoenix & Elixir
 audience:
 - Everyone

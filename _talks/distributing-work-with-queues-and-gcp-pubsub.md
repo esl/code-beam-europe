@@ -15,6 +15,6 @@ At Duffel we’re trying to create a frictionless and intuitive API for searchin
 
 * Share an interesting and relevant scaling problem and how Broadway and GCP PubSub (or another queue service) can be used to mitigate it
 
-**Target audience:**
+**Target Audience:**
 
 * People working with Elixir professionally, especially if they have CPU heavy workloads with low latency expectations

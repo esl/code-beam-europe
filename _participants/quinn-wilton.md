@@ -1,10 +1,12 @@
 ---
 name: Quinn Wilton
-pic_url: "/assets/images/quinn-wilton.png"
-tagline: Collector of dead languages
-github: 'QuinnWilton'
+pic_url: "/assets/images/quinn-wilton.jpeg"
+tagline: Collector of Dead Languages @ Fission
+github: QuinnWilton
 twitter: wilton_quinn
+linkedin: 
 
 ---
-Quinn is a frequent contributor to open-source Elixir libraries, enjoys hacking away on programming languages in her free time, and watches far too many old movies for someone her age. Originally from Canada, she's spent most of her adult life in the San Francisco Bay Area.
-https://quinnwilton.com/
+Quinn is an applied researcher at Fission, where she spends her time at the intersection of programming language theory and distributed systems, while thinking about new ways to build and compose systems together.
+
+Her specialty lies in bridging the gap between the historical context software is embedded in, and the ways in which an ever-changing world recontextualizes that software in new ways.

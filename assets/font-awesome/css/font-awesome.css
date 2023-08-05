@@ -634,6 +634,9 @@
 .fa-github:before {
   content: "\f09b";
 }
+.fa-mastodon:before {
+  content: "\f11e";
+}
 .fa-unlock:before {
   content: "\f09c";
 }

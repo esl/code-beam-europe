@@ -1,14 +1,13 @@
 ---
 name: Randall Thomas
 pic_url: "/assets/images/randall-thomas.png"
-tagline: Hacker. Musician. Bon Vivant.
+tagline: Hacker, Drinker, Geek, Bon-Vivant (not always in that order)
 github: "@daksis"
 twitter: "@daksis"
 
 ---
-Randall Thomas is a classically trained musician that took one too many calculus classes and got sucked into geekery: computers, robots, video games, high energy physics - the usual suspects.  
-Afflicted with rabid technology ADD, Randall has built companies in various industries with numerous startups -- everything from robotics to digital video to cloud computing. After escaping a high-security military prison and driving a heavily armed conversion van filled with ex spec-ops soldiers for hire around the Los Angeles underground, Randall founded Thunderbolt Labs - a software consultancy that teaches companies how to build better software by embedding with their teams and building it beside them.
+Randall has been working in the technology industry for more than 20 years with experiences covering everything from embedded systems, to digital video, to applied statistics and cloud computing. His experiences grant him a unique appreciation for how difficult it can be can be to use technology to solve business problems.
 
-Randall is an internationally recognized speaker on practical data techniques and the insanely nonsensical business of startups.
+In technology and software, it's important to recognize that not everything is going to work; The best way to get past failure: evolve — fail better and fail differently. What looks like failure at the outset becomes hard-won experience with hindsight.
 
-When not glued to a computer Randall is likely lost in a book or on a running trail wondering if he will get to the end of either. He has a fondness for good food and weakness for great whiskey and will happily discuss either at length.
+Randall has traveled globally to speak on technology, innovation, and business systems. Randall welcomes the opportunity to connect with other tech start-up executives, engineers, and systems architects.

@@ -7,7 +7,7 @@ tags:
 - Path
 title: Lessons learned from Elixir Learning Paths
 speakers:
-- _participants/elaine-watanabe.md
+
 
 ---
 After 3 years of following the Elixir journey, I have found happy and unhappy paths that I would like to structure and share in this talk.   

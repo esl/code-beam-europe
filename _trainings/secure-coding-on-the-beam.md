@@ -4,7 +4,7 @@ experience:
 name: Secure coding on the BEAM
 type: training
 trainers:
-- _participants/tba.md
+- _participants/robert-virding.md
 event_date: 18 October, in person
 title: "Secure Coding on the BEAM"
 
