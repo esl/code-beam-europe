@@ -12,8 +12,8 @@
   #  link: "call-for-training"
   #- name: All Recordings
   #  link: "recordings"
-  - name: Students
-   link: "student"
+  #- name: Students
+  # link: "student"
   #- name: Public videos
   #  link: "video"
   #- name: Schedule
