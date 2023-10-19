@@ -14,7 +14,7 @@
   #  link: "recordings"
   #- name: Students
   # link: "student"
-  #- name: Public videos
+  #- name: Public Videos
   #  link: "video"
   - name: Schedule
     link: "schedule"
