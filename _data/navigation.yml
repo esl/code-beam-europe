@@ -2,34 +2,34 @@
   #  link: "cover"
   #- name: Welcome
   #  link: "welcome"
-  - name: Register
-    link: "register"
-  # name: Newsletter
-  #  link: "newsletter"
+  #- name: TICKETS
+  #  link: "register"
+  - name: 2024 Waiting List
+    link: "newsletter"
   # name: Call for Talks
   #  link: "cft"
   #- name: Call for Training
   #  link: "call-for-training"
-  #- name: All Recordings
+  #- name: Recordings
   #  link: "recordings"
   #- name: Students
   # link: "student"
-  #- name: Public videos
+  #- name: Public Videos
   #  link: "video"
   #- name: Schedule
-  #  link: schedule
+  #  link: "schedule"
   - name: Speakers
     link: "keynotes"
   - name: Trainers
     link: "trainers"
-  - name: Training
-    link: "training"
+  # - name: Training
+  #  link: "training"
   #- name: Programme Committee
   #  link: "members"
-  - name: Diversity
-    link: "diversity"
-  - name: Volunteer
-    link: "volunteer"
+  #- name: Diversity
+  #  link: "diversity"
+  # - name: Volunteer
+  #  link: "volunteer"
   - name: Venue
     link: "venue"
   #- name: Hotels
@@ -42,7 +42,7 @@
   #  link: "shop"
   #- name: Blog
   #  link: "blog"
-  #- name: Sponsors
-  #  link: "sponsors"
+  - name: Sponsors
+    link: "sponsors"
   - name: Contact
     link: "contact"

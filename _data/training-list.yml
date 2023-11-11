@@ -3,18 +3,6 @@ trainings:
 - training: _trainings/the-nx-ecosystem-from-zero-to-hero.md
   start: 2023-10-17T08:00:00.000+00:00
   end: 2023-10-17T16:00:00.000+00:00
-- training: _trainings/from-basics-to-RTMP-and-HLS-broadcasting.md
-  start: 2023-10-18T07:00:00.000+00:00
-  end: 2023-10-18T15:00:00.000+00:00
 - training: _trainings/observability-and-debugging-on-the-beam.md
-  start: 2023-10-18T07:00:00.000+00:00
-  end: 2023-10-18T15:00:00.000+00:00
-- training: _trainings/deepdive-into-liveview-for-phoenix-developers.md
-  start: 2023-10-18T07:00:00.000+00:00
-  end: 2023-10-18T15:00:00.000+00:00
-- training: _trainings/from-liveview-to-appstore.md
-  start: 2023-10-18T07:00:00.000+00:00
-  end: 2023-10-18T15:00:00.000+00:00
-- training: _trainings/secure-coding-on-the-beam.md
   start: 2023-10-18T07:00:00.000+00:00
   end: 2023-10-18T15:00:00.000+00:00
