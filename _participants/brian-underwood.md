@@ -5,7 +5,7 @@ tagline: "Consultant at Erlang Solutions"
 github: cheerfulstoic
 twitter: ''
 linkedin: /in/brianunderwoodcodes/
-mastodon: /@cheerfulstoic@genserver.social
+mastodon: https://mastodon.social/@cheerfulstoic@genserver.social
 
 ---
 Brian is a consultant at Erlang Solutions specializing in Elixir development and training.  Much of his interest and experience has been around understanding languages, databases, data analysis, and APIs in order to be able to have the right tool in hand for whatever problems need solved.
