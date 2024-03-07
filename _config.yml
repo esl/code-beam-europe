@@ -74,11 +74,11 @@ defaults:
       type: "videos"
     values:
       layout: "video"
-#  - scope:
-#      path: ""
-#      type: "archives"
-#    values:
-#      layout: "archive"
+  #  - scope:
+  #      path: ""
+  #      type: "archives"
+  #    values:
+  #      layout: "archive"
   - scope:
       path: ""
     values:
