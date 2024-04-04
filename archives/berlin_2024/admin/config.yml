@@ -1,0 +1,100 @@
+# config.yml
+backend:
+  name: git-gateway
+  repo: esl/code-beam-europe
+  #branch: master # Branch to update (optional; defaults to master)
+media_folder: "assets/images"
+publish_mode: editorial_workflow
+site_url: https://codebeameurope.com/
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "_posts/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    editor:
+      preview: false
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Autor", name: "autor", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Pic_url", name: "pic_url", widget: "image" }
+      - { label: "Tags", name: "tags", widget: "string" }
+      - { label: "Published", name: "published", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "participants"
+    label: "Participants"
+    folder: "_participants/"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Pic_url", name: "pic_url", widget: "image" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - { label: "Github", name: "github", widget: "string" }
+      - { label: "Twitter", name: "twitter", widget: "string" }
+      - { label: "Linkedin", name: "linkedin", widget: "string" }
+      - { label: "Mastodon", name: "mastodon", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "keynotes"
+    label: "Keynotes"
+    folder: "_keynotes/"
+    extension: "md"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Participants", name: "participants", widget: "list" }
+      - { label: "Audience", name: "audience", widget: "list" }
+      - { label: "Publish Date", name: "datetime", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "talks"
+    label: "Talks"
+    folder: "_talks/"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Audience", name: "audience", widget: "list" }
+      - { label: "Language", name: "language", widget: "list" }
+      - { label: "Duration", name: "duration", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Speakers", name: "speakers", widget: "list" }
+      - { label: "Publish Date", name: "datetime", widget: "datetime" }
+      - { label: "Published", name: "published", widget: "boolean" }
+      - { label: "Venue", name: "venue", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "training"
+    label: "Training"
+    folder: "_trainings/"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Experience", name: "experience", widget: "list" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Type", name: "type", widget: "string" }
+      - { label: "Trainers", name: "trainers", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
