@@ -18,10 +18,10 @@
   #  link: "video"
   #- name: Schedule
   #  link: "schedule"
-  - name: Speakers
-    link: "keynotes"
-  - name: Trainers
-    link: "trainers"
+  #- name: Speakers
+  #  link: "keynotes"
+  #- name: Trainers
+  #  link: "trainers"
   # - name: Training
   #  link: "training"
   #- name: Programme Committee
