@@ -6,8 +6,8 @@
   #  link: "register"
   - name: 2024 Waiting List
     link: "newsletter"
-  # name: Call for Talks
-  #  link: "cft"
+  - name: Call for Talks
+    link: "cft"
   #- name: Call for Training
   #  link: "call-for-training"
   #- name: Recordings
