@@ -2,14 +2,14 @@
   #  link: "cover"
   #- name: Welcome
   #  link: "welcome"
-  #- name: TICKETS
-  #  link: "register"
+  - name: TICKETS
+    link: "register"
   - name: 2024 Waiting List
     link: "newsletter"
-  - name: Call for Talks
-    link: "cft"
-  - name: Call for Training
-    link: "banner-2"
+  #- name: Call for Talks
+  #  link: "cft"
+  #- name: Call for Training
+  #  link: "banner-2"
   #- name: Recordings
   #  link: "recordings"
   #- name: Students
