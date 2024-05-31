@@ -1,48 +1,45 @@
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left-content {
+        flex: 1;
+        padding: 20px;
+    }
+    .right-content {
+        flex: 1;
+        padding: 20px;
+    }
+    @media (max-width: 768px) {
+        .left-content, .right-content {
+            flex: 100%;
+        }
+    }
+</style>
+
 <div class="section venue" id="venue" style="background-image: url('{{site.baseurl}}/assets/images/venue-background-Estrel.jpeg');">
-    <div class="row">
-        <div class="left-content left">
-            <h2 class="title">VENUE</h2>
+   <div class="row">
+        <div class="left-content">
+            <h2 class="title">CONFERENCE VENUE</h2>
             <hr/>
             <p class="venue-subtitle">ESTREL</p>
             <p class="venue-text">Sonnenallee 225<br>
-              12057 Berlin</p>
-            <div class="row">
-                <div class="col-left">
-                    <div class="col-row">
-                        <p class="venue-text">+49 30 6831 0</p>
-                    </div>
-                    <div class="col-row">
-                      <h2 class="venue-subtitle">
-                          <strong><a href="https://www.estrel.com/files/downloads/estrel_lage_anfahrt_2022_ENG.pdf" style="color: #e32dfd">LOCATION & DIRECTIONS</a><br>
-                      </h2>
-                    </div>
-                </div>
-                <div class="col-right">
-                  <!--  <h2 class="venue-subtitle">Training Venue</h2>-->
-                    <div class="col-row">
-                        <div class="col">
-                           <!-- <p class="venue-text">Centrum Konferencyjne,</p>
-                            <p class="venue-text">Golden Floor Tower, ul.</p>
-                            <p class="venue-text">Chłodna 51,</p>
-                            <p class="venue-text">00-867 Warszawa</p>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-<!--
-            <h2 class="venue-subtitle">Accommodation</h2><br>
-            <p>We have secured rooms at Estrel at €138 for a single room and €150 for a double room (plus €25 breakfast), to book please call +49 30 6831 22522 or email reservierung@estrel.com and mention it is for Code BEAM Europe (code: BEAMRabbit 2023) to receive the discount.</p>
-            <br> -->
-
-            <h2 class="venue-subtitle">Neighbourhood Guide</h2><br>
-            <p> You can view the pocketguide to Neukölln <a href="https://github.com/esl/code-beam-europe/blob/master/assets/images/Pocketguide_Neuko%CC%88lln_2020.pdf" style="color: #e32dfd">here</a>.
-
+                12057 Berlin<br>
+            
+                <strong><a href="https://www.estrel.com/files/downloads/estrel_lage_anfahrt_2022_ENG.pdf">LOCATION & DIRECTIONS</a><br></p>
+                <h2 class="venue-subtitle">ACCOMMODATION</h2>
+                <p class="venue-text">
+                <p>We have secured rooms at Estrel from €128 a night (+ €25 breakfast). To book, please follow <a href="https://reservations.travelclick.com/17417?groupID=4211796" style="color: #e32dfd">this link</a>. Please mind the cancellation policy.</p>
         </div>
         <div class="right-content">
             <br/>
+             <br/>
+              <br/>
+              <br/>
+               <br/>
+                <br/>
             {% include map.html %}
         </div>
     </div>
-
-
 </div>
