@@ -12,7 +12,7 @@ In this training day, we'll take a look at how to build a typical full-stack Web
 
 By the end of the day, we'll have seen how Gleam can easily mix client-rendered components with real-time server components to create rich interactive experiences by building a live browser-based music application!
 
-**Format**
+**Format:**
 1-day in-person tutorial
 
 **Training objectives:**
