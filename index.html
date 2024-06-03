@@ -6,7 +6,19 @@ countdown: true
 timezone: Europe/Berlin
 deadline: 2024-06-04 12:00
 <!-- modal: newsletter -->
-<!-- modal options: newsletter | waitlist | call-for-talks | after-conf-videos -->
+<!-- gallery:
+  title: 'My image gallery'
+  images:
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 1'
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 2'
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 3'
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 3'
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 3' -->
 ---
 
 {% include cover.html %}
@@ -19,6 +31,10 @@ deadline: 2024-06-04 12:00
 {% include modal.html modal=page.modal %}
 {% endif %}
 <!-- end of modal -->
+{% if page.gallery %}
+{% include gallery-grid.html %}
+{% endif %}
+<!-- end of gallery-grid  -->
 {% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->
 {% include welcome.html %}
