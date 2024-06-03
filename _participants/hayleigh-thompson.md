@@ -1,7 +1,7 @@
 ---
 name: Hayleigh Thompson
 pic_url: "/assets/images/hayleigh-thompson.jpg"
-tagline: Writing Elm @ data2impact, doing dev rel things with with webkid
+tagline: Gleam Core Team
 github: hayleigh-dot-dev
 twitter: hayleighdotdev
 linkedin: ''
