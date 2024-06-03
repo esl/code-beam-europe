@@ -1,9 +1,10 @@
 ---
-name: Ihor Kuz
-pic_url: "/assets/images/ihor_kuz.jpg"
-tagline: Operating system engineer @ Kry10 & seL4 TSC member
+name: Louis Pilfold
+pic_url: "/assets/images/louis.jpg'
+tagline: Creator of the Gleam language
 github: ''
-twitter: ''
+twitter: louispilfold
+
 
 ---
-Dr Ihor Kuz is an operating system engineer at Kry10, helping develop the Kry10 OS and Platform. Ihor has previous experience leading the team developing the seL4 microkernel, and has been involved with seL4 for as long as it's been around. He is also an associate professor at UNSW in Australia and has taught distributed systems and Erlang there for many years.
+Hello! I'm Louis, the creator of the Gleam programming language, a friendly language for building type-safe systems that scale! It runs on the Erlang virtual machine, as well as on JavaScript runtimes. Most importantly, it has a lovely and vibrant community, so come say hi!
