@@ -4,7 +4,6 @@ experience:
 type: training
 trainers:
 - _participants/lukasz-pauszek.md
-event_date: 16-18 October, in person
 title: OTP Training for Elixir Programmers
 
 ---
