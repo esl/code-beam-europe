@@ -1,12 +1,11 @@
 ---
-audience: Developers. Philosophers. People with a conscience. Anyone living on planet earth.
+audience:
+- advanced
 title: 'Apocalypse How? New Rules For Writing Code in the Newfound Era of Ethical Ambiguity'
 speakers:
-- _participants/randall-thomas.md
+- _participants/tobias-pfeiffer.md
 
 ---
-As programmers, we use our skills to create new possibilities. Sometimes for good, other times just for profit. Increasingly, the costs of the tools we build are borne by people we will never meet, and those with little or no say in how the tools we, as software engineers, have built are used. As software moves from niche domain to "dual use" technology, what level of responsibility do we as software engineers have to "first: do no harm"?
+What’s up with becoming a Staff Engineer? What does it mean? Is it just for people who want to keep coding? How do you become a Staff Engineer and what does the work entail? What if I told you that being a Staff engineer actually required a lot of communication and collaboration skills?
 
-**Key Takeaways for the Audience:**
-
-An unsettling understanding of how software has an impact on the little things we care about, people, politics, the world.
+In this talk, let’s answer all those questions! To aid in our journey, we’ll also take a look at what it means to be “glue”, help you navigate organizations to find value and succeed at being a Staff engineer!
