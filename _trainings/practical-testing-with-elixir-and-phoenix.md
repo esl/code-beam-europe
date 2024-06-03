@@ -5,6 +5,7 @@ experience:
 - Intermediate
 title: Practical testing with Elixir (and Phoenix)
 published: true
+venue: nhow Berlin, Stralauer Allee 3
 
 ---
 This tutorial teaches a practical testing approach which maximizes the value you can get out of your tests in real-life collaborative Elixir projects. You'll learn how to increase the confidence in your tests, organically maximize coverage, and improve the test clarity. This is going to be a very interactive and hands-on session involving a lot of coding and discussions. You'll be writing tests for a Phoenix-powered Elixir web server, so it is expected you are familiar with Elixir, Phoenix, and Ecto.

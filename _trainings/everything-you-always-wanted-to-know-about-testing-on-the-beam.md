@@ -6,6 +6,7 @@ experience:
 - Beginners, Intermediate users
 title: Everything you Need to Know about Testing in Erlang… and a bit of Elixir, as well
 published: true
+venue: nhow Berlin, Stralauer Allee 3
 
 ---
 During the training, we will start with the basics: you will first learn how to apply Test-Driven Development to your first Erlang projects and how to use this methodology as a tool to learn the language.

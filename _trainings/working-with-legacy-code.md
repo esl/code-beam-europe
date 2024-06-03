@@ -2,6 +2,7 @@
 experience:
 - Junior to middle developers
 type: tutorial
+venue: nhow Berlin, Stralauer Allee 3
 trainers:
 - _participants/dmytro-lytovchenko.md
 title: Working with Legacy Code
