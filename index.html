@@ -5,16 +5,19 @@ image: assets/images/CBE2024.png
 countdown: true
 timezone: Europe/Berlin
 deadline: 2024-06-04 12:00
-
+<!-- modal: newsletter -->
+<!-- modal options: newsletter | waitlist | call-for-talks | after-conf-videos -->
 ---
 
 {% include cover.html %}
 <!-- end of cover -->
-{%  if page.countdown == true  %}
-    {% include countdown.html timezone=page.timezone deadline=page.deadline %}
+{% if page.countdown == true %}
+{% include countdown.html timezone=page.timezone deadline=page.deadline %}
 {% endif %}
 <!-- end of coundown -->
-{% comment %}  {% include modal.html %} {% endcomment %}
+{% if page.modal %}
+{% include modal.html modal=page.modal %}
+{% endif %}
 <!-- end of modal -->
 {% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->

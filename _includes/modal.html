@@ -2,12 +2,17 @@
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <!-- {% include modal-newsletter.html %} -->
+    {% if page.modal == 'newsletter' %}
+    {% include modal-newsletter.html %}
+    {% elsif page.modal == 'waitlist' %}
     {% include modal-waitlist.html %}
-    <!-- {% include modal-call-for-talks-link.html %} -->
-    <!-- {% include modal-after-conf-videos.html %} --> 
-    </div>
+    {% elsif page.modal == 'call-for-talks' %}
+    {% include modal-call-for-talks-link.html %}
+    {% elsif page.modal == 'after-conf-videos' %}
+    {% include modal-after-conf-videos.html %}
+    {% endif %}
   </div>
+</div>
 </div>
 
 <script>
