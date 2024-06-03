@@ -9,7 +9,7 @@ audience:
 - Everyone
 
 ---
-"Erlang was designed to solve a very specific problem at a very specific point in time. That problem has shaped Erlang, the runtime, and the ecosystem around.
+Erlang was designed to solve a very specific problem at a very specific point in time. That problem has shaped Erlang, the runtime, and the ecosystem around.
 
 The world has since changed, and Ericsson's once-niche problem of concurrent scalable systems is common place and more  people than ever are drawn to the BEAM.
 
