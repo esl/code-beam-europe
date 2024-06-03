@@ -4,8 +4,8 @@
   #  link: "welcome"
   - name: TICKETS
     link: "register"
-  - name: 2024 Waiting List
-    link: "newsletter"
+  #- name: 2024 Waiting List
+  #  link: "newsletter"
   #- name: Call for Talks
   #  link: "cft"
   #- name: Call for Training
@@ -32,8 +32,6 @@
   #  link: "volunteer"
   - name: Venue
     link: "venue"
-  - name: Tutorial/Training Venues
-    link: "tutorialvenue"
   #- name: Hotels
   #  link: "hotels"
   #- name: COVID-19 safety
