@@ -6,6 +6,9 @@ trainings:
 - training: _trainings/everything-you-always-wanted-to-know-about-testing-on-the-beam.md
   start: 2024-10-16T09:00:00.000+01:00
   end: 2024-10-16T17:00:00.000+01:00
+- training: _trainings/everything-you-always-wanted-to-know-about-testing-on-the-beam.md
+  start: 2024-10-16T09:00:00.000+01:00
+  end: 2024-10-16T17:00:00.000+01:00
 - training: _trainings/full-stack-web-development-in-gleam.md
   start: 2024-10-16T09:00:00.000+01:00
   end: 2024-10-16T17:00:00.000+01:00
