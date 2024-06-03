@@ -1,10 +1,10 @@
 ---
-tags:	
+tags:
 - Types, Web, Audio
 level: Intermediate
 title: 	"End-to-end Types: Full-stack Web Apps with Gleam"
 speakers:
-- _participants/hayleigh-thompson.md
+
 
 ---
 Gleam is a friendly statically typed language that runs on both the BEAM and in the browser. In this talk we'll see a brief tour of the language, before taking a look at how it was used to build a fun interactive audio application. We'll explore a typed Phoenix-like setup and demo a multi-user Web Audio app to show off.
