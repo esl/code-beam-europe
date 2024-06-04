@@ -1,7 +1,7 @@
 ---
 audience:
 - advanced
-title: 'Apocalypse How? New Rules For Writing Code in the Newfound Era of Ethical Ambiguity'
+title: 'Going Staff'
 speakers:
 - _participants/tobias-pfeiffer.md
 
