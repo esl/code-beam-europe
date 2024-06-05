@@ -31,10 +31,6 @@ gallery:
 {% include modal.html modal=page.modal %}
 {% endif %}
 <!-- end of modal -->
-{% if page.gallery %}
-{% include gallery-grid.html %}
-{% endif %}
-<!-- end of gallery-grid  -->
 {% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->
 {% include welcome.html %}
@@ -89,6 +85,10 @@ gallery:
 <!-- end of blog -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
+{% if page.gallery %}
+{% include gallery-grid.html %}
+{% endif %}
+<!-- end of gallery-grid  -->
 {% comment %} {% include newsletter.html %} {% endcomment %}
 <!-- end of newsletter -->
 {% include contact.html %}
