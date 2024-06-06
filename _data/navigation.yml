@@ -28,7 +28,7 @@
   #  link: "members"
   #- name: Diversity
   #  link: "diversity"
-   - name: Volunteer
+  - name: Volunteer
     link: "volunteer"
   - name: Venue
     link: "venue"
