@@ -28,8 +28,8 @@
   #  link: "members"
   #- name: Diversity
   #  link: "diversity"
-  # - name: Volunteer
-  #  link: "volunteer"
+   - name: Volunteer
+    link: "volunteer"
   - name: Venue
     link: "venue"
   #- name: Hotels
