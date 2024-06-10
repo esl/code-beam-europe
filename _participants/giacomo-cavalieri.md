@@ -1,9 +1,10 @@
 ---
 name: Giacomo Cavalieri
-pic_url: "/assets/images/Giacomo_Cavalieri.jpg"
-tagline: "Gleam Core Team Member"
+pic_url: "/assets/images/giacomo-cavalieri.jpeg"
+tagline: Full stack Web development in Gleam
+github: giacomocavalieri
 twitter: giacomo_cava
-linkedin: /in/giacomo-cavalieri/
+linkedin: 'https://www.linkedin.com/in/giacomo-cavalieri/'
 
 ---
 Giacomo is a software developer and a functional programming enthusiast.

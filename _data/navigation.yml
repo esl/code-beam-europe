@@ -4,8 +4,8 @@
   #  link: "welcome"
   - name: TICKETS
     link: "register"
-  - name: 2024 Waiting List
-    link: "newsletter"
+  #- name: 2024 Waiting List
+  #  link: "newsletter"
   #- name: Call for Talks
   #  link: "cft"
   #- name: Call for Training
@@ -18,22 +18,20 @@
   #  link: "video"
   #- name: Schedule
   #  link: "schedule"
-  #- name: Speakers
-  #  link: "keynotes"
-  #- name: Trainers
-  #  link: "trainers"
-  # - name: Training
-  #  link: "training"
+  - name: Speakers
+    link: "keynotes"
+  - name: Trainers
+    link: "trainers"
+  - name: Training
+    link: "training"
   #- name: Programme Committee
   #  link: "members"
   #- name: Diversity
   #  link: "diversity"
-  # - name: Volunteer
-  #  link: "volunteer"
+  - name: Volunteer
+    link: "volunteer"
   - name: Venue
     link: "venue"
-  - name: Tutorial/Training Venues
-    link: "tutorialvenue"
   #- name: Hotels
   #  link: "hotels"
   #- name: COVID-19 safety

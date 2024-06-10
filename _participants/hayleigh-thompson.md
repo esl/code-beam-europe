@@ -1,10 +1,10 @@
 ---
 name: Hayleigh Thompson
 pic_url: "/assets/images/hayleigh-thompson.jpg"
-tagline: Writing Elm @ data2impact, doing dev rel things with with webkid
+tagline: Gleam Core Team
 github: hayleigh-dot-dev
 twitter: hayleighdotdev
 linkedin: ''
 
 ---
-Hayleigh is an all-round functional programming nerd: she is community manager for Gleam, an active member of the Elm community, and developer of her own language called Ren. At work, she is an experienced frontend Web developer and Elm programmer. Hayleigh is currently completing her doctorate researching programming practice and language design in sound and music computing.
+Hayleigh is the author of Lustre, Gleam's most popular frontend Web framework as well as an ecosystem of packages that support it.  She is an experienced Web developer and Elm engineer. More recently, Hayleigh has spent the last few years acting as a developer evangelist; spreading the good word about types, the BEAM, and Gleam to anyone with the patience to listen to her.

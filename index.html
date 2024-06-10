@@ -1,20 +1,35 @@
 ---
 layout: default
-title: 'Code BEAM Europe 2024: 14-15 OCT | Berlin & Online'
+title: Code BEAM Europe 2024: 14-15 OCT | Berlin & Online
 image: assets/images/CBE2024.png
-countdown: true
+countdown: false
 timezone: Europe/Berlin
-deadline: 2024-10-14 00:01
-
+deadline: 2024-10-14 12:00
+<!-- modal: newsletter -->
+gallery:
+<!--   title: 'Code BEAM Europe 2023'
+  images:
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 1'
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 2'
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 3'
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 3'
+  - src: 'https://placehold.co/600x400'
+    alt: 'Alt text for imagee 3'-->
 ---
 
 {% include cover.html %}
 <!-- end of cover -->
-{%  if page.countdown == true  %}
-    {% include countdown.html timezone=page.timezone deadline=page.deadline %}
+{% if page.countdown == true %}
+{% include countdown.html timezone=page.timezone deadline=page.deadline %}
 {% endif %}
 <!-- end of coundown -->
-{% comment %}  {% include modal.html %} {% endcomment %}
+{% if page.modal %}
+{% include modal.html modal=page.modal %}
+{% endif %}
 <!-- end of modal -->
 {% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->
@@ -28,11 +43,10 @@ deadline: 2024-10-14 00:01
 <!-- end of travelling -->
 {% comment %} {% include recordings.html %} {% endcomment %}
 <!-- end of recordings -->
-{% comment %} {% include banner-4.html %} {% endcomment %}
-<!-- end of volunteer -->
+
 {% comment %} {% include video.html %} {% endcomment %}
 <!-- end of video -->
-{% comment %} {% include keynotes.html %} {% endcomment %}
+{% include keynotes.html %}
 <!-- end of speakers -->
 {% comment %} {% include speakers.html %} {% endcomment %}
 <!-- end of speakers -->
@@ -40,9 +54,9 @@ deadline: 2024-10-14 00:01
 <!-- end of lightningtalks -->
 {% comment %} {% include schedule.html %} {% endcomment %}
 <!-- end of schedule -->
-{% comment %} {% include trainers.html %} {% endcomment %}
+{% include trainers.html %}
 <!-- end of trainers -->
-{% comment %} {% include training.html %} {% endcomment %}
+{% include training.html %}
 <!-- end of training -->
 {% include members.html %}
 <!-- end of members  -->
@@ -54,6 +68,8 @@ deadline: 2024-10-14 00:01
 <!-- end of diversity -->
 {% comment %} {% include banner-5.html %}{% endcomment %}
 <!-- end of students -->
+{% include banner-4.html %}
+<!-- end of volunteer -->
 {% include venue.html %}
 <!-- end of venue -->
 {% include tutorialvenue.html %}
@@ -70,7 +86,11 @@ deadline: 2024-10-14 00:01
 <!-- end of blog -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
-{% include newsletter.html %}
+{% if page.gallery %}
+{% include gallery-grid.html %}
+{% endif %}
+<!-- end of gallery-grid  -->
+{% comment %} {% include newsletter.html %} {% endcomment %}
 <!-- end of newsletter -->
 {% include contact.html %}
 <!-- end of contact -->
