@@ -1,9 +1,9 @@
 ---
 name: Flora Petterson
-pic_url: "/assets/images/flora_petterson.jpg"
-tagline: Technical writer at Revelry, puppeteer
-github: ''
+pic_url: "/assets/images/Flora_Petterson.jpg"
+tagline: "Data Integration Engineer @ HCA Healthcare"
 twitter: flora_louise
+linkedin: /in/flora-petterson/
 
 ---
-Flora is a technical writer at Revelry who started learning Elixir to edit an article. Always curious, she is a second-generation puppeteer who built physics demonstrations in college. She lives in her hometown of New Orleans, where she likes camping, reading, and playing board games with her family.
+Flora is a Data Integration Engineer at HCA Healthcare, where she gets to write Elixir every day. After studying physics, math, and gender & sexuality studies, she worked as a puppeteer, bartender, marketer, and writer before learning Elixir to build hobby projects with Nerves. She lives in her hometown of New Orleans with her husband, 3 children, and one loud cat.

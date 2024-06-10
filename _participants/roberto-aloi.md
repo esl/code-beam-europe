@@ -1,8 +1,7 @@
 ---
 name: Roberto Aloi
-pic_url: "/assets/images/roberto-aloi.jpg"
+pic_url: "/assets/images/Roberto_Aloi.jpg"
 tagline: "Erlang DevX @ WhatsApp"
-github: robertoaloi
 twitter: robertoaloi
 linkedin: /in/robertoaloi
 
