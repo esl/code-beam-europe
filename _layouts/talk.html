@@ -33,13 +33,13 @@
                             {{ page.content | markdownify }}
                         </div>
                     </div>
-                    <div class="training-info">
+                      <!-- <div class="training-info">
                         <p><strong>Audience:</strong><br> {{ page.audience | join: ","}}</p>
-                    </div>
+                    </div> -->
                     {% assign size = page.tags | size %}
                     {% if size > 0 %}
                     <div class="training-info">
-                        <p><strong>Tags:</strong><br> {{ page.tags | join: ","}}</p>
+                        <p><strong>Tags:</strong><br> {{ page.tags | join: ", "}}</p>
                     </div>
                     {% endif %}
                 </div>
