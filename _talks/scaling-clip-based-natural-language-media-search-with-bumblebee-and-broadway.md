@@ -3,7 +3,7 @@ tags:
 - Bumblebee, Machine Learning, Openai CLIP
 level: Intermediate
 title: 	"Scaling CLIP based Natural Language Media Search with Bumblebee and Broadway"
-speakers: _participants/raj-rajhans.md
+
 
 ---
 As organizations increasingly adopt Elixir for various applications, it has become essential to effectively implement machine learning at scale within the Elixir ecosystem. In this talk, attendees will be shown how Elixir libraries Bumblebee and Broadway can be used to tackle machine learning tasks in production, using natural language media search as a prime example.
