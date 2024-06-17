@@ -14,7 +14,10 @@ You've built and deployed a Phoenix application backed by Ecto and Postgres, and
 3-day in-person training
 
 **Training objectives:**
-Gain a deeper understanding of how to architect back-end systems and micro-services accessible from Phoenix. Learn why behaviours such as Generic Servers, Generic State Machines, and others are necessary, when to use them, and how to integrate them into supervision trees. Acquire knowledge on dealing with load issues by applying techniques like pooling, circuit breakers, and producer/consumer solutions. Additionally, develop a comprehensive understanding of how an application works, how to create them, and how to ensure they work seamlessly together.
+Gain a deeper understanding of how to architect back-end systems and micro-services accessible from Phoenix. 
+Learn why behaviours such as Generic Servers, Generic State Machines, and others are necessary, when to use them, and how to integrate them into supervision trees. 
+Acquire knowledge on dealing with load issues by applying techniques like pooling, circuit breakers, and producer/consumer solutions.
+Additionally, develop a comprehensive understanding of how an application works, how to create them, and how to ensure they work seamlessly together.
 
 **Target audience:**
 Software Developers, Engineers and Architects who must understand basic knowledge of sequential and concurrent Elixir
