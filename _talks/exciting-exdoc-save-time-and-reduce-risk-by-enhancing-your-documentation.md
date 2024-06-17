@@ -1,5 +1,8 @@
 ---
-tags: documentation writing exdoc
+tags:
+  - documentation
+  - writing
+  - exdoc
 level: Intermediate
 title: "Exciting ExDoc: Save Time & Reduce Risk by Enhancing your Documentation"
 speakers:

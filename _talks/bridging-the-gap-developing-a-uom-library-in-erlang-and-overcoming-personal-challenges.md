@@ -1,5 +1,8 @@
 ---
-tags: Resilience, Community, UoM
+tags: 
+  - Resilience
+  - Community
+  - UoM
 level: Intermediate
 title: "Bridging the Gap: Developing a UoM Library in Erlang and Overcoming Personal Challenges"
 speakers: -_participants/barbara-chassoul.md

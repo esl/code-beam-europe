@@ -1,5 +1,6 @@
 ---
-tags: kill, erlang, vm
+tags:
+  - kill erlang vm
 level: Introductory and overview
 title: "10 Ways to Stop an Erlang VM"
 speakers: -_participants/brujo-benavides.md

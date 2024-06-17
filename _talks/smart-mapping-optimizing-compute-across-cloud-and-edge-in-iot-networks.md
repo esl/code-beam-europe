@@ -1,5 +1,7 @@
 ---
-tags: process-mapping, compute-continuum
+tags:
+  - process-mapping
+  - compute-continuum
 level: Intermediate
 title: "Smart Mapping: Optimizing Compute Across Cloud and Edge in IoT Networks"
 speakers: -_participants/peer-stritzinger.md
@@ -22,5 +24,5 @@ Join us to explore the intricacies of compute mapping in heterogeneous IoT netwo
 
 **Target Audience:**
 - This talk is tailored for developers, engineers, and architects involved in IoT, edge computing, and distributed systems. While the algorithms are generally applicable and the system also will support containers with arbitrary implementation (on nodes capable of running containers) it will be particularly valuable for developers using languages on the Erlang VM BEAM which opens up much more fine grained mapping and allows us to push processes further towards the IoT/Fog devices with the help of the GRiSP embedded software stack.
-There will be content for all levels of audience from Beginner to Advanced.
+- There will be content for all levels of audience from Beginner to Advanced.
 

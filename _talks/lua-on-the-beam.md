@@ -1,5 +1,6 @@
 ---
-tags: Lua in Erlang
+tags: 
+  - Lua in Erlang
 level: Intermediate
 title: "Lua on the BEAM"
 speakers: 
@@ -13,14 +14,10 @@ In this talk, Robert Virding will give an overview of Lua and the Luerl implemen
 
 To demonstrate how Luerl can be used in real products, Dave Lucia will showcase how his company, TV Labs, uses Lua to provide a customer-facing scripting interface for testing Smart TV applications. Using TV Labs, Dave will spin up a physical television in his web browser, navigate through a Smart TV app, take screenshots, and perform computer vision tasks, all within the Lua environment. 
 
-
 **Key Takeaways:**
-Understanding how the Erlang/Elixir system can be extended in a useful, powerful and safe way while still preserving the basic features of the BEAM.
-
-
+- Understanding how the Erlang/Elixir system can be extended in a useful, powerful and safe way while still preserving the basic features of the BEAM.
 
 **Target Audience:**
-
-System developers, programming language enthusiasts, and curious web-developers
+- System developers, programming language enthusiasts, and curious web-developers
 
 

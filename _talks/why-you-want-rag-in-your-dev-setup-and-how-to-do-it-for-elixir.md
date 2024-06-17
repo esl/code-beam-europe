@@ -1,5 +1,8 @@
 ---
-tags: RAG Codebase Intelligence
+tags:
+  - RAG
+  - Codebase
+  - Intelligence
 level: Intermediate
 title: "Why you want RAG in your Dev Setup, and how to do it for Elixir"
 speakers: -_participants/chris-beck.md

@@ -1,6 +1,8 @@
 ---
 tags:	
-- type-checker, etylizer, static analysis
+  - type-checker
+  - etylizer
+  - static analysis
 level: Intermediate
 title: 	"etylizer: Set-theoretic Types for Erlang"
 speakers:

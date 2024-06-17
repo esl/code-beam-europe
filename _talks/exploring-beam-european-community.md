@@ -1,5 +1,8 @@
 ---
-tags: Survey, BEAM community, overview
+tags: 
+  - Survey
+  - BEAM community
+  - overview
 level: Introductory and overview
 title: "Exploring BEAM European community"
 speakers: -_participants/icia-carro-barallobre.md
@@ -12,8 +15,8 @@ We will delve into BEAM developer profiles, uncovering how they discovered and a
 Moreover, we will explore the motivations behind companies and academia adopting BEAM languages, addressing the challenges they face in this process, from resistance to change to training needs and integration with existing systems. Additionally, we will assess the impact these languages have on organizations, including improvements in productivity, software quality, and scalability.
 
 **Key Takeaways:**
-The aim of this talk is to provide insights into the world of BEAM development, focusing on European developers. 
+- The aim of this talk is to provide insights into the world of BEAM development, focusing on European developers. 
 
 **Target Audience:**
-Everyone who wants to know more about our community.
+- Everyone who wants to know more about our community.
 

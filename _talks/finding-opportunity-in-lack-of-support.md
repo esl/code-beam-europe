@@ -1,5 +1,8 @@
 ---
-tags: Adoption, Tooling, Ecosystem
+tags:
+  - Adoption
+  - Tooling
+  - Ecosystem
 level: Intermediate
 title: "Finding Opportunity in Lack of Support"
 speakers: -_participants/dylan-blakemore.md

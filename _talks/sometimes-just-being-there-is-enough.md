@@ -1,5 +1,8 @@
 ---
-tags: teamwork scaling appreciation
+tags:
+  - teamwork
+  - scaling
+  - appreciation
 level: Introductory and overview
 title: "Sometimes, just being there is enough"
 speakers: -_participants/zachary-dean.md

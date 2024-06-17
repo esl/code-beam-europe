@@ -1,5 +1,8 @@
 ---
-tags: adoption teaching livebook
+tags:
+  - adoption
+  - teaching
+  - livebook
 level: Introductory and overview
 title: "Growing New Chemists and Alchemists: Building Elixir Teams"
 speakers:

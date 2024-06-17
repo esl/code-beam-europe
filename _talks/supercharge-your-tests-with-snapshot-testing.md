@@ -1,5 +1,8 @@
 ---
-tags: testing, gleam, fp
+tags: 
+  - testing
+  - gleam
+  - fp
 level: Introductory and overview
 title: "Supercharge your Tests with Snapshot Testing"
 speakers: -_participants/giacomo-cavalieri.md

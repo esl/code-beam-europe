@@ -1,5 +1,8 @@
 ---
-tags: lint, refactoring, guidelines
+tags: 
+  - lint
+  - refactoring
+  - guidelines
 level: Introductory and overview
 title: "Hey ELP, fix the return type for this function!"
 speakers: -_participants/roberto-aloi.md

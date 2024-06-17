@@ -17,10 +17,9 @@ It's not all soft skills though, a lot of engineering effort goes into adding a 
 With the right plan, technical patterns, and a lot of grit—you'll be on your way to adopting Elixir into your existing tech stack!
 
 **Key Takeaways:**
-This talk will be a mix of theory, practical advice, and stories from how I actually did this in practice. The audience must learn about the difference between considering business needs, soft skills needed, and the technical skills needed to launch.
+- This talk will be a mix of theory, practical advice, and stories from how I actually did this in practice. The audience must learn about the difference between considering business needs, soft skills needed, and the technical skills needed to launch.
 
 Here are some of the key takeaways you should have after this talk:
-
 * Why would a business want to or not want to make a language switch?
 * Is a partial language switch a success? Or is going "all-in" needed to succeed? What goals equate to success?
 * Who is responsible for the rollout and how should they view their role?

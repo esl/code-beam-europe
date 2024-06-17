@@ -1,6 +1,6 @@
 ---
 tags:
-  - Erlang  Tool  Demonstration
+  - Erlang Tool Demonstration
 level: Intermediate
 title: "Mailboxer: Early Detection of Erlang Communication Errors"
 speakers: 
