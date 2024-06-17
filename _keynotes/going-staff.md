@@ -23,7 +23,3 @@ In this talk, let’s answer all those questions! To aid in our journey, we’ll
   * being glue
   * yes, you are a leader
   * navigating big organizations and finding value
-
-**Target Audience:**
-- The talk appeals most to Senior engineers wondering about their carreer or to make the jump over to Staff+ engineering. It also appeals to Team Leads, wondering about the role.
-- That all said I also do believe it appeals to mid level engineers and maybe juniors. Just to have a direction to aim at. That said, the talk is also about navigating organizations and finding and creating value. Which is valuable for well... everyone.
