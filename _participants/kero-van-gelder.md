@@ -1,6 +1,6 @@
 ---
 name: Kero van Gelder
-pic_url: "/assets/images/Kero_van Gelder.jpg"
+pic_url: "/assets/images/Kero_van_Gelder.jpg"
 tagline: "Gleamlin, Agile SW Engineer and Coach @ Code Change"
 linkedin: /in/kero-van-gelder-4106b66/
 

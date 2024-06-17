@@ -1,7 +1,7 @@
 ---
 name: Dino Costa
 pic_url: "/assets/images/Dino_Costa.jpg"
-tagline: "Co"Founder of OnePlusOne"
+tagline: "Co-Founder of OnePlusOne"
 twitter: dinocosta_
 
 ---
