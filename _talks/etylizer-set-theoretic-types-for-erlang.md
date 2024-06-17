@@ -4,8 +4,6 @@ tags:
 level: Intermediate
 title: 	"etylizer: Set-theoretic Types for Erlang"
 speakers:
-- _participants/annette-bieniusa.md
-- _participants/albert-schimpf.md
 
 ---
 Erlang’s type language provides powerful such as parametric polymorphism, equi-recursive types, as well as singleton, union, and (a variant of) intersection types.
