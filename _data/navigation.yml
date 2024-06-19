@@ -12,7 +12,6 @@
   #  link: "banner-2"
   #- name: Recordings
   #  link: "recordings"
-
   #- name: Public Videos
   #  link: "video"
   #- name: Schedule
@@ -25,7 +24,7 @@
     link: "training"
   #- name: Programme Committee
   #  link: "members"
-  - name: D&I
+  - name: Diversity
     link: "diversity"
   - name: Students
    link: "student"
