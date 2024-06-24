@@ -8,7 +8,7 @@ speakers:
 - _participants/duncan-paul-attard.md
 
 ---
-The talk presents and demonstrates a new communication checking tool for Erlang codebases: Mailboxer.
+The talk presents and demonstrates a new prototype communication checking tool for Erlang codebases: Mailboxer.
 
 If a developer annotates parts of an Erlang codebase with expected message types Mailboxer can statically detect many communication errors in the annotated processes. So errors like unreceived messages, some deadlocks, protocol violations, typos in message tags etc. Finding errors early in development reduces debugging and development times.
 
