@@ -6,7 +6,7 @@ tags:
 - animatronics
 title: Build animatronics with Nerves
 speakers:
-- _participants/flora-petterson.md
+
 
 ---
 The Nerves platform, framework, and tooling provide a highly specialized environment for using Elixir to build advanced embedded devices in industries worldwide. But can Nerves also make a puppet dance?   
