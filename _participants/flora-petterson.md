@@ -1,6 +1,6 @@
 ---
 name: Flora Petterson
-pic_url: "/assets/images/Flora_Petterson.jpg"
+pic_url: "/assets/images/flora-petterson.jpg"
 tagline: "Data Integration Engineer @ HCA Healthcare"
 twitter: flora_louise
 linkedin: /in/flora-petterson/
