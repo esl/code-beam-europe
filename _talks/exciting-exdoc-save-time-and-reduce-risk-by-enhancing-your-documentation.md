@@ -5,7 +5,8 @@ tags:
  - exdoc
 level: Intermediate
 title: "Exciting ExDoc: Save Time & Reduce Risk by Enhancing your Documentation"
-speakers: - _participants/flora-petterson.md
+speakers: 
+- _participants/flora-petterson.md
 
 ---
 It's easy to neglect documentation. But stale, dense, missing or plain wrong documentation can cost hours of frustration at best, and contribute to an unwelcome incident at worst. However, capturing team knowledge in engaging, up-to-date, and complete docs can prevent bugs, save hours of development time, simplify onboarding, shorten PR reviews, improve morale, spot weaknesses in a system, build trust between team members, and even enable a healthy work-life balance.
