@@ -20,8 +20,8 @@
   link: "keynotes"
 - name: Trainers
   link: "trainers"
-- name: Training
-  link: "training"
+#- name: Training
+#  link: "training"
   #- name: Programme Committee
   #  link: "members"
 - name: Diversity
@@ -44,5 +44,5 @@
   #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-- name: Contact
-  link: "contact"
+#- name: Contact
+#  link: "contact"
