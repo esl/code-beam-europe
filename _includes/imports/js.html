@@ -13,7 +13,7 @@
 <script src="{{ " /assets/js/agency.js" | prepend: site.baseurl }}"></script>
 
 <!-- Owl Carousel -->
-<script src="{{ site.baseurl }}/assets/js/carousel.min.js" charset="utf-8"></script>
+<script src="{{ site.baseurl }}/assets/js/owl.carousel.min.js" charset="utf-8"></script>
 
 <!-- Parallaxing & SmoothScroll -->
 <script src="{{ site.baseurl }}/assets/js/scrollax.min.js" charset="utf-8"></script>
@@ -23,8 +23,26 @@
 {% endif %}
 {% if page.gallery %}
 <script src="{{ site.baseurl }}/assets/js/fslightbox.js" charset="utf-8"></script>
-
 {% endif %}
+
+<!-- {% if page.testimonials.show == true %}
+
+<script>
+  const swiper = new Swiper('.testimonial-swiper', { 
+speed: 400, 
+spaceBetween: 40, 
+slidesPerView: 2,
+  breakpoints: {
+    768: {
+      slidesPerView:1,
+      spaceBetween: 40
+    }
+  }
+
+}); 
+</script>
+{% endif %} -->
+
 <!-- Main JS -->
 <script src="{{ site.baseurl }}/assets/js/main.js" charset="utf-8"></script>
 <script type="text/javascript">

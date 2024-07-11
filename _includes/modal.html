@@ -7,7 +7,7 @@
     <p> Give yourself a chance to grow: add a comprehensive exploration of the topic that interests you the most to your Code BEAM experience. This year we offer you six training sessions.
 </p>
   
-    <a class="page-scroll btn-outline btn-orange mb-4 mt-4 btn-orange inline-block" href="#training" target="_blank">
+    <a id="btn-modal" class="page-scroll btn-outline btn-orange mb-4 mt-4 btn-orange inline-block" href="#training" target="_blank">
       Check now
     </a>
   </div>
@@ -20,6 +20,7 @@
 
   // Get the <span> element that closes the modal
   var closeBtn = document.getElementsByClassName("close")[0];
+  var btn = document.getElementById('btn-modal')
 
   // Function to open the modal
   function openModal() {
@@ -33,6 +34,7 @@
 
   // Event listener to close the modal when the close button is clicked
   closeBtn.addEventListener("click", closeModal);
+  btn.addEventListener("click", closeModal);
 
   // Event listener to close the modal when clicking on the backdrop
   window.addEventListener("click", function (event) {
@@ -48,6 +50,6 @@
     }
   });
 
-  // Open the modal after 4 seconds
-  setTimeout(openModal, 4000);
+  // Open the modal after given modal seconds
+  setTimeout(openModal, '{{page.modal.delay}}');
 </script>

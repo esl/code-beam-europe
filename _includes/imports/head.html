@@ -54,7 +54,11 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8RPW99" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+   
+{% if page.testimonials.show == true %}
 
+<link rel="stylesheet" href="{{"/assets/css/owl.carousel.min.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{"/assets/css/owl.theme.default.min.css" | prepend: site.baseurl }}">    {% endif %} 
 </body>
 <script>
   (function () {

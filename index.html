@@ -5,36 +5,43 @@ image: assets/images/CBE2024.png
 countdown: false
 timezone: Europe/Berlin
 deadline: 2024-10-14 12:00
-modal: false
-gallery:
-title: 'Code BEAM Europe 2024'
-images:
-- src: 'https://codebeameurope.com/assets/images/CBE-23-pic-1.png'
-  alt: 'Code BEAM Europe 2024'
-- src: 'https://codebeameurope.com/assets/images/CBE-23-pic-2.png'
-  alt: 'Code BEAM Europe 2024'
-- src: 'https://codebeameurope.com/assets/images/CBE-23-pic-3.png'
-  alt: 'Code BEAM Europe 2024'
-- src: 'https://codebeameurope.com/assets/images/CBE-23-pic-4.png'
-  alt: 'Code BEAM Europe 2024'
-- src: 'https://codebeameurope.com/assets/images/CBE-23-pic-5.png'
-  alt: 'Code BEAM Europe 2024'
-- src: 'https://codebeameurope.com/assets/images/CBE-23-pic-6.png'
-  alt: 'Code BEAM Europe 2024'
-- src: 'https://codebeameurope.com/assets/images/CBE-23-pic-7.png'
-  alt: 'Code BEAM Europe 2024'
-- src: 'https://codebeameurope.com/assets/images/CBE-23-pic-8.png'
-  alt: 'Code BEAM Europe 2024'
+testimonials: 
+  show: true
+  title: Testimonials
+  slidesPerView: 3
+modal: 
+  show: false
+  delay: 2000 
+# gallery:
+  # title: 'Code BEAM Europe 2024'
+  # images:
+  # - src: 'https://codebeameurope.com/assets/images/CBE-23-pic-1.png'
+  #   alt: 'Code BEAM Europe 2024'
+  # - src: 'https://codebeameurope.com/assets/images/CBE-23-pic-2.png'
+  #   alt: 'Code BEAM Europe 2024'
+  # - src: 'https://codebeameurope.com/assets/images/CBE-23-pic-3.png'
+  #   alt: 'Code BEAM Europe 2024'
+  # - src: 'https://codebeameurope.com/assets/images/CBE-23-pic-4.png'
+  #   alt: 'Code BEAM Europe 2024'
+  # - src: 'https://codebeameurope.com/assets/images/CBE-23-pic-5.png'
+  #   alt: 'Code BEAM Europe 2024'
+  # - src: 'https://codebeameurope.com/assets/images/CBE-23-pic-6.png'
+  #   alt: 'Code BEAM Europe 2024'
+  # - src: 'https://codebeameurope.com/assets/images/CBE-23-pic-7.png'
+  #   alt: 'Code BEAM Europe 2024'
+  # - src: 'https://codebeameurope.com/assets/images/CBE-23-pic-8.png'
+  #   alt: 'Code BEAM Europe 2024'
+# Please note the following regarding indentation for gallery: images and titles should be indented in the gallery. 
 ---
 
 
 {% include cover.html %}
+
 <!-- end of cover -->
 {% if page.countdown == true %}
 {% include countdown.html timezone=page.timezone deadline=page.deadline %}
 {% endif %}
 <!-- end of coundown -->
-<!-- end of modal -->
 {% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->
 {% include welcome.html %}
@@ -90,13 +97,19 @@ images:
 {% include sponsors.html %}
 <!-- end of sponsors -->
 {% if page.gallery %}
-{% include gallery-grid.html %}
+  {% include gallery-grid.html %}
 {% endif %}
 <!-- end of gallery-grid  -->
 {% comment %} {% include newsletter.html %} {% endcomment %}
 <!-- end of newsletter -->
 {% include contact.html %}
 <!-- end of contact -->
-{% if page.modal == true %}
-{% include modal.html %}
+{% if page.modal.show == true %}
+  {% include modal.html %}
 {% endif %}
+
+<!-- testimonials  start -->
+{% if page.testimonials.show == true %}
+  {% include testimonials.html  %}
+{% endif %}
+<!-- testimonials  end -->
