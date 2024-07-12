@@ -1,7 +1,7 @@
 ---
 name: Iliia Khaprov
 pic_url: "/assets/images/iliia-khaprov.jpg"
-tagline: "Team RabbitMQ @ Broadcom"
+tagline: "Software Engineer, RabbitMQ Team @ Broadcom"
 twitter: dead_trickster
 
 ---
