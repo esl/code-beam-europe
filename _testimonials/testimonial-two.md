@@ -1,7 +1,7 @@
 ---
-name: Lorem Ipsum 2
-role: Project Manager
-profile_pic: /assets/images/testimonials/pro_pic.png
+name: Anonymous
+role: 2023 Survey
+profile_pic: /assets/images/testimonials/2.png
 ---
 
-Inferiorem aliquando te intus erant legendus pariuntur Pacuvii referenda mutat Utrum parte Deinde amputata refert?
+A great place to pickup news and inspiration from all things related to the BEAM.
