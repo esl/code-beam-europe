@@ -1,7 +1,7 @@
 ---
-name: Lorem Ipsum 1
-role: Project Manager
-profile_pic: /assets/images/testimonials/pro_pic.png
+name: Anonymous
+role: 2023 Survey
+profile_pic: /assets/images/testimonials/1.png
 ---
 
-Inferiorem aliquando te intus erant legendus pariuntur Pacuvii referenda mutat Utrum parte Deinde amputata refert?
+Code BEAM Europe is a meeting ground for the whole BEAM community.
