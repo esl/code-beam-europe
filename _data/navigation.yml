@@ -44,10 +44,10 @@
   #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-# - name: Join us
-#   link: 
-  # children: 
-  # - name: child01
-  #   link: child1
+- name: Join us
+  link: 
+  children: 
+ - name: Diversity Programme
+   link: "diversity"
 #- name: Contact
 #  link: "contact"
