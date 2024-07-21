@@ -28,8 +28,8 @@
   link: "diversity"
 - name: Students
   link: "student"
-- name: Volunteer
-  link: "volunteer"
+#- name: Volunteer
+#  link: "volunteer"
 - name: Venue
   link: "venue"
   #- name: Hotels
@@ -44,10 +44,10 @@
   #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-- name: Join us
-  link: 
-  children: 
- - name: Diversity Programme
-   link: "diversity"
+ - name: Join us
+   link: 
+   children: 
+   - name: Volunteer
+     link: "volunteer"
 #- name: Contact
 #  link: "contact"
