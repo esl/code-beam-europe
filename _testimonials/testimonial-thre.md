@@ -1,7 +1,7 @@
 ---
-name: Lorem Ipsum 3
-role: Project Manager
-profile_pic: /assets/images/testimonials/pro_pic.png
+name: Anonymous
+role: Code BEAM America 2024
+profile_pic: /assets/images/testimonials/3.png
 ---
 
-Inferiorem aliquando te intus erant legendus pariuntur Pacuvii referenda mutat Utrum parte Deinde amputata refert?
+It's clear time has been spent ensuring there's a diverse group of speakers (skill levels, ages, nationality, gender, heck, even programming languages); I hope this continues. Everybody brought something interesting to the table.
