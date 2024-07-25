@@ -44,10 +44,10 @@
   #  link: "blog"
 - name: Sponsors
   link: "sponsors"
- - name: Join us
-   link: 
-   children: 
-   - name: Volunteer
-     link: "volunteer"
+- name: Join us
+  link: 
+  children: 
+- name: Volunteer
+  link: "volunteer"
 #- name: Contact
 #  link: "contact"
