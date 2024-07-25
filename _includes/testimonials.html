@@ -1,11 +1,12 @@
 {% assign testimonials = site.testimonials %}
+{{ testimonial | json }}
 {% if testimonials != null %}
 <!-- Slider main container -->
 <div class="section--carousel">
- <h3 class="title">{{page.testimonials.title}}</h3>
+ <h3 class="title">{{ site.data.settings.homepage_settings.testimonials.title }}</h3>
   <div id="testimonials-carousel-quotes" class="owl-carousel owl-theme"> 
     {% for testimonial in site.testimonials %}
-<figure class="testimonial-item">
+<figure class="testimonial-item item">
   <blockquote>
    {{ testimonial.content | markdownify }}
     <div class="arrow"></div>

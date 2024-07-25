@@ -24,10 +24,10 @@
 #  link: "training"
   #- name: Programme Committee
   #  link: "members"
-- name: Diversity
-  link: "diversity"
-- name: Students
-  link: "student"
+# - name: Diversity
+#   link: "diversity"
+# - name: Students
+#   link: "student"
 #- name: Volunteer
 #  link: "volunteer"
 - name: Venue
@@ -47,7 +47,11 @@
 - name: Join us
   link: 
   children: 
-- name: Volunteer
-  link: "volunteer"
+  - name: Volunteer
+    link: "volunteer"
+  - name: Diversity Programme
+    link: "diversity"
+  - name: Student Programme
+    link: "student"
 #- name: Contact
 #  link: "contact"
