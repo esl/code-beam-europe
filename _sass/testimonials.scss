@@ -6,12 +6,17 @@
     margin-bottom: 80px;
   }
 
+  .owl-stage {
+    display: flex;
+    align-items: flex-end;
+  }
+
   .testimonial-item {
     position: relative;
     overflow: hidden;
     margin: 10px;
     min-width: 220px;
-    max-width: 95vw;
+    max-width: 90vw;
     width: 100%;
     color: #000;
     text-align: left;

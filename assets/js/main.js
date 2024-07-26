@@ -142,6 +142,7 @@
           items: 1,
           nav: true,
           dots: false,
+          margin: 0,
         },
         640: {
           items: 2,
