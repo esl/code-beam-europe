@@ -5,10 +5,10 @@ homepage_settings:
     deadline: 2024-10-14 12:00
   modal:
     show: true
-    delay: 5000
+    delay: 9000
   testimonials:
     show: true
-    title: "Testimonials"
+    title: "What others say"
   gallery:
     show: true
     title: "Code BEAM Europe 2024"
