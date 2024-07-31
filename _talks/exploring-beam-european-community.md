@@ -5,8 +5,7 @@ tags:
   - overview
 level: Introductory and overview
 title: "Exploring BEAM European community"
-speakers: 
--_participants/icia-carro-barallobre.md
+speakers: -_participants/icia-carro-barallobre.md
 -_participants/maria-jose-gavilan.md
 
 ---
