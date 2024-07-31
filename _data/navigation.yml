@@ -2,6 +2,15 @@
   #  link: "cover"
   #- name: Welcome
   #  link: "welcome"
+- name: About
+  link: 
+  children: 
+  - name: Volunteer
+    link: "volunteer"
+  - name: Programme Committee
+    link: "members"
+  - name: Venue
+    link: "venue"  
 - name: TICKETS
   link: "register"
   #- name: 2024 Waiting List
@@ -30,8 +39,8 @@
 #   link: "student"
 #- name: Volunteer
 #  link: "volunteer"
-- name: Venue
-  link: "venue"
+#- name: Venue
+#  link: "venue"
   #- name: Hotels
   #  link: "hotels"
   #- name: COVID-19 safety
