@@ -5,12 +5,12 @@
 - name: About
   link: 
   children: 
-  - name: Volunteer
-    link: "volunteer"
   - name: Programme Committee
     link: "members"
   - name: Venue
-    link: "venue"  
+    link: "venue"
+  - name: Testimonials
+    link: "testimonials-carousel-quotes"  
 - name: TICKETS
   link: "register"
   #- name: 2024 Waiting List
