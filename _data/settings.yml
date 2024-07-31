@@ -1,10 +1,10 @@
 homepage_settings:
   countdown:
-    show: false
-    timezone: Europe/Berlin
-    deadline: 2024-10-14 12:00
-  modal:
     show: true
+    timezone: Europe/Berlin
+    deadline: 2024-08-13 00:01
+  modal:
+    show: false
     delay: 9000
   testimonials:
     show: true
