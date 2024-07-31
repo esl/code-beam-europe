@@ -1,7 +1,7 @@
 ---
 name: Maria Jose Gavilan
 pic_url: "/assets/images/maria-jose-gavilan.jpg"
-tagline: "Researcher / Project Manager @ Stritzinger"
+tagline: "Researcher / Project Manager @ Peer Stritzinger GmbH"
 twitter: galateadunkel
 linkedin: /in/mariajosegavilan/
 
