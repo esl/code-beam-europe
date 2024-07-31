@@ -5,8 +5,9 @@ tags:
   - overview
 level: Introductory and overview
 title: "Exploring BEAM European community"
-speakers: -_participants/icia-carro-barallobre.md
--_participants/maria-jose-gavilan.md
+speakers: 
+- _participants/icia-carro-barallobre.md
+- _participants/maria-jose-gavilan.md
 
 ---
 This talk focuses on analyzing the profiles of European BEAM developers, companies and academia.
