@@ -23,8 +23,8 @@
   #  link: "recordings"
   #- name: Public Videos
   #  link: "video"
-  - name: Schedule
-    link: "schedule"
+- name: Schedule
+  link: "schedule"
 - name: Speakers
   link: "keynotes"
 - name: Trainers
