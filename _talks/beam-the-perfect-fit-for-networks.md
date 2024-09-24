@@ -5,7 +5,6 @@ level: Intermediate
 title: 	"BEAM: The Perfect Fit for Networks"
 speakers:
 
-
 ---
 Networking can seem like a challenging task, but the BEAM is truly one of the best matches for tackling it. In this talk, we’ll mostly focus on two things: when the BEAM is the right fit for networking applications, especially compared to “lower-level” languages (such as Rust or Go), and then we’ll shift our focus to using the BEAM to write TCP applications.
 
