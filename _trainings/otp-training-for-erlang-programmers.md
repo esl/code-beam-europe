@@ -5,8 +5,7 @@ type: training
 trainers:
 - _participants/robert-virding.md
 title: OTP Training for Erlang Programmers
-venue: innoQ, Ohlauer Str. 43
-
+venue: bitcrowd GmbH Köpenicker Str. 126
 ---
 OTP is the middleware, libraries and tools used to design and architect Erlang systems. This OTP course covers the main principles, including process design patterns, supervisors, applications and release handling. It will give you the ability to develop and architect Erlang systems. To enroll in this intermediate course, you should must be using Erlang in production for at least 2 years.
 
