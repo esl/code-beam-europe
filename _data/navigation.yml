@@ -11,8 +11,8 @@
     link: "venue"
   - name: Testimonials
     link: "testimonials-carousel-quotes"  
-- name: TICKETS
-  link: "register"
+#- name: TICKETS
+#  link: "register"
   #- name: 2024 Waiting List
   #  link: "newsletter"
   #- name: Call for Talks
@@ -23,8 +23,8 @@
   #  link: "recordings"
   #- name: Public Videos
   #  link: "video"
-- name: Schedule
-  link: "schedule"
+#- name: Schedule
+#  link: "schedule"
 - name: Speakers
   link: "keynotes"
 - name: Trainers
