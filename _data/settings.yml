@@ -4,8 +4,8 @@ homepage_settings:
     timezone: Europe/Berlin
     deadline: 2024-10-14 08:30
   modal:
-    show: false
-    delay: 9000
+    show: true
+    delay: 4000
   testimonials:
     show: true
     title: "What others say"
