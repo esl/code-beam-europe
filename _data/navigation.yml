@@ -13,8 +13,8 @@
     link: "testimonials-carousel-quotes"  
 #- name: TICKETS
 #  link: "register"
-  #- name: 2024 Waiting List
-  #  link: "newsletter"
+- name: 2025 Waiting List
+  link: "newsletter"
   #- name: Call for Talks
   #  link: "cft"
   #- name: Call for Training
