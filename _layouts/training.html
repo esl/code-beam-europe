@@ -25,13 +25,22 @@
                         </p>
                     </div>
                     <div class="training-info">
-                        <p><strong>Date:</strong><br> {{schedule.start | date: '%Y-%m-%d'}} - {{schedule.end | date: '%Y-%m-%d'}}</p>
+                        <p><strong>Date & Time:</strong><br>
+                        {% assign start_date = schedule.start | date: '%d' %}
+                        {% assign end_date = schedule.end | date: '%d' %}
+                        {% if start_date == end_date %}
+                            {{ schedule.start | date: '%d %b %Y' }}
+                        {% else %}
+                            {{ start_date }}-{{ end_date }} {{ schedule.start | date: '%b %Y' }}
+                        {% endif %}
+                        {{ schedule.start | date: '%H:%M' }}-{{ schedule.end | date: '%H:%M' }}
+                        </p>
                     </div>
 
                     <div class="training-info">
                         <p><strong>Venue:</strong><br> {{ page.venue }}</p>
                     </div>
-                    
+
                     <div class="training-info">
                         <div class="content"><strong>Description:</strong><br> {{ page.content }}</div>
                     </div>
