@@ -2,7 +2,7 @@
 name: Louis Pilfold
 pic_url: "/assets/images/louis.jpg"
 tagline: Creator of the Gleam language
-github: ''
+github: lpil
 twitter: louispilfold
 
 
