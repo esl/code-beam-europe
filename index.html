@@ -46,6 +46,11 @@ image: assets/images/CBE2024.png
 <!-- end of trainers -->
 {% include training.html %}
 <!-- end of training -->
+
+{% if site.data.settings.homepage_settings.tickets %}
+{% include tickets-block.html %}
+{% endif %}
+<!-- end of tickets -->
 {% comment %} {% include register.html %} {% endcomment %}
 <!-- end of register -->
 {% include banner-3.html %}

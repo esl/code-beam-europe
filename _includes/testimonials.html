@@ -1,9 +1,11 @@
 {% assign testimonials = site.testimonials %}
-{{ testimonial | json }}
+
 {% if testimonials != null %}
 <!-- Slider main container -->
-<div class="section--carousel">
+<div class="section section--carousel">
+<div class="carousel-wrapper">
  <h3 class="title">{{ site.data.settings.homepage_settings.testimonials.title }}</h3>
+<hr/>
   <div id="testimonials-carousel-quotes" class="owl-carousel owl-theme"> 
     {% for testimonial in site.testimonials %}
 <figure class="testimonial-item item">
@@ -20,5 +22,6 @@
     {% endfor %}
 
   </div>
+</div>
 </div>
 {% endif %}

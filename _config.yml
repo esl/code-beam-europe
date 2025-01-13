@@ -48,6 +48,8 @@ collections:
     output: true
   archives:
     output: true
+  tickets:
+    output: true
 
 defaults:
   - scope:
