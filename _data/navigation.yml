@@ -2,17 +2,18 @@
   #  link: "cover"
   #- name: Welcome
   #  link: "welcome"
-- name: About
-  link: 
-  children: 
-  - name: Programme Committee
-    link: "members"
-  - name: Venue
-    link: "venue"
-  - name: Testimonials
-    link: "testimonials-carousel-quotes"  
+#- name: About
+#  link: 
+#  children: 
+  #- name: Programme Committee
+  #  link: "members"
+  
 #- name: TICKETS
 #  link: "register"
+- name: Venue
+    link: "venue"
+- name: Testimonials
+    link: "testimonials-carousel-quotes"  
 - name: 2025 Waiting List
   link: "newsletter"
   #- name: Call for Talks
@@ -25,10 +26,10 @@
   #  link: "video"
 #- name: Schedule
 #  link: "schedule"
-- name: Speakers
-  link: "keynotes"
-- name: Trainers
-  link: "trainers"
+#- name: Speakers
+#  link: "keynotes"
+#- name: Trainers
+#  link: "trainers"
 #- name: Training
 #  link: "training"
   #- name: Programme Committee
@@ -53,14 +54,14 @@
   #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-- name: Join us
-  link: 
-  children: 
-  - name: Volunteer
-    link: "volunteer"
-  - name: Diversity Programme
-    link: "diversity"
-  - name: Student Programme
-    link: "student"
+#- name: Join us
+#  link: 
+#  children: 
+  #- name: Volunteer
+  #  link: "volunteer"
+  #- name: Diversity Programme
+  #  link: "diversity"
+  #- name: Student Programme
+  #  link: "student"
 #- name: Contact
 #  link: "contact"
