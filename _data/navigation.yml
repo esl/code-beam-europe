@@ -10,8 +10,6 @@
   link: "venue"
 - name: Testimonials
   link: "testimonials-carousel-quotes"  
-- name: 2025 Waiting List
-  link: "newsletter"
 #- name: Call for Talks
 #  link: "cft"
 #- name: Call for Training
@@ -50,6 +48,8 @@
 #  link: "blog"
 - name: Sponsors
   link: "sponsors"
+- name: 2025 Waiting List
+  link: "newsletter"
 #- name: Join us
 #  link: 
 #  children: 
