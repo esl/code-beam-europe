@@ -6,6 +6,7 @@ tags:
 level: Intermediate
 title: "The Nerves Community Fleet"
 speakers: -_participants/lars-wikman.md
+published: false
 
 ---
 Underjord is very excited to bring you the latest and greatest in Nerves. Expect practical demos, international participation and hopefully we can blow the lid off of what you thought Nerves can do for you.
