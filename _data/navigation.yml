@@ -2,8 +2,8 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome" 
-#- name: Programme Committee
-#  link: "members" 
+- name: Programme Committee
+  link: "members" 
 #- name: TICKETS
 #  link: "register"
 - name: Venue
