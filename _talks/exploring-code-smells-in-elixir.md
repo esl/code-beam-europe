@@ -5,6 +5,7 @@ level: Intermediate
 title: 	"Exploring code smells in Elixir"
 speakers:
 - _participants/elaine-watanabe.md
+published: false
 
 ---
 Code smells are indicators of potential design problems in software code. They can impact maintainability, readability, and overall code quality. 
