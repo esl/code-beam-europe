@@ -14,10 +14,6 @@
   link: "venue"
 - name: Testimonials
   link: "testimonials-carousel-quotes"  
-- name: Call for Talks
-  link: "cft"
-- name: Call for Training
-  link: "banner-2"
 #- name: Recordings
 #  link: "recordings"
 #- name: Public Videos
