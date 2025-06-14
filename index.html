@@ -2,17 +2,14 @@
 layout: default
 title: Code BEAM Europe 2025 - 5-6 NOV | Berlin & Online
 image: assets/images/CBE2024.png
-
 ---
-
 
 {% include cover.html %}
 
 <!-- end of cover -->
 <!-- start of coundown block -->
-{% if site.data.settings.homepage_settings.countdown.show %}
-  {% include countdown.html  %}
-{% endif %}
+{% if site.data.settings.homepage_settings.countdown.show %} {% include
+countdown.html %} {% endif %}
 <!-- end of coundown block -->
 {% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->
@@ -34,22 +31,19 @@ image: assets/images/CBE2024.png
 <!-- end of speakers -->
 {% comment %} {% include speakers.html %} {% endcomment %}
 <!-- end of speakers -->
-{% if site.data.settings.homepage_settings.gallery.show %}
-  {% include gallery-grid.html %}
-{% endif %}
+{% if site.data.settings.homepage_settings.gallery.show %} {% include
+gallery-grid.html %} {% endif %}
 <!-- end of gallery-grid  -->
 {% comment %} {% include lightningtalks.html %} {% endcomment %}
 <!-- end of lightningtalks -->
 {% comment %} {% include schedule.html %} {% endcomment %}
 <!-- end of schedule -->
-{% comment %} {% include trainers.html %} {% endcomment %}
+{% include trainers.html %}
 <!-- end of trainers -->
-{% comment %} {% include training.html %} {% endcomment %}
+{% include training.html %}
 <!-- end of training -->
-
-{% if site.data.settings.homepage_settings.tickets %}
-{% include tickets-block.html %}
-{% endif %}
+{% if site.data.settings.homepage_settings.tickets %} {% include
+tickets-block.html %} {% endif %}
 <!-- end of tickets -->
 {% comment %} {% include register.html %} {% endcomment %}
 <!-- end of register -->
@@ -76,9 +70,8 @@ image: assets/images/CBE2024.png
 {% comment %} {% include blog.html %} {% endcomment %}
 <!-- end of blog -->
 <!-- start of  testimonials  block -->
-{% if site.data.settings.homepage_settings.testimonials.show %}
-  {% include testimonials.html  %}
-{% endif %}
+{% if site.data.settings.homepage_settings.testimonials.show %} {% include
+testimonials.html %} {% endif %}
 <!-- end of  testimonials  block -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
@@ -87,8 +80,6 @@ image: assets/images/CBE2024.png
 {% include contact.html %}
 <!-- end of contact -->
 
-
 <!-- modal block -->
-{% if site.data.settings.homepage_settings.modal.show %}
-  {% include modal.html %}
-{% endif %}
+{% if site.data.settings.homepage_settings.modal.show %} {% include modal.html
+%} {% endif %}
