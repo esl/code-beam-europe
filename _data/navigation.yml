@@ -1,31 +1,27 @@
 #- name: Home
 #  link: "cover"
 #- name: Welcome
-#  link: "welcome" 
+#  link: "welcome"
 - name: Programme Committee
-  link: "members" 
+  link: "members"
 #- name: TICKETS
 #  link: "register"
 - name: Call for Talks
   link: "cft"
-- name: Call for Training
-  link: "banner-2"
-- name: Venue
-  link: "venue"
-- name: Testimonials
-  link: "testimonials-carousel-quotes"  
+#- name: Call for Training
+#  link: "banner-2"
 #- name: Recordings
 #  link: "recordings"
 #- name: Public Videos
 #  link: "video"
 #- name: Schedule
 #  link: "schedule"
-#- name: Speakers
-#  link: "keynotes"
-#- name: Trainers
-#  link: "trainers"
-#- name: Training
-#  link: "training"
+- name: Speakers
+  link: "keynotes"
+- name: Trainers
+  link: "trainers"
+- name: Training
+  link: "training"
 #- name: Programme Committee
 #  link: "members"
 # - name: Diversity
@@ -34,8 +30,10 @@
 #   link: "student"
 #- name: Volunteer
 #  link: "volunteer"
-#- name: Venue
-#  link: "venue"
+- name: Venue
+  link: "venue"
+- name: Testimonials
+  link: "testimonials-carousel-quotes"
 #- name: Hotels
 #  link: "hotels"
 #- name: COVID-19 safety
@@ -51,13 +49,13 @@
 - name: 2025 Waiting List
   link: "newsletter"
 #- name: Join us
-#  link: 
-#  children: 
-  #- name: Volunteer
-  #  link: "volunteer"
-  #- name: Diversity Programme
-  #  link: "diversity"
-  #- name: Student Programme
-  #  link: "student"
+#  link:
+#  children:
+#- name: Volunteer
+#  link: "volunteer"
+#- name: Diversity Programme
+#  link: "diversity"
+#- name: Student Programme
+#  link: "student"
 #- name: Contact
 #  link: "contact"
