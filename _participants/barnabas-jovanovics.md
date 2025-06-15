@@ -5,4 +5,4 @@ tagline: "Ash Core Team Member"
 linkedin: /in/barnabas-jovanovics-216624130/
 
 ---
-I started as an Electrician. Afterwards, I became a PLC programmer, learning WebDev on the side. Later, I got my BSc in Software Engineering and have been doing Full-Stack work for a couple of years now. 
+Barnabas started as an Electrician. Afterwards, he became a PLC programmer, learning WebDev on the side. Later, he got his BSc in Software Engineering and has been doing Full-Stack work for a few years now.

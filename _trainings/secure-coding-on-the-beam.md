@@ -3,6 +3,7 @@ experience:
 - Intermediate
 name: Secure coding on the BEAM
 type: tutorial
+venue: Estrel
 trainers:
 - _participants/robert-virding.md
 event_date: 4 Nov 2025
