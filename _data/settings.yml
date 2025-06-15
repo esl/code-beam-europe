@@ -4,12 +4,12 @@ homepage_settings:
     timezone: Europe/Berlin
     deadline: 2025-11-05 08:30
   modal:
-    show: true
+    show: false
     delay: 4000
   testimonials:
     show: true
     title: "What others say"
   gallery:
     show: true
-    title: "Code BEAM Europe 2023"
+    title: "Code BEAM Europe 2024"
   tickets: false
