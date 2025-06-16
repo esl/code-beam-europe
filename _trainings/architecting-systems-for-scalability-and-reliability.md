@@ -5,7 +5,7 @@ experience:
 name: Architecting Systems for Scalability and Reliability
 type: tutorial
 trainers:
-- _participants/francesco-cesarini.md
+- _participants/francesco-cesarini-new.md
 venue: Estrel
 date: 4 Nov
 
