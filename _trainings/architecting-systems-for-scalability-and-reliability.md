@@ -6,7 +6,7 @@ type: tutorial
 event_date: 4 Nov 2025
 venue: Estrel
 trainers:
-- _participants/francesco-cesarini-new.md
+- _participants/francesco-cesarini.md
 ---
 Learn how to architect fault-tolerant, scalable, soft, real-time systems with requirements for high availability.
 In this tutorial, we will look at the theory needed to design scalable and resilient systems. The lessons learnt apply to the Erlang ecosystem, Elixir included, but are in fact technology agnostic and could be applied to most stacks, including Scala/AKKA, .net and others. We will not dive into libraries, but concepts, ideas and approaches which have been used to get the job done.
