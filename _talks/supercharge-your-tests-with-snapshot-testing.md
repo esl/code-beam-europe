@@ -6,6 +6,7 @@ tags:
 level: Introductory and overview
 title: "Supercharge your Tests with Snapshot Testing"
 speakers: -_participants/giacomo-cavalieri.md
+published: false
 
 ---
 Unit tests are a fundamental defense line to avoid subtle bugs from sneaking into our code base. The problem is that writing them can sometimes feel like a tedious, repetitive and error prone chore.

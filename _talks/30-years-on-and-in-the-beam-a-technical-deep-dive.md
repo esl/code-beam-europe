@@ -6,6 +6,7 @@ tags:
 level: Intermediate
 title: "30 Years On and In the BEAM: A Technical Deep Dive"
 speakers: -_participants/erik-stenman.md
+published: false
 
 ---
 This presentation charts the evolution of the BEAM virtual machine over 30 years, focusing on its concurrency model and its role in fostering robust, fault-tolerant systems.
