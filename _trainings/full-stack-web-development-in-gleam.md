@@ -7,6 +7,7 @@ event_date: 4 Nov 2025
 venue: Estrel
 trainers:
 - _participants/giacomo-cavalieri.md
+- _participants/hayleigh-thompson.md
 ---
 During this training day, we'll take a look at how to build a typical full-stack Web application in pure Gleam. We'll learn how to build with the foundational libraries every Gleam project will build upon – Mist, Wisp, and Lustre – and see how Gleam can be used across the stack.
 
