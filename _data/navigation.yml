@@ -44,8 +44,8 @@
 #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-#- name: 2025 Waiting List
-#  link: "newsletter"
+- name: Newsletter
+  link: "newsletter"
 #- name: Join us
 #  link:
 #  children:
