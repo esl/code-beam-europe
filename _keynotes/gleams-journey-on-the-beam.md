@@ -7,6 +7,7 @@ speakers:
 title: Gleam's journey on the BEAM
 audience:
 - Everyone
+published: false
 
 ---
 Erlang was designed to solve a very specific problem at a very specific point in time. That problem has shaped Erlang, the runtime, and the ecosystem around.
