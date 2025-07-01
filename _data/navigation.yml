@@ -26,8 +26,8 @@
 #   link: "diversity"
 # - name: Students
 #   link: "student"
-#- name: Volunteer
-#  link: "volunteer"
+- name: Volunteer
+  link: "volunteer"
 - name: Venue
   link: "venue"
 - name: Testimonials
