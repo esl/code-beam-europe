@@ -5,7 +5,7 @@
 - name: TICKETS
   link: "register"
 #- name: Call for Talks
- # link: "cft"
+# link: "cft"
 #- name: Call for Training
 #  link: "banner-2"
 #- name: Recordings
@@ -22,8 +22,8 @@
   link: "training"
 #- name: Programme Committee
 #  link: "members"
-# - name: Diversity
-#   link: "diversity"
+- name: Support Programme
+  link: "diversity"
 # - name: Students
 #   link: "student"
 - name: Volunteer
