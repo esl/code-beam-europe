@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
   - multimedia
   - computer-vision
   - object-detection
 
 level: Intermediate
 title: "Stream, Decode, Detect"
-speakers: 
-  - _participants/feliks-pobiedziski.md
+speakers:
+  - _participants/feliks-pobiedzinski.md
 
 ---
 In my session, I would like to share with you the capabilities delivered by Boombox - an Elixir tool for multimedia streaming and processing that can be seamlessly integrated with AI models.
