@@ -1,8 +1,7 @@
 ---
 name: Nelson Vides
-pic_url: "/assets/images/Nelson_Vides.jpg"
+pic_url: "/assets/images/Nelson_Vides-color.jpg"
 tagline: "Self-taught Programmer and Core Developer of MongooseIM"
-github: ''
 twitter: videsnelsonesl
 linkedin: /in/nelson-vides/
 
