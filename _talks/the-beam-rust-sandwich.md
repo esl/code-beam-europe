@@ -1,12 +1,10 @@
 ---
 tags:
   - elixir-rust-interop
-
 level: Intermediate
 title: "The BEAM-Rust Sandwich"
 speakers:
   - _participants/julian-koepke.md
-
 ---
 The BEAM is the perfect tool for building distributed systems that are resilient, maintainable and fun to implement. However, there are certain areas where the BEAM lacks, like computation heavy and graphically intensive applications.
 
