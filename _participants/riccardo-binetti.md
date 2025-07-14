@@ -2,6 +2,7 @@
 name: Riccardo Binetti
 pic_url: "/assets/images/Riccardo_Binetti.jpg"
 tagline: "Senior Backend Engineer @ Remote"
+githhub: rbino
 twitter: errebino
 linkedin: /in/riccardo-binetti/
 
