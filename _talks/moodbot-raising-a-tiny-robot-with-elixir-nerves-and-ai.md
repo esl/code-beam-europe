@@ -1,12 +1,12 @@
 ---
-tags: 
+tags:
   - tinkering
   - nerves
   - parentdev
 
 level: Introductory and overview
 title: "MoodBot: Raising a Tiny Robot With Elixir, Nerves, and AI"
-speakers: 
+speakers:
   - _participants/carsten-roesnick-neugebauer.md
 
 ---

@@ -1,6 +1,6 @@
 ---
 name: Julian Köpke
-pic_url: "/assets/images/Julian_Köpke.jpg"
+pic_url: "/assets/images/Julian_Koepke.jpg"
 tagline: "Software Engineer at DENPAFLUX"
 
 ---

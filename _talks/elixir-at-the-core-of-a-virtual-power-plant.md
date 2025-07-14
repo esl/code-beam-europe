@@ -1,10 +1,12 @@
 ---
-tags: 
-  - greentech-distributed-faulttolerance
+tags:
+  - greentech
+  - distributed
+  - fault tolerance
 
 level: Introductory and overview
 title: "How We Keep the Power On: Elixir at the Core of a Virtual Power Plant"
-speakers: 
+speakers:
   - _participants/jens-fischer.md
   - _participants/johannes-weissl-muhs.md
 

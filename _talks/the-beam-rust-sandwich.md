@@ -1,10 +1,10 @@
 ---
-tags: 
+tags:
   - elixir-rust-interop
 
 level: Intermediate
 title: "The BEAM-Rust Sandwich"
-speakers: 
+speakers:
   - _participants/julian-koepke.md
 
 ---
