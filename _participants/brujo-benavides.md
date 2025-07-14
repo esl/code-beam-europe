@@ -1,10 +1,15 @@
 ---
 name: Brujo Benavides
-pic_url: "/assets/images/Brujo_Benavides.jpg"
+pic_url: "/assets/images/Brujo_Benavides-color.jpg"
 tagline: "Erlang Engineer @ Baxter"
 twitter: elbrujohalcon
 linkedin: /in/elbrujohalcon/
 
 ---
-Argentinian Erlanger, currently living in sunny Catalunya. Member of the Education Working Group @ The Erlang Ecosystem Foundation. Used to be an Spawnfest organizer. Amateur table tennis player and long-distance walker.
-Find more: about.me/elbrujohalcon
+Erlang Developer & Trainer.
+Working as a Senior Erlang Engineer @ Baxter.
+Former SpawnFest, and ElixirConfLA organizer.
+
+…long distant walker, amateur table tennis player, and proud father!
+
+<a href="http://about.me/elbrujohalcon">About Me</a>

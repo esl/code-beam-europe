@@ -6,5 +6,8 @@ twitter: peerstr
 linkedin: /in/peerst/
 
 ---
-Founder, Board Member Erlang Ecosystem Foundation.
-Around it he found the best developer community one could wish for being part of. He is Founder and Director of Peer Stritzinger GmbH which created GRiSP www.grisp.org, a platform to run Erlang on small embedded systems focusses on building Automotive, Railway and Industrial IoT applications. Integrating with that is GRiSP.io a novel heterogenous compute platform to span Cloud, Edge and IoT/Fog. Participating in several EU funded research projects, he is trying to push the envelope for what can be done with Erlang and the other languages in the Ecosystem running on the BEAM (Erlang VM). He initially mastered in physics at the Technical University Munich. He has been working self-employed as a developer since 1987 and also consulted in applied cryptography and protocol design and implementation. He is since ever living and working in the idyllic countryside west of Munich, Bavaria.
+Peer Stritzinger is the founder and managing director of Peer Stritzinger GmbH, leading the development of GRiSP, a platform for running Erlang on small embedded systems, and GRiSP.io, a cloud-to-edge platform for IoT. Since discovering Erlang in 2007, Peer has been captivated by its unique properties for building resilient distributed systems and has found great value in its community.
+
+Peer Stritzinger GmbH builds solutions for Automotive, Railway, and Industrial IoT, leveraging Erlang where it offers clear advantages. Peer is also involved in EU-funded research to expand the BEAM ecosystem's capabilities.
+
+With experience ranging from device drivers to functional programming, Peer holds a master's degree in physics from the Technical University of Munich and has worked as a developer since 1987, specializing in applied cryptography, protocol design, and industrial automation. He lives and works in the countryside west of Munich.

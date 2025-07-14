@@ -1,12 +1,12 @@
 ---
-tags: 
+tags:
   - deployment
   - docker
   - nix
 level: Intermediate
 title: "Reproducible BEAM Deployments with nix"
 speakers: -_participants/norbert-melzer.md
-
+published: false
 ---
 Mix or rebar alone do not necessarily produce reproducable artifacts. As they do depend on the system where they run on. Docker at least mitigates the problem with the system libraries, though is it reproducible? No, this is where "nix" comes into place, which allows us to have really reproducible builds. Which can be deployed in various ways.
 
@@ -16,4 +16,3 @@ Mix or rebar alone do not necessarily produce reproducable artifacts. As they do
 
 **Target Audience:**
 - Open minded "Ops" and "DevOps" persons, as well as developers who wish for a more "pord like development environment"
-

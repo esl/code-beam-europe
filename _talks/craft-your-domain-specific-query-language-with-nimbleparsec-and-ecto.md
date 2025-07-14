@@ -1,11 +1,11 @@
 ---
-tags:	
+tags:
 - DSL, NimbleParsec, Ecto
 level: Intermediate
 title: 	"Craft your Domain-Specific Query Language with NimbleParsec and Ecto"
 speakers:
 - _participants/riccardo-binetti.md
-
+published: false
 ---
 Imagine you want to ask your API ""List all devices which are not located in Europe and are currently connected or are either tagged 'maintenance' or 'retired'"". Expressing this kind of  selection with query parameters quickly becomes unwieldy, and even a more structured query language like GraphQL can feel clunky to express this, especially if the target user is not a technical one.
 

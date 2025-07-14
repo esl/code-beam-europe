@@ -1,6 +1,6 @@
 ---
 name: Giacomo Cavalieri
-pic_url: "/assets/images/giacomo-cavalieri.jpeg"
+pic_url: "/assets/images/Giacomo_Cavalieri.jpg"
 tagline: "Gleam Core Team Member"
 github: giacomocavalieri
 twitter: giacomo_cava

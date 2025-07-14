@@ -1,9 +1,7 @@
 ---
 name: Dániel Horpácsi
-pic_url: "/assets/images/daniel-horpacsi.jpg"
-tagline: Formal Methods Researcher, Assistant Professor @ Eötvös Loránd University
-github: ''
-twitter: ''
+pic_url: "/assets/images/Daniel_Horpacsi.jpg"
+tagline: "Formal methods researcher"
 linkedin: /in/daniel-horpacsi
 
 ---

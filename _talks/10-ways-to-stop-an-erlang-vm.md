@@ -4,6 +4,7 @@ tags:
 level: Introductory and overview
 title: "10 Ways to Stop an Erlang VM"
 speakers: -_participants/brujo-benavides.md
+published: false
 
 ---
 Erlang systems are meant to be running non-stop. But sometimes you just need to get out of the VM and that may be a little… let's say… unintuitive.
@@ -17,4 +18,3 @@ Worry not, my friend, this is just the talk for you! Fasten your seatbelt and ge
 
 **Target Audience:**
 - Everybody, even people that know nothing about Erlang.
-

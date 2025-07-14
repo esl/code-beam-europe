@@ -1,12 +1,12 @@
 ---
-tags: 
+tags:
   - lint
   - refactoring
   - guidelines
 level: Introductory and overview
 title: "Hey ELP, fix the return type for this function!"
 speakers: -_participants/roberto-aloi.md
-
+published: false
 ---
 In this talk we delve into the capabilities of ELP beyond its role as a language server. ELP offers a powerful lint and refactoring engine capable of upholding Erlang/OTP best practices and guidelines within your codebase. The engine is type-aware and can revolutionize the way you write and think about Erlang code, by suggesting and applying better versions of the code.
 
@@ -21,4 +21,3 @@ Whether you are a seasoned Erlang developer or just starting out, this session w
 
 **Target Audience:**
 - Erlang developers and enthusiasts
-

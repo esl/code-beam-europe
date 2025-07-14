@@ -1,7 +1,7 @@
 ---
 name: Paul Guyot
 pic_url: "/assets/images/Paul_Guyot.jpg"
-tagline: "CPTO and Open Source Hobbyist"
+tagline: "CPTO and open source hobbyist"
 twitter: paulguyot
 linkedin: /in/pguyot
 

@@ -3,7 +3,7 @@ tags: "La Machine in Erlang"
 level: Introductory and overview
 title: "La Machine: The Useless Box reloaded with Erlang and AtomVM"
 speakers: -_participants/paul-guyot.md
-
+published: false
 ---
 Why and how Erlang and AtomVM were used to develop the personality of a lovable IoT device while maximizing its battery life.
 
@@ -25,4 +25,3 @@ Session will include video demos of La Machine (https://la-machine.fr/) and most
 - Erlang developers
 - Elixir developers
 - IoT enthusiasts and hackers
-

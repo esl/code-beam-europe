@@ -1,6 +1,6 @@
 ---
 name: Ingela Andin
-pic_url: "/assets/images/ingela-andin.jpg"
+pic_url: "/assets/images/Ingela_Andin.jpg"
 tagline: "Senior Erlang/OTP Core Developer"
 github: IngelaAndin
 twitter: IngelaAndin
