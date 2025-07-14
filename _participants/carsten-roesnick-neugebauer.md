@@ -1,6 +1,6 @@
 ---
 name: Carsten Rösnick-Neugebauer
-pic_url: "/assets/images/Carsten_Rösnick-Neugebauer.jpg"
+pic_url: "/assets/images/Carsten_Rosnick_Neugebauer.jpg"
 tagline: "Enthusiastic 🎉 Dad 🧑‍🧑‍🧒‍🧒 Software Consultant @ tngtech.de 👨‍💻 Elixir evengalist 🤘 math PhD 👨‍🎓"
 linkedin: /in/croesnickn/
 
