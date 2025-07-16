@@ -5,7 +5,7 @@ trainers:
 experience:
 - Beginners, Intermediate users
 title: Everything you Need to Know about Testing in Erlang… and a bit of Elixir, as well
-published: true
+published: false
 venue: nhow Berlin, Stralauer Allee 3
 
 ---
