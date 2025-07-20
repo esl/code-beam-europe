@@ -6,6 +6,7 @@ title: 	"Reimplementing Technical Debt with State Machines"
 speakers: 
 - _participants/nelson-vides.md
 - _participants/pawel-chrzaszcz.md
+published: false
 
 ---
 An extensible protocol implementation means that its core code has to be extensible, right? But it also means the core is the first piece of code ever written for this project, and which everything else will depend on, which means, well, highly likely future technical debt.
