@@ -1,7 +1,7 @@
 ---
 name: David Bourgeois
 pic_url: "/assets/images/David_Bourgeois.jpg"
-tagline: "Founder @ Cyanview"
+tagline: "Founder @ CyanView"
 linkedin: /in/davidbourgeois2/
 
 ---
