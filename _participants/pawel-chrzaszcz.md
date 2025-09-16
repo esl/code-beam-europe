@@ -1,6 +1,6 @@
 ---
 name: Paweł Chrząszcz
-pic_url: "/assets/images/pawel-chrzaszcz.jpg"
+pic_url: "/assets/images/pawel-chrzaszcz.png"
 tagline: "Software Architect and MongooseIM Team Lead at Erlang Solutions"
 github: ''
 twitter: ''
