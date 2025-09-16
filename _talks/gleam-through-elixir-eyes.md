@@ -8,6 +8,7 @@ level: Introductory and overview
 title: "Gleam Through Elixir Eyes: A Learning Journey"
 speakers:
   - _participants/meks-mcclure.md
+published: false
 ---
 Have you been curious about Gleam but haven't had the time to dive in? You're not alone. Many of us have heard about this type-safe BEAM language but wonder: is it worth learning? How different is it really?
 
