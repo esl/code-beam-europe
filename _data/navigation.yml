@@ -49,7 +49,6 @@
 - name: Newsletter
   link: "newsletter"
 - name: Join us
-  link:
   children:
 - name: Volunteer
   link: "volunteer"
