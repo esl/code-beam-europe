@@ -22,12 +22,14 @@
   link: "training"
 #- name: Programme Committee
 #  link: "members"
-- name: Support Programme
-  link: "diversity"
+#- name: Support Programme
+#  link: "diversity"
 # - name: Students
 #   link: "student"
-- name: Volunteer
-  link: "volunteer"
+#- name: Volunteer
+#  link: "volunteer"
+- name: Lightning Talks
+  link: "banner-3"
 - name: Venue
   link: "venue"
 #- name: Testimonials
@@ -46,14 +48,14 @@
   link: "sponsors"
 - name: Newsletter
   link: "newsletter"
-#- name: Join us
-#  link:
-#  children:
-#- name: Volunteer
-#  link: "volunteer"
-#- name: Diversity Programme
-#  link: "diversity"
-#- name: Student Programme
-#  link: "student"
+- name: Join us
+  link:
+  children:
+- name: Volunteer
+  link: "volunteer"
+- name: Support Programme
+  link: "diversity"
+- name: Student Programme
+  link: "student"
 #- name: Contact
 #  link: "contact"
