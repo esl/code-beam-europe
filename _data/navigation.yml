@@ -50,11 +50,11 @@
   link: "newsletter"
 - name: Join us
   children:
-- name: Volunteer
-  link: "volunteer"
-- name: Support Programme
-  link: "diversity"
-- name: Student Programme
-  link: "student"
+    - name: Volunteer
+      link: "volunteer"
+    - name: Support Programme
+      link: "diversity"
+    - name: Student Programme
+      link: "student"
 #- name: Contact
 #  link: "contact"
