@@ -1,10 +1,10 @@
 ---
-tags: 
+tags:
   - structured-deterministic-generation
 
 level: Advanced
 title: "Structured Generation and Logits Processing With Elixir"
-speakers: 
+speakers:
   - _participants/chris-beck.md
 
 ---
@@ -14,7 +14,7 @@ There is an alternative: By reaching into the raw, unnormalised token scores (lo
 
 This logits-level gating was first published in 2016, yet it remains largely unknown outside a handful of research papers. I’ll surface the idea, show why it slipped under industry radar, and—most importantly—demonstrate how easily you can apply it today with Elixir’s Bumblebee, Nx, and the BEAM’s supervision strengths.
 
-We will see how the technique makes small but critical tasks reliable —emitting strict JSON configs, creating test data, or generating Erlang term syntax—where unconstrained decoding would crumble. 
+We will see how the technique makes small but critical tasks reliable —emitting strict JSON configs, creating test data, or generating Erlang term syntax—where unconstrained decoding would crumble.
 
 You’ll leave knowing how to wire grammar constraints into Bumblebee, eliminate brittle post-processing, and ship more reliable, safer Elixir systems.
 
@@ -25,8 +25,6 @@ You’ll leave knowing how to wire grammar constraints into Bumblebee, eliminate
 - Good-bye, retry loop: No more validate-and-regenerate cycles—latency drops and errors disappear.
 
 - Hidden gem: The approach has been around since 2016, but few teams have discovered it (until now!).
-
-- Easy on the BEAM: Bumblebee and Nx give Elixir developers everything needed to plug grammar constraints straight into their pipelines.
 
 - Real-world wins: Perfect for tasks where the output can be described by a grammar or schema.
 
