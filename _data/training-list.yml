@@ -6,18 +6,9 @@ trainings:
   - training: _trainings/secure-coding-on-the-beam.md
     start: 2025-11-04T09:00:00.000+00:00
     end: 2025-11-04T17:00:00.000+00:00
-  - training: _trainings/full-stack-web-development-in-gleam.md
-    start: 2025-11-04T09:00:00.000+00:00
-    end: 2025-11-04T17:00:00.000+00:00
   - training: _trainings/dip-your-toes-into-hardware-with-nerves.md
     start: 2025-11-04T09:00:00.000+00:00
-    end: 2025-11-04T17:00:00.000+00:00
-  - training: _trainings/ash-ai.md
-    start: 2025-11-04T09:00:00.000+00:00
-    end: 2025-11-04T17:00:00.000+00:00
+    end: 2025-11-04T17:00:00.000+00:000
   - training: _trainings/architecting-systems-for-scalability-and-reliability.md
-    start: 2025-11-04T09:00:00.000+00:00
-    end: 2025-11-04T17:00:00.000+00:00
-  - training: _trainings/deploying-elixir-on-gcp.md
-    start: 2025-11-04T09:00:00.000+00:00
-    end: 2025-11-04T17:00:00.000+00:00
+    start: 2025-11-04T10:00:00.000+00:00
+    end: 2025-11-04T18:00:00.000+00:00
