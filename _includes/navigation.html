@@ -19,7 +19,7 @@
             {% if child.link contains 'https' %}
               <a href="{{ child.link }}" target="_blank" rel="noopener noreferrer">{{ child.name }}</a>
             {% else %}
-              <a href="#{{ child.link }}">{{ child.name }}</a>
+              <a class="page-scroll" href="#{{ child.link }}">{{ child.name }}</a>
             {% endif %}
           {% endfor %}
         </div>
@@ -27,7 +27,7 @@
     </li>
     {% else %}
     <li>
-      <a href="#{{ item.link }}">{{ item.name }}</a>
+      <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
     </li>
     {% endif %}
     {% endfor %}
