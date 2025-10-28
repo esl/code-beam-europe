@@ -16,7 +16,11 @@
         </a>
         <div class="dropdown-content">
           {% for child in item.children %}
-            <a class="page-scroll" href="#{{ child.link }}">{{ child.name }}</a>
+            {% if child.link contains 'https' %}
+              <a href="{{ child.link }}" target="_blank" rel="noopener noreferrer">{{ child.name }}</a>
+            {% else %}
+              <a class="page-scroll" href="#{{ child.link }}">{{ child.name }}</a>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
