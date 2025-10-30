@@ -24,5 +24,5 @@ This one-day tutorial is tailored for intermediate Erlang/Elixir developers, tes
 - Intermediate Erlang/Elixir developers, testers and devops working with BEAM projects
 
 **Tutorial prerequisites:**
-- Basic Elixir syntax and concepts
+- Basic Elixir and Erlang syntax and concepts
 - Basic familiarity with the BEAM
