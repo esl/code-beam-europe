@@ -1,16 +1,22 @@
 ---
-tags: 
+tags:
   - openriak
   - riak
   - phoenix
 
 level: Intermediate
 title: "Elevating Phoenix With OpenRiak"
-speakers: 
+speakers:
   - _participants/robert-carbone.md
 
 ---
-In this talk, we will delve into the integration of two titans of the BEAM ecosystem: OpenRiak, a highly scalable distributed NoSQL database built in Erlang (and a new initiative of the Erlang Ecosystem Foundation), and the Phoenix Framework, a powerful web development framework in Elixir. We will focus on leveraging OpenRiak's strengths, such as high availability and support for unstructured data, to complement Phoenix. The session will cover advanced topics such as caching strategies and data type tactics, including CRDTs (Conflict-Free Replicated Data Types). We will explore the Phoenix Framework, discussing integration points and innovative programming strategies for managing state, especially as we now have a distributed consistent hash ring at our disposal. This talk is designed for developers and architects eager to create scalable, distributed web applications while harnessing the synergy between Phoenix and OpenRiak. Whether you're new to the BEAM ecosystem and looking for guidance or a veteran seeking to enhance your Phoenix expertise, this session will provide actionable insights and empower you to build even more scalable, resilient web applications.
+This talk will be a heavy "lift" as we delve into the integration of two titans of the BEAM ecosystem: OpenRiak, a highly scalable distributed NoSQL database built in Erlang (and a new initiative of the Erlang Ecosystem Foundation), and the Phoenix Framework, a powerful web development framework in Elixir. We'll focus on how to leverage OpenRiak’s strengths, such as high availability & support for unstructured data in order to complement Phoenix.
+
+The session will cover practical ways to get started, illuminate full-stack challenges and resolutions, and reveal high-level strategies for success.
+
+Our journey will take the form of a guided tour through a series of conceptual frameworks, building toward a little-known crown jewel of category theory—one that may even unify our entire BEAM ecosystem.
+
+This talk is designed for developers and architects eager to elevate their skills and tooling while harnessing the synergy of Phoenix and OpenRiak. Whether you’re new to the BEAM ecosystem and seeking guidance or a veteran looking to deepen your expertise, this session will provide foundational understanding and empower you to build more scalable, resilient systems.
 
 **Key Takeaways:**
 
