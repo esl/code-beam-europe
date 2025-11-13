@@ -1,48 +1,55 @@
 <nav class="navbar-fixed-top nav-menu" id="navMenu">
-  <a class="logo" href="#cover"></a>
-  <div class="toggle-menu">
-    <!-- Burger -->
-    <div class="navTrigger">
-      <i class="fa fa-bars"></i>
+    <a class="logo" href="#cover"></a>
+    <div class="toggle-menu">
+        <!-- Burger -->
+        <div class="navTrigger">
+            <i class="fa fa-bars"></i>
+        </div>
     </div>
-  </div>
-  <ul class="nav navigation-bar">
-    {% for item in site.data.navigation %}
-    {% if item.children %}
-    <li>
-      <div class="dropdown">
-        <a class="dropbtn">{{item.name}}
-          <i class="fa fa-caret-down"></i>
-        </a>
-        <div class="dropdown-content">
-          {% for child in item.children %}
-            {% if child.link contains 'https' %}
-              <a href="{{ child.link }}" target="_blank" rel="noopener noreferrer">{{ child.name }}</a>
+    <ul class="nav navigation-bar">
+        {% for item in site.data.navigation %} {% if item.children %}
+        <li>
+            <div class="dropdown">
+                <a class="dropbtn"
+                    >{{item.name}}
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    {% for child in item.children %} {% if child.link contains
+                    'https' %}
+                    <a
+                        href="{{ child.link }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >{{ child.name }}</a
+                    >
+                    {% else %}
+                    <a href="#{{ child.link }}">{{ child.name }}</a>
+                    {% endif %} {% endfor %}
+                </div>
+            </div>
+        </li>
+        {% else %}
+        <li>
+            {% if item.link contains 'https' or item.link contains '/' %}
+            <a href="{{ item.link }}">{{ item.name }}</a>
             {% else %}
-              <a href="#{{ child.link }}">{{ child.name }}</a>
+            <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
             {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-    </li>
-    {% else %}
-    <li>
-      <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
-    </li>
-    {% endif %}
-    {% endfor %}
-    <li>
-      <div class="dropdown">
-        <a class="dropbtn">Archives
-          <i class="fa fa-caret-down"></i>
-        </a>
-        <div class="dropdown-content">
-          {% for conf in site.data.archive-links %}
-          <a href="{{conf.link}}" target="_blank">{{conf.name}}</a>
-          {% endfor %}
-
-        </div>
-      </div>
-    </li>
-  </ul>
+        </li>
+        {% endif %} {% endfor %}
+        <li>
+            <div class="dropdown">
+                <a class="dropbtn"
+                    >Archives
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    {% for conf in site.data.archive-links %}
+                    <a href="{{conf.link}}" target="_blank">{{conf.name}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </li>
+    </ul>
 </nav>
