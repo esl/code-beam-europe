@@ -1,0 +1,173 @@
+// Lightning Talks Styles - Code BEAM Europe 2025
+// Using Code BEAM Europe color scheme on black background: brand: #ff00ff (magenta), secondary: #2596be (blue)
+
+.lightning-talks-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem 0;
+    width: 100%;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+.lightning-talk-item {
+    background: #1a1a1a;
+    border: 2px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(255, 0, 255, 0.1);
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(255, 0, 255, 0.3);
+        border-color: #ff00ff;
+    }
+}
+
+.lightning-talk-title {
+    margin-bottom: 1rem;
+
+    h3 {
+        color: #ff00ff;
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 1.4;
+        margin: 0;
+        min-height: 2.8em;
+    }
+}
+
+.lightning-talk-speaker {
+    margin-bottom: 1rem;
+
+    p {
+        color: #2596be;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0;
+        display: flex;
+        align-items: center;
+
+        i {
+            color: #2596be;
+            margin-right: 0.5rem;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.lightning-talk-video {
+    margin-top: 1.5rem;
+
+    .btn-codebeam {
+        display: inline-flex;
+        align-items: center;
+        background: transparent;
+        border: 2px solid #ff00ff;
+        border-radius: 6px;
+        color: #ff00ff;
+        padding: 0.75rem 1.5rem;
+        font-weight: 600;
+        font-size: 0.95rem;
+        text-decoration: none;
+        transition: all 0.3s ease;
+
+        i {
+            margin-right: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        &:hover {
+            background: #ff00ff;
+            color: #000;
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(255, 0, 255, 0.5);
+        }
+    }
+
+    .text-muted {
+        color: #2596be;
+        font-style: italic;
+        font-size: 0.95rem;
+        display: flex;
+        align-items: center;
+
+        i {
+            margin-right: 0.5rem;
+            color: #2596be;
+        }
+    }
+}
+
+// Page-specific styles
+#lightning-talks {
+    background: #000;
+
+    .title {
+        color: #ff00ff;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .lead {
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3rem 1rem;
+    }
+}
+
+// Responsive utilities
+.pt-4 {
+    padding-top: 2rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-md-10,
+.col-md-12 {
+    padding: 0 15px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-10 {
+        width: 83.333%;
+        margin: 0 auto;
+    }
+}
