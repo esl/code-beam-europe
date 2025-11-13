@@ -11,7 +11,7 @@ image: assets/images/CBE2025.png
 {% if site.data.settings.homepage_settings.countdown.show %} {% include
 countdown.html %} {% endif %}
 <!-- end of coundown block -->
-{% include banner-1.html %}
+{% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->
 {% include welcome.html %}
 <!-- end of welcome -->
@@ -47,7 +47,7 @@ include gallery-grid.html %} {% endif %} {% endcomment %}
 {% if site.data.settings.homepage_settings.tickets %} {% include
 tickets-block.html %} {% endif %}
 <!-- end of tickets -->
-{% include register.html %}
+{% comment %} {% include register.html %} {% endcomment %}
 <!-- end of register -->
 {% comment %} {% include banner-3.html %} {% endcomment %}
 <!-- end of banner-3 -->
