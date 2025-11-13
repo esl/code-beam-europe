@@ -30,8 +30,8 @@
 #  link: "volunteer"
 - name: Lightning Talks
   link: "/lightning-talks"
-- name: Venue
-  link: "venue"
+#- name: Venue
+#  link: "venue"
 #- name: Testimonials
 #  link: "testimonials-carousel-quotes"
 #- name: Hotels
