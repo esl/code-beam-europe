@@ -46,15 +46,15 @@
 #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-- name: Newsletter
+- name: Waiting List
   link: "newsletter"
 #- name: Join us
 #  children:
-    - name: Volunteer
-      link: "volunteer"
-    - name: Support Programme
-      link: "diversity"
-    - name: Student Programme
-      link: "https://forms.gle/FsMv6s4cR62HYApXA"
+#    - name: Volunteer
+#      link: "volunteer"
+#    - name: Support Programme
+#      link: "diversity"
+#    - name: Student Programme
+#      link: "https://forms.gle/FsMv6s4cR62HYApXA"
 #- name: Contact
 #  link: "contact"
