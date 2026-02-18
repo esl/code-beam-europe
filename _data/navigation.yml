@@ -2,6 +2,8 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome"
+- name: Waiting List
+  link: "newsletter"
 #- name: TICKETS
 #  link: "register"
 #- name: Call for Talks
@@ -46,8 +48,6 @@
 #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-- name: Waiting List
-  link: "newsletter"
 #- name: Join us
 #  children:
 #    - name: Volunteer
