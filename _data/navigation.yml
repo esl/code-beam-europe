@@ -14,14 +14,14 @@
 #  link: "recordings"
 #- name: Public Videos
 #  link: "video"
-- name: Schedule
-  link: "schedule"
-- name: Speakers
-  link: "keynotes"
+#- name: Schedule
+#  link: "schedule"
+#- name: Speakers
+#  link: "keynotes"
 #- name: Trainers
 #  link: "trainers"
-- name: Training
-  link: "training"
+#- name: Training
+#  link: "training"
 #- name: Programme Committee
 #  link: "members"
 #- name: Support Programme
@@ -30,8 +30,8 @@
 #   link: "student"
 #- name: Volunteer
 #  link: "volunteer"
-- name: Lightning Talks
-  link: "/lightning-talks"
+#- name: Lightning Talks
+#  link: "/lightning-talks"
 #- name: Venue
 #  link: "venue"
 #- name: Testimonials
@@ -46,8 +46,8 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-- name: Sponsors
-  link: "sponsors"
+#- name: Sponsors
+#  link: "sponsors"
 #- name: Join us
 #  children:
 #    - name: Volunteer
