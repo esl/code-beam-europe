@@ -1,8 +1,7 @@
 .cover
-    position: relative
+    align-items: space-between
     background-size: cover
     background-repeat: no-repeat
-    background-position: center
     background-color: #000101
     color: #fff
     display: flex
@@ -14,8 +13,10 @@
     @media only screen and (max-width: 1112px)
         height: auto
         text-align: center
-    // Reset padding when using new layout
+    // Reset for new 2026 layout
     &:has(.cover-content)
+        position: relative
+        background-position: center
         padding: 0
 
     // New 2026 cover styles
@@ -140,8 +141,7 @@
         pointer-events: none
 
     // Legacy archive cover styles (2023-2025)
-    // These pages use .logo and .col-right directly inside .cover (no .cover-content wrapper)
-    > .logo
+    .logo
         min-height: 500px
         max-width: 500px
         width: 60%
