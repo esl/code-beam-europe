@@ -5,6 +5,7 @@ level: Beginner and Overview
 title: 	"Learn you some Datalog"
 speakers:
 - _participants/tonci-galic.md
+published: false
 
 ---
 Whether you're a seasoned Erlang or Elixir developer or new to the languages, this talk aims to equip you with the knowledge and inspiration to harness the power of Datalog. Expand your programming horizons and join us on a quest to discover the remarkable benefits that Datalog can bring to your Erlang and Elixir projects.

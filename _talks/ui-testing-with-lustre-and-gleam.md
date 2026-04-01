@@ -6,6 +6,7 @@ level: Introductory and overview
 title: "Browsers Need Not Apply, UI Testing With Lustre and Gleam"
 speakers: 
   - _participants/hayleigh-thompson.md
+published: false
 
 ---
 UI testing is a chore. Often we end up settling with an end-to-end testing system, writing JavaScript assertion and snapshot tests, and dealing with half hour CI times. Isn't there a better way?

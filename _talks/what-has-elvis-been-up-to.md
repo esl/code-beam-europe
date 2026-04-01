@@ -8,6 +8,7 @@ level: Introductory and overview
 title: "What has Elvis been up to?"
 speakers:
   - _participants/brujo-benavides.md
+published: false
 
 ---
 It's been a few years since we presented the latest changes to Elvis (the Erlang linter) and there have been quite a lot of improvements, new rules, etc. So, I'll use this talk to show the evolution of the project, and showcase all the new rules we've added in the last 2 or 3 years.
