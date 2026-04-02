@@ -1,8 +1,8 @@
 homepage_settings:
   countdown:
     show: false
-    timezone: Europe/Berlin
-    deadline: 2025-11-05 08:30
+    timezone: Europe/Amsterdam
+    deadline: 2026-10-21 08:30
   modal:
     show: false
     delay: 4000
@@ -11,5 +11,5 @@ homepage_settings:
     title: "What others say"
   gallery:
     show: true
-    title: "Code BEAM Europe 2024"
+    title: "Code BEAM Europe 2026"
   tickets: false

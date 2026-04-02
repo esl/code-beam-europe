@@ -1,7 +1,6 @@
 ---
 name: Anonymous
-role: 2022 Survey
+role: Code BEAM Europe 2025
 profile_pic: /assets/images/testimonials/4.png
 ---
-
-The social mood of this community is always refreshing, wonderfully international and dynamic.
+Everything, you can see how much love and effort goes into this. Great venue. Great people!
