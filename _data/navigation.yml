@@ -8,8 +8,10 @@
 #  link: "register"
 - name: Call for Talks
   link: "cft"
-#- name: Call for Training
-#  link: "banner-2"
+- name: Call for Training
+  link: "call-for-training"
+- name: Informal Space
+  link: "informal-space"
 #- name: Recordings
 #  link: "recordings"
 #- name: Public Videos
