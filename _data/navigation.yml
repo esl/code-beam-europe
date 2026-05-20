@@ -48,8 +48,8 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-#- name: Sponsors
-#  link: "sponsors"
+- name: Sponsors
+  link: "sponsors"
 #- name: Join us
 #  children:
 #    - name: Volunteer
