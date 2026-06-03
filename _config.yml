@@ -95,7 +95,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: ESTREL
-map-text-location: Sonnenallee 225, 12057 Berlin, Germany
-map-lat: 52.4736275
-map-lng: 13.4588496
+map-text: PHIL
+map-text-location: Lange Begijnestraat 11, 2011 HH Haarlem, Netherlands
+map-lat: 52.3814359
+map-lng: 4.6386506

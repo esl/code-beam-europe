@@ -1,45 +1,203 @@
 <style>
-    .row {
+    .venue {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+    }
+    .venue .venue-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(90deg, rgba(20, 0, 40, 0.92) 0%, rgba(35, 0, 55, 0.82) 50%, rgba(50, 10, 60, 0.6) 100%);
+        z-index: 1;
+    }
+    .venue .venue-inner {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .venue .venue-intro {
+        color: #fff;
+        text-align: center;
+        max-width: 760px;
+        margin: 0 auto 1em auto;
+        line-height: 1.6;
+    }
+    .venue .venue-subtitle {
+        text-align: center;
+    }
+    .venue .venue-subtitle a {
+        color: #fff;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-thickness: 2px;
+        text-decoration-color: #e32dfd;
+    }
+    .venue .venue-address {
+        color: #fff;
+        text-align: center;
+        font-size: 1.05em;
+        margin-bottom: 2em;
+    }
+    .venue .venue-grid {
         display: flex;
         flex-wrap: wrap;
+        gap: 2.5em;
+        align-items: flex-start;
+        justify-content: center;
     }
-    .left-content {
-        flex: 1;
-        padding: 20px;
+    .venue .venue-getting-here {
+        flex: 1 1 460px;
+        color: #fff;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
     }
-    .right-content {
-        flex: 1;
-        padding: 20px;
+    .venue .venue-getting-here li,
+    .venue .venue-getting-here p {
+        font-family: 'Montserrat', sans-serif;
     }
-    @media (max-width: 768px) {
-        .left-content, .right-content {
-            flex: 100%;
+    .venue .venue-map {
+        flex: 0 1 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .venue .venue-directions {
+        margin-top: 1em;
+        display: inline-block;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: .03em;
+        border: 2px solid #e32dfd;
+        border-radius: 4px;
+        padding: .6em 1.4em;
+        text-decoration: none;
+        transition: background .2s ease;
+    }
+    .venue .venue-directions:hover {
+        background: #e32dfd;
+    }
+    .venue .venue-map iframe {
+        width: 100%;
+        max-width: 550px;
+        height: 450px;
+        border: 0;
+        border-radius: 8px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+        background: #e8e8e8;
+    }
+    @media only screen and (max-width: 1112px) {
+        .venue .venue-map iframe {
+            height: 320px;
+        }
+    }
+    .venue .venue-mode {
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.2em;
+        letter-spacing: .03em;
+        margin: 1.4em 0 .4em 0;
+        padding-bottom: .3em;
+        border-bottom: 2px solid;
+        border-image: linear-gradient(to right, #0074a9, #e32dfd) 1;
+        display: inline-block;
+    }
+    .venue .venue-getting-here p {
+        color: #fff;
+        line-height: 1.6;
+        margin: .3em 0;
+    }
+    .venue .venue-getting-here ul {
+        list-style: none;
+        padding-left: 0;
+        margin: .4em 0;
+    }
+    .venue .venue-getting-here li {
+        color: #fff;
+        line-height: 1.5;
+        margin: .55em 0;
+        padding-left: 1.1em;
+        position: relative;
+    }
+    .venue .venue-getting-here li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: .55em;
+        width: .5em;
+        height: .5em;
+        background: #e32dfd;
+        border-radius: 50%;
+    }
+    .venue .venue-getting-here a {
+        color: #e32dfd;
+        font-weight: 600;
+    }
+    @media only screen and (max-width: 1112px) {
+        .venue .venue-map {
+            flex: 1 1 100%;
         }
     }
 </style>
 
-<div class="section venue" id="venue" style="background-image: url('{{site.baseurl}}/assets/images/venue-background-Estrel.jpeg');">
-   <div class="row">
-        <div class="left-content">
-            <h2 class="title">CONFERENCE VENUE</h2>
-            <hr/>
-            <p class="venue-subtitle">ESTREL</p>
-            <p class="venue-text">Sonnenallee 225<br>
-                12057 Berlin<br>
+<div class="section venue" id="venue" style="background-image: url('{{site.baseurl}}/assets/images/venue-background-phil.jpg');">
+    <div class="venue-overlay"></div>
+    <div class="venue-inner">
+        <h2 class="title">CONFERENCE VENUE</h2>
+        <hr/>
+        <p class="venue-subtitle"><a href="https://philhaarlem.nl/en/contact-business" target="_blank" rel="noopener">PHIL</a></p>
+        <p class="venue-address">Lange Begijnestraat 11, 2011 HH Haarlem, The Netherlands</p>
 
-                <strong><a href="https://www.estrel.com/files/downloads/estrel_lage_anfahrt_2022_ENG.pdf">LOCATION & DIRECTIONS</a><br></p>
-                <h2 class="venue-subtitle">ACCOMMODATION</h2>
-                <p class="venue-text">
-                <p>We have secured rooms at Estrel from €178 a night + taxes (+ €25 breakfast). To book, please follow <a href="https://bookings.travelclick.com/17417?groupID=4301855#/guestsandrooms" style="color: #e32dfd">this link</a>. Please mind the cancellation policy.</p>
-        </div>
-        <div class="right-content">
-            <br/>
-             <br/>
-              <br/>
-              <br/>
-               <br/>
-                <br/>
-            {% include map.html %}
+        <p class="venue-intro">
+            PHIL sits in the heart of Haarlem's old town, surrounded by shops, cafés and
+            restaurants and a few minutes' stroll from the Grote Markt. Haarlem is one of the
+            easiest cities to reach in the Netherlands: it's a direct, ~15-minute train ride
+            from Amsterdam Centraal and around 30 minutes from Amsterdam Schiphol Airport.
+        </p>
+
+        <div class="venue-grid">
+            <div class="venue-getting-here">
+                <h3 class="venue-mode">By train &amp; public transport</h3>
+                <p>
+                    Haarlem Centraal station is a 10-minute walk from PHIL, with direct trains
+                    from Amsterdam Centraal (~15 min) and Schiphol Airport (~30 min). Plan any
+                    train, bus or tram journey with the Dutch journey planner
+                    <a href="https://9292.nl/" target="_blank" rel="noopener">9292.nl</a>.
+                </p>
+
+                <h3 class="venue-mode">By car &amp; parking</h3>
+                <p>
+                    You can't drive up to the entrance, so park in one of the nearby public
+                    garages and walk the last few minutes:
+                </p>
+                <ul>
+                    <li><strong>De Appelaar</strong> — Damstraat 12 — right next to PHIL (~1 min walk). Closest option, but fills up quickly.</li>
+                    <li><strong>De Kamp</strong> — De Witstraat 1 — ~5 min walk.</li>
+                    <li><strong>Station Haarlem (Interparking)</strong> — ~10 min walk. Large, usually has space, and the only garage where you can reserve a spot online in advance.</li>
+                    <li><strong>Raaks</strong> — Zijlvest 45 — ~9 min walk.</li>
+                    <li><strong>Houtplein</strong> — Wagenmakerslaan 1 — ~13 min walk.</li>
+                </ul>
+
+                <h3 class="venue-mode">By bike</h3>
+                <p>
+                    PHIL has no bike racks of its own. Use the free, covered and guarded bike
+                    parking on the Smedestraat, about 250 m away.
+                </p>
+            </div>
+            <div class="venue-map">
+                <iframe
+                    title="Map showing PHIL, Lange Begijnestraat 11, Haarlem"
+                    src="https://www.google.com/maps?q=PHIL%20Haarlem%2C%20Lange%20Begijnestraat%2011%2C%202011%20HH%20Haarlem&z=16&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen>
+                </iframe>
+                <a class="venue-directions" href="https://www.google.com/maps/dir/?api=1&destination=PHIL+Haarlem%2C+Lange+Begijnestraat+11%2C+2011+HH+Haarlem" target="_blank" rel="noopener">Get directions &#8599;</a>
+            </div>
         </div>
     </div>
 </div>
