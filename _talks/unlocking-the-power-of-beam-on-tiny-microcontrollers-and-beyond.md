@@ -8,7 +8,7 @@ level: Introductory and overview
 title: "AtomVM: Unlocking the Power of BEAM on Tiny Microcontrollers and Beyond"
 speakers: 
   - _participants/davide-bettio.md
-
+published: false
 ---
 While Erlang, Elixir, and Gleam are well-known for building robust, scalable systems, this talk will remind you that their power extends far beyond massive clusters – enabling them to run on cheap devices so small they fit in the palm of your hand.
 

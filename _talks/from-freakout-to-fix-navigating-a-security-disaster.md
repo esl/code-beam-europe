@@ -8,7 +8,7 @@ level: Intermediate
 title: "From Freakout to Fix: Navigating a Security Disaster"
 speakers: 
   - _participants/jonatan-maennchen.md
-
+published: false
 ---
 Picture this: it’s late, you’re on your third coffee, and you realize your library has a serious security hole. Even worse—there’s already a public exploit. Thousands of projects are at risk, and it’s on you to fix it.
 

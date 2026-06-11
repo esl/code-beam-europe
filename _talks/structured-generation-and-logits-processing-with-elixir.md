@@ -6,7 +6,7 @@ level: Advanced
 title: "Structured Generation and Logits Processing With Elixir"
 speakers:
   - _participants/chris-beck.md
-
+published: false
 ---
 When we call an LLM from an application, the result can be a gamble: will it follow the schema, include every required field, or even produce valid JSON? Today we usually validate after generation. If it fails, trigger another generation round that may still break.
 

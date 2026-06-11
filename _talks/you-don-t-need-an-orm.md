@@ -8,7 +8,7 @@ level: Introductory and overview
 title: "You Don't Need an ORM"
 speakers: 
   - _participants/giacomo-cavalieri.md
-
+published: false
 ---
 Using SQL from other programming languages can prove to be quite the hassle: wrangling the database rows into the host's language types is tedious and error prone, and making sure the application code stays up to date with the ever-changing database schema is just as challenging.
 

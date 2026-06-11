@@ -8,6 +8,7 @@ level: Intermediate
 title: "Softly, Surely: Bringing Elixir to Work"
 speakers:
   - _participants/ellyse-cedeno.md
+published: false
 ---
 They wanted to get Discord messages imported into the system. This service didn't need to integrate with any of our existing libraries. This was it. I slowly realised: my chance to write this in Elixir! Unfortunately, they didn't love functional programming languages -- they almost didn't hire me because I seemed too "FP". But nothing ventured, nothing gained. I typed out "git push", I clicked Enter. Took a deep breath and hoped I wouldn't get fired.
 We've all been forced to adopt the tech stack at the companies we've worked at. Wouldn't it be nice to use Elixir instead? I've been lucky enough to actually work on technology that I found interesting, whether that meant mounting a satellite dish on the top of our building at Netscape to get stock information (yes, the old days!) on our SGI servers or Elixir for games and AI.

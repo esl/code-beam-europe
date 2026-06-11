@@ -6,7 +6,7 @@ level: Intermediate
 title: "Building Fintech Systems That Stay Fast and Stay Compliant"
 speakers:
 - _participants/erik-stenman.md
-published: true
+published: false
 
 ---
 Most fintech backends either grow too fast and break, or slow down to stay compliant. It doesn’t have to be either-or.

@@ -8,7 +8,7 @@ level: Introductory and overview
 title: "Fifty Shades of Error"
 speakers: 
   - _participants/roberto-aloi.md
-
+published: false
 ---
 "assert" is a brand new library for Erlang, designed at WhatsApp, which enhances how Erlang errors and assertions are rendered, making it easier for developers to understand what is wrong when an error occurs.
 

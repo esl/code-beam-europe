@@ -4,7 +4,7 @@ tags:
 level:	Introductory and overview
 title: 	"Introducing Bondy: The IoT, Web and Mobile Platform"
 speakers: _participants/alejandro-ramallo.md
-
+published: false
 ---
 Bondy is an open source, always-on and scaleable application networking platform connecting all elements of a distributed application—offering service and event mesh capabilities combined such as service authentication, fine-grained authorisation, service discovery, routed remote procedure calls (RPC) and publish/subscribe.
 

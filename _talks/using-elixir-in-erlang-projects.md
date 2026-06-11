@@ -6,7 +6,7 @@ tags:
 level: Introductory and overview
 title: "Using Elixir in Erlang Projects"
 speakers: -_participants/benedikt-reinartz.md
-
+published: false
 ---
 Using the newly released exerl set of plugins (https://github.com/filmor/exerl), it's possible to use Elixir seamlessly from previously pure Erlang codebases using rebar3.
 

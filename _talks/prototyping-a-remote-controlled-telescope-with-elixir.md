@@ -4,7 +4,7 @@ tags:
 level: Intermediate
 title: 	"Prototyping A Remote-Controlled Telescope with Elixir"
 speakers: _participants/lucas-sifoni.md
-
+published: false
 ---
 The different facets of Elixir enabled me to design, prototype, and build a physical device, from initial exploration of the problem domain with written research interleaved with code, to software prototypes that help grasp the actual problems a physical device can have, to a built terrestrial telescope, driven by a low-end RISC-V SbC running Elixir and Rust code.
 By the end, you'll also have a quick introduction to optics and the inner workings of telescopes!

@@ -8,7 +8,7 @@ level: Intermediate
 title: "Beyond Your First NIF"
 speakers: 
   - _participants/riccardo-binetti.md
-
+published: false
 ---
 You've written your first NIF that adds two numbers together, hooray! Now where do you go from here?
 

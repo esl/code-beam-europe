@@ -6,7 +6,7 @@ tags:
 level: Intermediate
 title: "EGG: Evolve your Game with Gleam"
 speakers: -_participants/kero-van-gelder.md
-
+published: false
 ---
 Our games are a Board with Pawns and a set of Rules. Formally, our model. We can make changes to our model, while games are running, moreover, some of those changes can be applied to the running games. This allows immediate feedback from user-interaction, while still developing your game.
 
