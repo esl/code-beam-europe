@@ -5,7 +5,7 @@ tags:
 level: Introductory and overview
 title: "Gleam Language Update"
 speakers:
-- _participants/hayleigh-thompson.md
+- _participants/Louis-Pilfold.md
 published: true
 
 ---
