@@ -7,6 +7,7 @@ event_date: 4 Nov 2025
 venue: Estrel
 trainers:
 - _participants/erik-stenman.md
+published: false
 
 ---
 Spend a full, hands‑on day inside the Erlang Runtime System with the person who literally wrote the book on it. Erik Stenman will guide you through the BEAM’s inner workings, showing how lightweight processes, generational GC, and the scheduler come together to deliver fault‑tolerant performance.
