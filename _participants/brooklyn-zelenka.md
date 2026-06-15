@@ -1,6 +1,6 @@
 ---
 name: Brooklyn Zelenka
-pic_url: "/assets/images/speakers/brooklyn_zelenka.jpeg"
+pic_url: "/assets/images/brooklyn_zelenka.jpeg"
 tagline: Founder of Fission, Code & Coffee, BEAM Vancouver, and Vancouver Functional Programmers meetup
 github: expede
 linkedin: /in/brooklynzelenka/
