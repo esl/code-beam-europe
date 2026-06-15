@@ -8,7 +8,7 @@ level: Introductory and overview
 title: "OTP and Gleam"
 speakers: 
   - _participants/Louis-Pilfold.md
-  published: false
+published: false
 
 ---
 The OTP framework gives applications written in Erlang and Elixir super-powers, but is that true for Gleam too?
