@@ -5,7 +5,7 @@ tags:
 level: Introductory and overview
 title: "Exploring Doctests in Erlang"
 speakers:
-- _participants/lukas-larsson.md
+- _participants/lukas-backstrom.md
 published: true
 
 ---

@@ -7,7 +7,7 @@ event_date: 20 Oct 2026
 venue: TBC
 trainers:
 - _participants/luca-dei-zotti.md
-published: false
+published: true
 ---
 What if pattern matching could sound? In this workshop we'll learn Elixir's superpowers and (some) best practices building a near real time generative music system, shaping melodies with pure functions and concurrent instruments, while keeping the groove alive after failures. Using an external audio engine as a real world side effect we'll create a one-of-a-kind distributed live performance.
 
