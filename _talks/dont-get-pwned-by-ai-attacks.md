@@ -5,7 +5,7 @@ tags:
   - vulnerabilities
 
 level: Intermediate
-title: "Don't Get Pwned by AI Attacks"
+title: "Making the Erlang Ecosystem safer by finding Vulnerabilities with AI"
 speakers:
 - _participants/peter-ullrich.md
 - _participants/jonatan-maennchen.md
