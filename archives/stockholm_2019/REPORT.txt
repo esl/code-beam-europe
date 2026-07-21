@@ -1,0 +1,662 @@
+code-beam-sto-2019: 109 subpages (0 failed), 0 assets downloaded (0 failed), 551 elements stripped
+[main] STRIPPED script: inline
+[main] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[main] STRIPPED script: inline
+[main] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[main] STRIPPED script: inline
+[main] STRIPPED <div id/class='notification--cookie'>
+[main] 172 codesync.global links made absolute/left absolute
+[media/almost-actors-comparing-pony-language-to-beam-languages-erlang-elixir] STRIPPED script: inline
+[media/almost-actors-comparing-pony-language-to-beam-languages-erlang-elixir] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/almost-actors-comparing-pony-language-to-beam-languages-erlang-elixir] STRIPPED script: inline
+[media/almost-actors-comparing-pony-language-to-beam-languages-erlang-elixir] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/almost-actors-comparing-pony-language-to-beam-languages-erlang-elixir] STRIPPED <div id/class='notification--cookie'>
+[media/almost-actors-comparing-pony-language-to-beam-languages-erlang-elixir] 22 codesync.global links made absolute/left absolute
+[media/beam-extreme-dont-try-this-at-home] STRIPPED script: inline
+[media/beam-extreme-dont-try-this-at-home] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/beam-extreme-dont-try-this-at-home] STRIPPED script: inline
+[media/beam-extreme-dont-try-this-at-home] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/beam-extreme-dont-try-this-at-home] STRIPPED <div id/class='notification--cookie'>
+[media/beam-extreme-dont-try-this-at-home] 28 codesync.global links made absolute/left absolute
+[media/beam-for-smart-energy] STRIPPED script: inline
+[media/beam-for-smart-energy] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/beam-for-smart-energy] STRIPPED script: inline
+[media/beam-for-smart-energy] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/beam-for-smart-energy] STRIPPED <div id/class='notification--cookie'>
+[media/beam-for-smart-energy] 17 codesync.global links made absolute/left absolute
+[media/beam-rust-a-match-made-in-heaven] STRIPPED script: inline
+[media/beam-rust-a-match-made-in-heaven] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/beam-rust-a-match-made-in-heaven] STRIPPED script: inline
+[media/beam-rust-a-match-made-in-heaven] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/beam-rust-a-match-made-in-heaven] STRIPPED <div id/class='notification--cookie'>
+[media/beam-rust-a-match-made-in-heaven] 25 codesync.global links made absolute/left absolute
+[media/boosting-reinforcement-learning-with-elixir] STRIPPED script: inline
+[media/boosting-reinforcement-learning-with-elixir] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/boosting-reinforcement-learning-with-elixir] STRIPPED script: inline
+[media/boosting-reinforcement-learning-with-elixir] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/boosting-reinforcement-learning-with-elixir] STRIPPED <div id/class='notification--cookie'>
+[media/boosting-reinforcement-learning-with-elixir] 17 codesync.global links made absolute/left absolute
+[media/building-testing-deploying-apps-with-docker-in-azure] STRIPPED script: inline
+[media/building-testing-deploying-apps-with-docker-in-azure] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/building-testing-deploying-apps-with-docker-in-azure] STRIPPED script: inline
+[media/building-testing-deploying-apps-with-docker-in-azure] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/building-testing-deploying-apps-with-docker-in-azure] STRIPPED <div id/class='notification--cookie'>
+[media/building-testing-deploying-apps-with-docker-in-azure] 17 codesync.global links made absolute/left absolute
+[media/building-the-tomorrow-classroom-with-elixir] STRIPPED script: inline
+[media/building-the-tomorrow-classroom-with-elixir] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/building-the-tomorrow-classroom-with-elixir] STRIPPED script: inline
+[media/building-the-tomorrow-classroom-with-elixir] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/building-the-tomorrow-classroom-with-elixir] STRIPPED <div id/class='notification--cookie'>
+[media/building-the-tomorrow-classroom-with-elixir] 17 codesync.global links made absolute/left absolute
+[media/buildings-start-ups-with-elixir] STRIPPED script: inline
+[media/buildings-start-ups-with-elixir] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/buildings-start-ups-with-elixir] STRIPPED script: inline
+[media/buildings-start-ups-with-elixir] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/buildings-start-ups-with-elixir] STRIPPED <div id/class='notification--cookie'>
+[media/buildings-start-ups-with-elixir] 17 codesync.global links made absolute/left absolute
+[media/can-you-teach-school-class-functional-programming] STRIPPED script: inline
+[media/can-you-teach-school-class-functional-programming] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/can-you-teach-school-class-functional-programming] STRIPPED script: inline
+[media/can-you-teach-school-class-functional-programming] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/can-you-teach-school-class-functional-programming] STRIPPED <div id/class='notification--cookie'>
+[media/can-you-teach-school-class-functional-programming] 17 codesync.global links made absolute/left absolute
+[media/continuous-tracing-production-without-erlangs-trace-module] STRIPPED script: inline
+[media/continuous-tracing-production-without-erlangs-trace-module] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/continuous-tracing-production-without-erlangs-trace-module] STRIPPED script: inline
+[media/continuous-tracing-production-without-erlangs-trace-module] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/continuous-tracing-production-without-erlangs-trace-module] STRIPPED <div id/class='notification--cookie'>
+[media/continuous-tracing-production-without-erlangs-trace-module] 17 codesync.global links made absolute/left absolute
+[media/eir-infrastructure-for-working-with-beam-code] STRIPPED script: inline
+[media/eir-infrastructure-for-working-with-beam-code] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/eir-infrastructure-for-working-with-beam-code] STRIPPED script: inline
+[media/eir-infrastructure-for-working-with-beam-code] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/eir-infrastructure-for-working-with-beam-code] STRIPPED <div id/class='notification--cookie'>
+[media/eir-infrastructure-for-working-with-beam-code] 17 codesync.global links made absolute/left absolute
+[media/elixir-core-team-update-jose-valim-june-2019] STRIPPED script: inline
+[media/elixir-core-team-update-jose-valim-june-2019] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/elixir-core-team-update-jose-valim-june-2019] STRIPPED script: inline
+[media/elixir-core-team-update-jose-valim-june-2019] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/elixir-core-team-update-jose-valim-june-2019] STRIPPED <div id/class='notification--cookie'>
+[media/elixir-core-team-update-jose-valim-june-2019] 31 codesync.global links made absolute/left absolute
+[media/erlang-distribution-going-beyond-the-fully-connected-mesh] STRIPPED script: inline
+[media/erlang-distribution-going-beyond-the-fully-connected-mesh] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/erlang-distribution-going-beyond-the-fully-connected-mesh] STRIPPED script: inline
+[media/erlang-distribution-going-beyond-the-fully-connected-mesh] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/erlang-distribution-going-beyond-the-fully-connected-mesh] STRIPPED <div id/class='notification--cookie'>
+[media/erlang-distribution-going-beyond-the-fully-connected-mesh] 56 codesync.global links made absolute/left absolute
+[media/erlangrt-a-beam-vm-reimplementation-in-rust] STRIPPED script: inline
+[media/erlangrt-a-beam-vm-reimplementation-in-rust] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/erlangrt-a-beam-vm-reimplementation-in-rust] STRIPPED script: inline
+[media/erlangrt-a-beam-vm-reimplementation-in-rust] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/erlangrt-a-beam-vm-reimplementation-in-rust] STRIPPED <div id/class='notification--cookie'>
+[media/erlangrt-a-beam-vm-reimplementation-in-rust] 24 codesync.global links made absolute/left absolute
+[media/evolution-of-riak-resolving-problems-in-distributed-systems] STRIPPED script: inline
+[media/evolution-of-riak-resolving-problems-in-distributed-systems] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/evolution-of-riak-resolving-problems-in-distributed-systems] STRIPPED script: inline
+[media/evolution-of-riak-resolving-problems-in-distributed-systems] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/evolution-of-riak-resolving-problems-in-distributed-systems] STRIPPED <div id/class='notification--cookie'>
+[media/evolution-of-riak-resolving-problems-in-distributed-systems] 17 codesync.global links made absolute/left absolute
+[media/exop-on-streamdata] STRIPPED script: inline
+[media/exop-on-streamdata] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/exop-on-streamdata] STRIPPED script: inline
+[media/exop-on-streamdata] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/exop-on-streamdata] STRIPPED <div id/class='notification--cookie'>
+[media/exop-on-streamdata] 22 codesync.global links made absolute/left absolute
+[media/gen-persistence-persist-the-state-of-your-processes] STRIPPED script: inline
+[media/gen-persistence-persist-the-state-of-your-processes] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/gen-persistence-persist-the-state-of-your-processes] STRIPPED script: inline
+[media/gen-persistence-persist-the-state-of-your-processes] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/gen-persistence-persist-the-state-of-your-processes] STRIPPED <div id/class='notification--cookie'>
+[media/gen-persistence-persist-the-state-of-your-processes] 25 codesync.global links made absolute/left absolute
+[media/how-erlang-got-its-name-concurrency-before-erlang] STRIPPED script: inline
+[media/how-erlang-got-its-name-concurrency-before-erlang] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/how-erlang-got-its-name-concurrency-before-erlang] STRIPPED script: inline
+[media/how-erlang-got-its-name-concurrency-before-erlang] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/how-erlang-got-its-name-concurrency-before-erlang] STRIPPED <div id/class='notification--cookie'>
+[media/how-erlang-got-its-name-concurrency-before-erlang] 26 codesync.global links made absolute/left absolute
+[media/how-to-sleep-well-after-a-major-code-refactoring] STRIPPED script: inline
+[media/how-to-sleep-well-after-a-major-code-refactoring] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/how-to-sleep-well-after-a-major-code-refactoring] STRIPPED script: inline
+[media/how-to-sleep-well-after-a-major-code-refactoring] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/how-to-sleep-well-after-a-major-code-refactoring] STRIPPED <div id/class='notification--cookie'>
+[media/how-to-sleep-well-after-a-major-code-refactoring] 24 codesync.global links made absolute/left absolute
+[media/implementing-long-running-business-processes] STRIPPED script: inline
+[media/implementing-long-running-business-processes] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/implementing-long-running-business-processes] STRIPPED script: inline
+[media/implementing-long-running-business-processes] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/implementing-long-running-business-processes] STRIPPED <div id/class='notification--cookie'>
+[media/implementing-long-running-business-processes] 17 codesync.global links made absolute/left absolute
+[media/innovative-unorthodox-design-patterns-used-in-rabbitmq] STRIPPED script: inline
+[media/innovative-unorthodox-design-patterns-used-in-rabbitmq] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/innovative-unorthodox-design-patterns-used-in-rabbitmq] STRIPPED script: inline
+[media/innovative-unorthodox-design-patterns-used-in-rabbitmq] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/innovative-unorthodox-design-patterns-used-in-rabbitmq] STRIPPED <div id/class='notification--cookie'>
+[media/innovative-unorthodox-design-patterns-used-in-rabbitmq] 17 codesync.global links made absolute/left absolute
+[media/introducing-the-erlang-ecosystem-foundation-code-beam-sto-19] STRIPPED script: inline
+[media/introducing-the-erlang-ecosystem-foundation-code-beam-sto-19] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/introducing-the-erlang-ecosystem-foundation-code-beam-sto-19] STRIPPED script: inline
+[media/introducing-the-erlang-ecosystem-foundation-code-beam-sto-19] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/introducing-the-erlang-ecosystem-foundation-code-beam-sto-19] STRIPPED <div id/class='notification--cookie'>
+[media/introducing-the-erlang-ecosystem-foundation-code-beam-sto-19] 100 codesync.global links made absolute/left absolute
+[media/introduction-to-a-type-system-session-types] STRIPPED script: inline
+[media/introduction-to-a-type-system-session-types] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/introduction-to-a-type-system-session-types] STRIPPED script: inline
+[media/introduction-to-a-type-system-session-types] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/introduction-to-a-type-system-session-types] STRIPPED <div id/class='notification--cookie'>
+[media/introduction-to-a-type-system-session-types] 17 codesync.global links made absolute/left absolute
+[media/just-delete-it-johnny-winn] STRIPPED script: inline
+[media/just-delete-it-johnny-winn] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/just-delete-it-johnny-winn] STRIPPED script: inline
+[media/just-delete-it-johnny-winn] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/just-delete-it-johnny-winn] STRIPPED <div id/class='notification--cookie'>
+[media/just-delete-it-johnny-winn] 20 codesync.global links made absolute/left absolute
+[media/lux-an-expect-like-test-tool] STRIPPED script: inline
+[media/lux-an-expect-like-test-tool] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/lux-an-expect-like-test-tool] STRIPPED script: inline
+[media/lux-an-expect-like-test-tool] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/lux-an-expect-like-test-tool] STRIPPED <div id/class='notification--cookie'>
+[media/lux-an-expect-like-test-tool] 17 codesync.global links made absolute/left absolute
+[media/make-distributed-toolbox-with-ra] STRIPPED script: inline
+[media/make-distributed-toolbox-with-ra] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/make-distributed-toolbox-with-ra] STRIPPED script: inline
+[media/make-distributed-toolbox-with-ra] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/make-distributed-toolbox-with-ra] STRIPPED <div id/class='notification--cookie'>
+[media/make-distributed-toolbox-with-ra] 21 codesync.global links made absolute/left absolute
+[media/natively-functional-ui-with-scenic-boyd-multerer] STRIPPED script: inline
+[media/natively-functional-ui-with-scenic-boyd-multerer] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/natively-functional-ui-with-scenic-boyd-multerer] STRIPPED script: inline
+[media/natively-functional-ui-with-scenic-boyd-multerer] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/natively-functional-ui-with-scenic-boyd-multerer] STRIPPED <div id/class='notification--cookie'>
+[media/natively-functional-ui-with-scenic-boyd-multerer] 21 codesync.global links made absolute/left absolute
+[media/opencensus-stats-collection-distributed-tracing-framework-update] STRIPPED script: inline
+[media/opencensus-stats-collection-distributed-tracing-framework-update] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/opencensus-stats-collection-distributed-tracing-framework-update] STRIPPED script: inline
+[media/opencensus-stats-collection-distributed-tracing-framework-update] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/opencensus-stats-collection-distributed-tracing-framework-update] STRIPPED <div id/class='notification--cookie'>
+[media/opencensus-stats-collection-distributed-tracing-framework-update] 22 codesync.global links made absolute/left absolute
+[media/otp-team-update-may-2019] STRIPPED script: inline
+[media/otp-team-update-may-2019] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/otp-team-update-may-2019] STRIPPED script: inline
+[media/otp-team-update-may-2019] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/otp-team-update-may-2019] STRIPPED <div id/class='notification--cookie'>
+[media/otp-team-update-may-2019] 25 codesync.global links made absolute/left absolute
+[media/php-over-erlang-how-and-why-manuel-rubio] STRIPPED script: inline
+[media/php-over-erlang-how-and-why-manuel-rubio] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/php-over-erlang-how-and-why-manuel-rubio] STRIPPED script: inline
+[media/php-over-erlang-how-and-why-manuel-rubio] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/php-over-erlang-how-and-why-manuel-rubio] STRIPPED <div id/class='notification--cookie'>
+[media/php-over-erlang-how-and-why-manuel-rubio] 20 codesync.global links made absolute/left absolute
+[media/powerup-the-beam-with-kubernetes-and-riak-core] STRIPPED script: inline
+[media/powerup-the-beam-with-kubernetes-and-riak-core] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/powerup-the-beam-with-kubernetes-and-riak-core] STRIPPED script: inline
+[media/powerup-the-beam-with-kubernetes-and-riak-core] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/powerup-the-beam-with-kubernetes-and-riak-core] STRIPPED <div id/class='notification--cookie'>
+[media/powerup-the-beam-with-kubernetes-and-riak-core] 17 codesync.global links made absolute/left absolute
+[media/pyrlang-python-meets-erlang-johan-sommerfeld] STRIPPED script: inline
+[media/pyrlang-python-meets-erlang-johan-sommerfeld] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/pyrlang-python-meets-erlang-johan-sommerfeld] STRIPPED script: inline
+[media/pyrlang-python-meets-erlang-johan-sommerfeld] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/pyrlang-python-meets-erlang-johan-sommerfeld] STRIPPED <div id/class='notification--cookie'>
+[media/pyrlang-python-meets-erlang-johan-sommerfeld] 17 codesync.global links made absolute/left absolute
+[media/raxxkit-lean-mean-web-development-for-elixir] STRIPPED script: inline
+[media/raxxkit-lean-mean-web-development-for-elixir] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/raxxkit-lean-mean-web-development-for-elixir] STRIPPED script: inline
+[media/raxxkit-lean-mean-web-development-for-elixir] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/raxxkit-lean-mean-web-development-for-elixir] STRIPPED <div id/class='notification--cookie'>
+[media/raxxkit-lean-mean-web-development-for-elixir] 21 codesync.global links made absolute/left absolute
+[media/riak-s-rebound-code-beam-sto-2019-nicholas-adams-ti-tokyo-basho] STRIPPED script: inline
+[media/riak-s-rebound-code-beam-sto-2019-nicholas-adams-ti-tokyo-basho] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/riak-s-rebound-code-beam-sto-2019-nicholas-adams-ti-tokyo-basho] STRIPPED script: inline
+[media/riak-s-rebound-code-beam-sto-2019-nicholas-adams-ti-tokyo-basho] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/riak-s-rebound-code-beam-sto-2019-nicholas-adams-ti-tokyo-basho] STRIPPED <div id/class='notification--cookie'>
+[media/riak-s-rebound-code-beam-sto-2019-nicholas-adams-ti-tokyo-basho] 24 codesync.global links made absolute/left absolute
+[media/scalable-mqtt-messaging-platform-for-iot-in-5g-era] STRIPPED script: inline
+[media/scalable-mqtt-messaging-platform-for-iot-in-5g-era] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/scalable-mqtt-messaging-platform-for-iot-in-5g-era] STRIPPED script: inline
+[media/scalable-mqtt-messaging-platform-for-iot-in-5g-era] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/scalable-mqtt-messaging-platform-for-iot-in-5g-era] STRIPPED <div id/class='notification--cookie'>
+[media/scalable-mqtt-messaging-platform-for-iot-in-5g-era] 17 codesync.global links made absolute/left absolute
+[media/security-versus-interoperability] STRIPPED script: inline
+[media/security-versus-interoperability] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/security-versus-interoperability] STRIPPED script: inline
+[media/security-versus-interoperability] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/security-versus-interoperability] STRIPPED <div id/class='notification--cookie'>
+[media/security-versus-interoperability] 20 codesync.global links made absolute/left absolute
+[media/taming-side-effects-claudio-ortolina] STRIPPED script: inline
+[media/taming-side-effects-claudio-ortolina] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/taming-side-effects-claudio-ortolina] STRIPPED script: inline
+[media/taming-side-effects-claudio-ortolina] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/taming-side-effects-claudio-ortolina] STRIPPED <div id/class='notification--cookie'>
+[media/taming-side-effects-claudio-ortolina] 21 codesync.global links made absolute/left absolute
+[media/tdd-is-not-about-testing] STRIPPED script: inline
+[media/tdd-is-not-about-testing] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/tdd-is-not-about-testing] STRIPPED script: inline
+[media/tdd-is-not-about-testing] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/tdd-is-not-about-testing] STRIPPED <div id/class='notification--cookie'>
+[media/tdd-is-not-about-testing] 22 codesync.global links made absolute/left absolute
+[media/testing-in-an-elixir-world] STRIPPED script: inline
+[media/testing-in-an-elixir-world] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/testing-in-an-elixir-world] STRIPPED script: inline
+[media/testing-in-an-elixir-world] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/testing-in-an-elixir-world] STRIPPED <div id/class='notification--cookie'>
+[media/testing-in-an-elixir-world] 17 codesync.global links made absolute/left absolute
+[media/the-beam-programming-paradigm-kenji-rikitake] STRIPPED script: inline
+[media/the-beam-programming-paradigm-kenji-rikitake] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/the-beam-programming-paradigm-kenji-rikitake] STRIPPED script: inline
+[media/the-beam-programming-paradigm-kenji-rikitake] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/the-beam-programming-paradigm-kenji-rikitake] STRIPPED <div id/class='notification--cookie'>
+[media/the-beam-programming-paradigm-kenji-rikitake] 22 codesync.global links made absolute/left absolute
+[media/think-in-erlang-viktoria-fordos-code-beam-sto] STRIPPED script: inline
+[media/think-in-erlang-viktoria-fordos-code-beam-sto] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/think-in-erlang-viktoria-fordos-code-beam-sto] STRIPPED script: inline
+[media/think-in-erlang-viktoria-fordos-code-beam-sto] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/think-in-erlang-viktoria-fordos-code-beam-sto] STRIPPED <div id/class='notification--cookie'>
+[media/think-in-erlang-viktoria-fordos-code-beam-sto] 28 codesync.global links made absolute/left absolute
+[media/tortoise-evolved-mqtt-5-support-in-tortoise-mqtt-client] STRIPPED script: inline
+[media/tortoise-evolved-mqtt-5-support-in-tortoise-mqtt-client] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/tortoise-evolved-mqtt-5-support-in-tortoise-mqtt-client] STRIPPED script: inline
+[media/tortoise-evolved-mqtt-5-support-in-tortoise-mqtt-client] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/tortoise-evolved-mqtt-5-support-in-tortoise-mqtt-client] STRIPPED <div id/class='notification--cookie'>
+[media/tortoise-evolved-mqtt-5-support-in-tortoise-mqtt-client] 23 codesync.global links made absolute/left absolute
+[media/trust-issues-trouble-in-package-paradise] STRIPPED script: inline
+[media/trust-issues-trouble-in-package-paradise] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/trust-issues-trouble-in-package-paradise] STRIPPED script: inline
+[media/trust-issues-trouble-in-package-paradise] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/trust-issues-trouble-in-package-paradise] STRIPPED <div id/class='notification--cookie'>
+[media/trust-issues-trouble-in-package-paradise] 17 codesync.global links made absolute/left absolute
+[media/useless-performance-optimisations-on-the-beam-for-fun-and-fun] STRIPPED script: inline
+[media/useless-performance-optimisations-on-the-beam-for-fun-and-fun] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/useless-performance-optimisations-on-the-beam-for-fun-and-fun] STRIPPED script: inline
+[media/useless-performance-optimisations-on-the-beam-for-fun-and-fun] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/useless-performance-optimisations-on-the-beam-for-fun-and-fun] STRIPPED <div id/class='notification--cookie'>
+[media/useless-performance-optimisations-on-the-beam-for-fun-and-fun] 17 codesync.global links made absolute/left absolute
+[media/what-does-dialyzer-think-about-me] STRIPPED script: inline
+[media/what-does-dialyzer-think-about-me] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/what-does-dialyzer-think-about-me] STRIPPED script: inline
+[media/what-does-dialyzer-think-about-me] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/what-does-dialyzer-think-about-me] STRIPPED <div id/class='notification--cookie'>
+[media/what-does-dialyzer-think-about-me] 46 codesync.global links made absolute/left absolute
+[media/why-time-evil-distributed-systems-peter-van-roy] STRIPPED script: inline
+[media/why-time-evil-distributed-systems-peter-van-roy] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/why-time-evil-distributed-systems-peter-van-roy] STRIPPED script: inline
+[media/why-time-evil-distributed-systems-peter-van-roy] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/why-time-evil-distributed-systems-peter-van-roy] STRIPPED <div id/class='notification--cookie'>
+[media/why-time-evil-distributed-systems-peter-van-roy] 17 codesync.global links made absolute/left absolute
+[media/working-with-legacy-code-gabor-olah] STRIPPED script: inline
+[media/working-with-legacy-code-gabor-olah] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/working-with-legacy-code-gabor-olah] STRIPPED script: inline
+[media/working-with-legacy-code-gabor-olah] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/working-with-legacy-code-gabor-olah] STRIPPED <div id/class='notification--cookie'>
+[media/working-with-legacy-code-gabor-olah] 17 codesync.global links made absolute/left absolute
+[media/xmpp-udp-realtime-service-bus] STRIPPED script: inline
+[media/xmpp-udp-realtime-service-bus] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[media/xmpp-udp-realtime-service-bus] STRIPPED script: inline
+[media/xmpp-udp-realtime-service-bus] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[media/xmpp-udp-realtime-service-bus] STRIPPED <div id/class='notification--cookie'>
+[media/xmpp-udp-realtime-service-bus] 17 codesync.global links made absolute/left absolute
+[speaker/adam-lindberg] STRIPPED script: inline
+[speaker/adam-lindberg] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/adam-lindberg] STRIPPED script: inline
+[speaker/adam-lindberg] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/adam-lindberg] STRIPPED <div id/class='notification--cookie'>
+[speaker/adam-lindberg] 25 codesync.global links made absolute/left absolute
+[speaker/anayeli-malvaez] STRIPPED script: inline
+[speaker/anayeli-malvaez] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/anayeli-malvaez] STRIPPED script: inline
+[speaker/anayeli-malvaez] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/anayeli-malvaez] STRIPPED <div id/class='notification--cookie'>
+[speaker/anayeli-malvaez] 21 codesync.global links made absolute/left absolute
+[speaker/andrey-chernykh] STRIPPED script: inline
+[speaker/andrey-chernykh] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/andrey-chernykh] STRIPPED script: inline
+[speaker/andrey-chernykh] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/andrey-chernykh] STRIPPED <div id/class='notification--cookie'>
+[speaker/andrey-chernykh] 22 codesync.global links made absolute/left absolute
+[speaker/ayanda-dube] STRIPPED script: inline
+[speaker/ayanda-dube] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/ayanda-dube] STRIPPED script: inline
+[speaker/ayanda-dube] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/ayanda-dube] STRIPPED <div id/class='notification--cookie'>
+[speaker/ayanda-dube] 26 codesync.global links made absolute/left absolute
+[speaker/benoit-chesneau] STRIPPED script: inline
+[speaker/benoit-chesneau] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/benoit-chesneau] STRIPPED script: inline
+[speaker/benoit-chesneau] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/benoit-chesneau] STRIPPED <div id/class='notification--cookie'>
+[speaker/benoit-chesneau] 37 codesync.global links made absolute/left absolute
+[speaker/bjarne-daecker] STRIPPED script: inline
+[speaker/bjarne-daecker] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/bjarne-daecker] STRIPPED script: inline
+[speaker/bjarne-daecker] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/bjarne-daecker] STRIPPED <div id/class='notification--cookie'>
+[speaker/bjarne-daecker] 40 codesync.global links made absolute/left absolute
+[speaker/boyd-multerer] STRIPPED script: inline
+[speaker/boyd-multerer] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/boyd-multerer] STRIPPED script: inline
+[speaker/boyd-multerer] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/boyd-multerer] STRIPPED <div id/class='notification--cookie'>
+[speaker/boyd-multerer] 26 codesync.global links made absolute/left absolute
+[speaker/bryan-hunt] STRIPPED script: inline
+[speaker/bryan-hunt] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/bryan-hunt] STRIPPED script: inline
+[speaker/bryan-hunt] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/bryan-hunt] STRIPPED <div id/class='notification--cookie'>
+[speaker/bryan-hunt] 30 codesync.global links made absolute/left absolute
+[speaker/certification] STRIPPED script: inline
+[speaker/certification] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/certification] STRIPPED script: inline
+[speaker/certification] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/certification] STRIPPED <div id/class='notification--cookie'>
+[speaker/certification] 21 codesync.global links made absolute/left absolute
+[speaker/charlotte-lorelei-de-oliveira100] STRIPPED script: inline
+[speaker/charlotte-lorelei-de-oliveira100] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/charlotte-lorelei-de-oliveira100] STRIPPED script: inline
+[speaker/charlotte-lorelei-de-oliveira100] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/charlotte-lorelei-de-oliveira100] STRIPPED <div id/class='notification--cookie'>
+[speaker/charlotte-lorelei-de-oliveira100] 20 codesync.global links made absolute/left absolute
+[speaker/claudio-ortolina] STRIPPED script: inline
+[speaker/claudio-ortolina] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/claudio-ortolina] STRIPPED script: inline
+[speaker/claudio-ortolina] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/claudio-ortolina] STRIPPED <div id/class='notification--cookie'>
+[speaker/claudio-ortolina] 21 codesync.global links made absolute/left absolute
+[speaker/cons-t-aahs319] STRIPPED script: inline
+[speaker/cons-t-aahs319] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/cons-t-aahs319] STRIPPED script: inline
+[speaker/cons-t-aahs319] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/cons-t-aahs319] STRIPPED <div id/class='notification--cookie'>
+[speaker/cons-t-aahs319] 20 codesync.global links made absolute/left absolute
+[speaker/daniel-szoboszlay313] STRIPPED script: inline
+[speaker/daniel-szoboszlay313] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/daniel-szoboszlay313] STRIPPED script: inline
+[speaker/daniel-szoboszlay313] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/daniel-szoboszlay313] STRIPPED <div id/class='notification--cookie'>
+[speaker/daniel-szoboszlay313] 26 codesync.global links made absolute/left absolute
+[speaker/dmytro-lytovchenko] STRIPPED script: inline
+[speaker/dmytro-lytovchenko] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/dmytro-lytovchenko] STRIPPED script: inline
+[speaker/dmytro-lytovchenko] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/dmytro-lytovchenko] STRIPPED <div id/class='notification--cookie'>
+[speaker/dmytro-lytovchenko] 37 codesync.global links made absolute/left absolute
+[speaker/erik-svensson] STRIPPED script: inline
+[speaker/erik-svensson] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/erik-svensson] STRIPPED script: inline
+[speaker/erik-svensson] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/erik-svensson] STRIPPED <div id/class='notification--cookie'>
+[speaker/erik-svensson] 18 codesync.global links made absolute/left absolute
+[speaker/francesco-cesarini] STRIPPED script: inline
+[speaker/francesco-cesarini] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/francesco-cesarini] STRIPPED script: inline
+[speaker/francesco-cesarini] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/francesco-cesarini] STRIPPED <div id/class='notification--cookie'>
+[speaker/francesco-cesarini] 19 codesync.global links made absolute/left absolute
+[speaker/fredrik-park] STRIPPED script: inline
+[speaker/fredrik-park] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/fredrik-park] STRIPPED script: inline
+[speaker/fredrik-park] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/fredrik-park] STRIPPED <div id/class='notification--cookie'>
+[speaker/fredrik-park] 17 codesync.global links made absolute/left absolute
+[speaker/gabor-olah] STRIPPED script: inline
+[speaker/gabor-olah] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/gabor-olah] STRIPPED script: inline
+[speaker/gabor-olah] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/gabor-olah] STRIPPED <div id/class='notification--cookie'>
+[speaker/gabor-olah] 19 codesync.global links made absolute/left absolute
+[speaker/gianluca-padovani] STRIPPED script: inline
+[speaker/gianluca-padovani] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/gianluca-padovani] STRIPPED script: inline
+[speaker/gianluca-padovani] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/gianluca-padovani] STRIPPED <div id/class='notification--cookie'>
+[speaker/gianluca-padovani] 27 codesync.global links made absolute/left absolute
+[speaker/greg-mefford] STRIPPED script: inline
+[speaker/greg-mefford] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/greg-mefford] STRIPPED script: inline
+[speaker/greg-mefford] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/greg-mefford] STRIPPED <div id/class='notification--cookie'>
+[speaker/greg-mefford] 20 codesync.global links made absolute/left absolute
+[speaker/guy-a-narboni] STRIPPED script: inline
+[speaker/guy-a-narboni] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/guy-a-narboni] STRIPPED script: inline
+[speaker/guy-a-narboni] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/guy-a-narboni] STRIPPED <div id/class='notification--cookie'>
+[speaker/guy-a-narboni] 17 codesync.global links made absolute/left absolute
+[speaker/hakan-mattsson] STRIPPED script: inline
+[speaker/hakan-mattsson] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/hakan-mattsson] STRIPPED script: inline
+[speaker/hakan-mattsson] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/hakan-mattsson] STRIPPED <div id/class='notification--cookie'>
+[speaker/hakan-mattsson] 18 codesync.global links made absolute/left absolute
+[speaker/hans-elias-b-josephsen] STRIPPED script: inline
+[speaker/hans-elias-b-josephsen] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/hans-elias-b-josephsen] STRIPPED script: inline
+[speaker/hans-elias-b-josephsen] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/hans-elias-b-josephsen] STRIPPED <div id/class='notification--cookie'>
+[speaker/hans-elias-b-josephsen] 19 codesync.global links made absolute/left absolute
+[speaker/ibrahim-abdelkareem] STRIPPED script: inline
+[speaker/ibrahim-abdelkareem] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/ibrahim-abdelkareem] STRIPPED script: inline
+[speaker/ibrahim-abdelkareem] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/ibrahim-abdelkareem] STRIPPED <div id/class='notification--cookie'>
+[speaker/ibrahim-abdelkareem] 18 codesync.global links made absolute/left absolute
+[speaker/iliia-khaprov] STRIPPED script: inline
+[speaker/iliia-khaprov] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/iliia-khaprov] STRIPPED script: inline
+[speaker/iliia-khaprov] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/iliia-khaprov] STRIPPED <div id/class='notification--cookie'>
+[speaker/iliia-khaprov] 22 codesync.global links made absolute/left absolute
+[speaker/ingela-anderton-andin] STRIPPED script: inline
+[speaker/ingela-anderton-andin] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/ingela-anderton-andin] STRIPPED script: inline
+[speaker/ingela-anderton-andin] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/ingela-anderton-andin] STRIPPED <div id/class='notification--cookie'>
+[speaker/ingela-anderton-andin] 27 codesync.global links made absolute/left absolute
+[speaker/jacek-krolikowski] STRIPPED script: inline
+[speaker/jacek-krolikowski] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/jacek-krolikowski] STRIPPED script: inline
+[speaker/jacek-krolikowski] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/jacek-krolikowski] STRIPPED <div id/class='notification--cookie'>
+[speaker/jacek-krolikowski] 18 codesync.global links made absolute/left absolute
+[speaker/johan-sommerfeld] STRIPPED script: inline
+[speaker/johan-sommerfeld] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/johan-sommerfeld] STRIPPED script: inline
+[speaker/johan-sommerfeld] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/johan-sommerfeld] STRIPPED <div id/class='notification--cookie'>
+[speaker/johan-sommerfeld] 18 codesync.global links made absolute/left absolute
+[speaker/johnny-winn] STRIPPED script: inline
+[speaker/johnny-winn] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/johnny-winn] STRIPPED script: inline
+[speaker/johnny-winn] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/johnny-winn] STRIPPED <div id/class='notification--cookie'>
+[speaker/johnny-winn] 32 codesync.global links made absolute/left absolute
+[speaker/jose-valim] STRIPPED script: inline
+[speaker/jose-valim] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/jose-valim] STRIPPED script: inline
+[speaker/jose-valim] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/jose-valim] STRIPPED <div id/class='notification--cookie'>
+[speaker/jose-valim] 48 codesync.global links made absolute/left absolute
+[speaker/karl-nilsson] STRIPPED script: inline
+[speaker/karl-nilsson] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/karl-nilsson] STRIPPED script: inline
+[speaker/karl-nilsson] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/karl-nilsson] STRIPPED <div id/class='notification--cookie'>
+[speaker/karl-nilsson] 24 codesync.global links made absolute/left absolute
+[speaker/karolis-petrauskas] STRIPPED script: inline
+[speaker/karolis-petrauskas] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/karolis-petrauskas] STRIPPED script: inline
+[speaker/karolis-petrauskas] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/karolis-petrauskas] STRIPPED <div id/class='notification--cookie'>
+[speaker/karolis-petrauskas] 18 codesync.global links made absolute/left absolute
+[speaker/kenji-rikitake] STRIPPED script: inline
+[speaker/kenji-rikitake] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/kenji-rikitake] STRIPPED script: inline
+[speaker/kenji-rikitake] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/kenji-rikitake] STRIPPED <div id/class='notification--cookie'>
+[speaker/kenji-rikitake] 22 codesync.global links made absolute/left absolute
+[speaker/kenneth-lundin] STRIPPED script: inline
+[speaker/kenneth-lundin] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/kenneth-lundin] STRIPPED script: inline
+[speaker/kenneth-lundin] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/kenneth-lundin] STRIPPED <div id/class='notification--cookie'>
+[speaker/kenneth-lundin] 37 codesync.global links made absolute/left absolute
+[speaker/laura-m-castro] STRIPPED script: inline
+[speaker/laura-m-castro] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/laura-m-castro] STRIPPED script: inline
+[speaker/laura-m-castro] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/laura-m-castro] STRIPPED <div id/class='notification--cookie'>
+[speaker/laura-m-castro] 27 codesync.global links made absolute/left absolute
+[speaker/madeleine-malmsten] STRIPPED script: inline
+[speaker/madeleine-malmsten] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/madeleine-malmsten] STRIPPED script: inline
+[speaker/madeleine-malmsten] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/madeleine-malmsten] STRIPPED <div id/class='notification--cookie'>
+[speaker/madeleine-malmsten] 18 codesync.global links made absolute/left absolute
+[speaker/manuel-rubio] STRIPPED script: inline
+[speaker/manuel-rubio] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/manuel-rubio] STRIPPED script: inline
+[speaker/manuel-rubio] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/manuel-rubio] STRIPPED <div id/class='notification--cookie'>
+[speaker/manuel-rubio] 37 codesync.global links made absolute/left absolute
+[speaker/martin-gausby] STRIPPED script: inline
+[speaker/martin-gausby] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/martin-gausby] STRIPPED script: inline
+[speaker/martin-gausby] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/martin-gausby] STRIPPED <div id/class='notification--cookie'>
+[speaker/martin-gausby] 26 codesync.global links made absolute/left absolute
+[speaker/martin-sumner] STRIPPED script: inline
+[speaker/martin-sumner] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/martin-sumner] STRIPPED script: inline
+[speaker/martin-sumner] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/martin-sumner] STRIPPED <div id/class='notification--cookie'>
+[speaker/martin-sumner] 18 codesync.global links made absolute/left absolute
+[speaker/michael-schaefermeyer] STRIPPED script: inline
+[speaker/michael-schaefermeyer] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/michael-schaefermeyer] STRIPPED script: inline
+[speaker/michael-schaefermeyer] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/michael-schaefermeyer] STRIPPED <div id/class='notification--cookie'>
+[speaker/michael-schaefermeyer] 18 codesync.global links made absolute/left absolute
+[speaker/miriam-pena] STRIPPED script: inline
+[speaker/miriam-pena] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/miriam-pena] STRIPPED script: inline
+[speaker/miriam-pena] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/miriam-pena] STRIPPED <div id/class='notification--cookie'>
+[speaker/miriam-pena] 44 codesync.global links made absolute/left absolute
+[speaker/natalia-chechina] STRIPPED script: inline
+[speaker/natalia-chechina] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/natalia-chechina] STRIPPED script: inline
+[speaker/natalia-chechina] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/natalia-chechina] STRIPPED <div id/class='notification--cookie'>
+[speaker/natalia-chechina] 39 codesync.global links made absolute/left absolute
+[speaker/nicholas-adams291] STRIPPED script: inline
+[speaker/nicholas-adams291] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/nicholas-adams291] STRIPPED script: inline
+[speaker/nicholas-adams291] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/nicholas-adams291] STRIPPED <div id/class='notification--cookie'>
+[speaker/nicholas-adams291] 34 codesync.global links made absolute/left absolute
+[speaker/paul-valckenaers] STRIPPED script: inline
+[speaker/paul-valckenaers] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/paul-valckenaers] STRIPPED script: inline
+[speaker/paul-valckenaers] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/paul-valckenaers] STRIPPED <div id/class='notification--cookie'>
+[speaker/paul-valckenaers] 18 codesync.global links made absolute/left absolute
+[speaker/pedro-hernandez] STRIPPED script: inline
+[speaker/pedro-hernandez] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/pedro-hernandez] STRIPPED script: inline
+[speaker/pedro-hernandez] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/pedro-hernandez] STRIPPED <div id/class='notification--cookie'>
+[speaker/pedro-hernandez] 18 codesync.global links made absolute/left absolute
+[speaker/peer-stritzinger] STRIPPED script: inline
+[speaker/peer-stritzinger] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/peer-stritzinger] STRIPPED script: inline
+[speaker/peer-stritzinger] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/peer-stritzinger] STRIPPED <div id/class='notification--cookie'>
+[speaker/peer-stritzinger] 78 codesync.global links made absolute/left absolute
+[speaker/peter-saxton] STRIPPED script: inline
+[speaker/peter-saxton] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/peter-saxton] STRIPPED script: inline
+[speaker/peter-saxton] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/peter-saxton] STRIPPED <div id/class='notification--cookie'>
+[speaker/peter-saxton] 24 codesync.global links made absolute/left absolute
+[speaker/peter-van-roy] STRIPPED script: inline
+[speaker/peter-van-roy] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/peter-van-roy] STRIPPED script: inline
+[speaker/peter-van-roy] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/peter-van-roy] STRIPPED <div id/class='notification--cookie'>
+[speaker/peter-van-roy] 18 codesync.global links made absolute/left absolute
+[speaker/rafael-rocha] STRIPPED script: inline
+[speaker/rafael-rocha] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/rafael-rocha] STRIPPED script: inline
+[speaker/rafael-rocha] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/rafael-rocha] STRIPPED <div id/class='notification--cookie'>
+[speaker/rafael-rocha] 18 codesync.global links made absolute/left absolute
+[speaker/ricardo-corral-corral302] STRIPPED script: inline
+[speaker/ricardo-corral-corral302] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/ricardo-corral-corral302] STRIPPED script: inline
+[speaker/ricardo-corral-corral302] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/ricardo-corral-corral302] STRIPPED <div id/class='notification--cookie'>
+[speaker/ricardo-corral-corral302] 18 codesync.global links made absolute/left absolute
+[speaker/ricardo-oliveira] STRIPPED script: inline
+[speaker/ricardo-oliveira] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/ricardo-oliveira] STRIPPED script: inline
+[speaker/ricardo-oliveira] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/ricardo-oliveira] STRIPPED <div id/class='notification--cookie'>
+[speaker/ricardo-oliveira] 18 codesync.global links made absolute/left absolute
+[speaker/robert-virding] STRIPPED script: inline
+[speaker/robert-virding] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/robert-virding] STRIPPED script: inline
+[speaker/robert-virding] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/robert-virding] STRIPPED <div id/class='notification--cookie'>
+[speaker/robert-virding] 68 codesync.global links made absolute/left absolute
+[speaker/scott-lystig-fritchie56] STRIPPED script: inline
+[speaker/scott-lystig-fritchie56] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/scott-lystig-fritchie56] STRIPPED script: inline
+[speaker/scott-lystig-fritchie56] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/scott-lystig-fritchie56] STRIPPED <div id/class='notification--cookie'>
+[speaker/scott-lystig-fritchie56] 27 codesync.global links made absolute/left absolute
+[speaker/sonny-scroggin] STRIPPED script: inline
+[speaker/sonny-scroggin] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/sonny-scroggin] STRIPPED script: inline
+[speaker/sonny-scroggin] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/sonny-scroggin] STRIPPED <div id/class='notification--cookie'>
+[speaker/sonny-scroggin] 28 codesync.global links made absolute/left absolute
+[speaker/stavros-aronis] STRIPPED script: inline
+[speaker/stavros-aronis] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/stavros-aronis] STRIPPED script: inline
+[speaker/stavros-aronis] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/stavros-aronis] STRIPPED <div id/class='notification--cookie'>
+[speaker/stavros-aronis] 55 codesync.global links made absolute/left absolute
+[speaker/thiago-rocha-camargo] STRIPPED script: inline
+[speaker/thiago-rocha-camargo] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/thiago-rocha-camargo] STRIPPED script: inline
+[speaker/thiago-rocha-camargo] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/thiago-rocha-camargo] STRIPPED <div id/class='notification--cookie'>
+[speaker/thiago-rocha-camargo] 18 codesync.global links made absolute/left absolute
+[speaker/thomas-arts] STRIPPED script: inline
+[speaker/thomas-arts] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/thomas-arts] STRIPPED script: inline
+[speaker/thomas-arts] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/thomas-arts] STRIPPED <div id/class='notification--cookie'>
+[speaker/thomas-arts] 27 codesync.global links made absolute/left absolute
+[speaker/tobias-lindahl] STRIPPED script: inline
+[speaker/tobias-lindahl] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/tobias-lindahl] STRIPPED script: inline
+[speaker/tobias-lindahl] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/tobias-lindahl] STRIPPED <div id/class='notification--cookie'>
+[speaker/tobias-lindahl] 18 codesync.global links made absolute/left absolute
+[speaker/valentin-micic] STRIPPED script: inline
+[speaker/valentin-micic] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/valentin-micic] STRIPPED script: inline
+[speaker/valentin-micic] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/valentin-micic] STRIPPED <div id/class='notification--cookie'>
+[speaker/valentin-micic] 17 codesync.global links made absolute/left absolute
+[speaker/viktoria-foerdos] STRIPPED script: inline
+[speaker/viktoria-foerdos] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/viktoria-foerdos] STRIPPED script: inline
+[speaker/viktoria-foerdos] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/viktoria-foerdos] STRIPPED <div id/class='notification--cookie'>
+[speaker/viktoria-foerdos] 42 codesync.global links made absolute/left absolute
+[speaker/zhengyu-pan] STRIPPED script: inline
+[speaker/zhengyu-pan] STRIPPED script: https://www.googletagmanager.com/gtag/js?id=UA-69493616-5
+[speaker/zhengyu-pan] STRIPPED script: inline
+[speaker/zhengyu-pan] STRIPPED script: https://www.eventbrite.com/static/widgets/eb_widgets.js
+[speaker/zhengyu-pan] STRIPPED <div id/class='notification--cookie'>
+[speaker/zhengyu-pan] 18 codesync.global links made absolute/left absolute
