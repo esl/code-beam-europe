@@ -30,8 +30,8 @@
 #  link: "diversity"
 # - name: Students
 #   link: "student"
-#- name: Volunteer
-#  link: "volunteer"
+- name: Volunteer
+  link: "volunteer"
 #- name: Lightning Talks
 #  link: "/lightning-talks"
 - name: Venue
