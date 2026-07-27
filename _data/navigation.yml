@@ -26,8 +26,8 @@
   link: "training"
 - name: Programme Committee
   link: "members"
-#- name: Support Programme
-#  link: "diversity"
+- name: D&I Programme
+  link: "diversity"
 # - name: Students
 #   link: "student"
 - name: Volunteer
