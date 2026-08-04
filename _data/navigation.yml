@@ -2,7 +2,7 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome"
-- name: Waiting List
+- name: Newsletter
   link: "newsletter"
 - name: TICKETS
   link: "register"
@@ -24,8 +24,8 @@
 #  link: "trainers"
 - name: Training
   link: "training"
-- name: Programme Committee
-  link: "members"
+#- name: Programme Committee
+#  link: "members"
 - name: D&I Programme
   link: "diversity"
 # - name: Students
