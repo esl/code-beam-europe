@@ -28,8 +28,8 @@
 #  link: "members"
 - name: D&I Programme
   link: "diversity"
-# - name: Students
-#   link: "student"
+- name: Students
+  link: "student"
 - name: Volunteer
   link: "volunteer"
 #- name: Lightning Talks
