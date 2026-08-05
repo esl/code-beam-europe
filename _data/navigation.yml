@@ -32,8 +32,8 @@
   link: "student"
 - name: Volunteer
   link: "volunteer"
-#- name: Lightning Talks
-#  link: "/lightning-talks"
+- name: Lightning Talks
+  link: "lightning-talk"
 - name: Venue
   link: "venue"
 #- name: Testimonials

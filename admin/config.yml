@@ -83,18 +83,7 @@ collections:
       - { label: "Type", name: "type", widget: "string" }
       - { label: "Trainers", name: "trainers", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "config"
-    label: "Config"
-    editor:
-      preview: false
-    files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "_data/navigation.yml"
-        fields:
-          - label: "Navigation Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Link, name: link, widget: string }
+  # The navigation menu (_data/navigation.yml) is intentionally NOT managed here.
+  # It is edited by hand, using "#" to hide/unhide menu items across the
+  # conference cycle. Decap CMS strips comments when it saves, so putting this
+  # file under CMS control would permanently delete every hidden entry.
