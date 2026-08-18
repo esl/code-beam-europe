@@ -1,1 +1,90 @@
+# ---------------------------------------------------------------------------
+# Haarlem hotels for the #accommodation section.
+# Edit here, the section on the page updates automatically.
+#
+#   published:   set false to hide a hotel without deleting it
+#   stars:       whole number, rendered as filled stars
+#   distance:    walking distance to PHIL (the venue), in km
+#   price / unit / note:  the big number, its suffix, and a line under it
+#   includes:    small pills. type: yes (green) | no (grey) | plain (neutral)
+#   book_url:    if present, a solid "book" button; otherwise an email button
+#   book_label:  text on the solid button (an arrow is added automatically)
+#   email / phone: used for the "Email to book" button and the call line
+# ---------------------------------------------------------------------------
 
+- name: Carlton Square
+  stars: 4
+  distance: "1.1 km from PHIL"
+  price: "€159"
+  unit: "/ night"
+  note: "Special conference rate"
+  includes:
+    - { text: "Breakfast included", type: yes }
+    - { text: "City tax excl.", type: no }
+  book_url: "https://reservations.carltonsquare.nl/book/dates-of-stay?&adults=1&domain=portal.travelclick.com&groupID=5310399"
+  book_label: "Book conference rate"
+  email: "vera@carltonsquare.nl"
+  phone: "+31 (0)23 531 90 91"
+  published: true
+
+- name: The Ambassador City Centre
+  stars: 3
+  distance: "0.1 km from PHIL"
+  price: "€115"
+  unit: "/ night"
+  note: "Breakfast €19.50 pp/day"
+  includes:
+    - { text: "Code: CBEMQS", type: yes }
+  book_url: "https://app.mews.com/distributor/b5afb2ab-44eb-4a33-ae9d-acd000821eb3?mewsVoucherCode=CBEMQS"
+  book_label: "Book with code CBEMQS"
+  email: "Groepsreserveringen@haarlem.com"
+  phone: "+31 (0)23 512 53 00"
+  published: true
+
+- name: ML Hotel & Restaurant
+  stars: 4
+  distance: "0.1 km from PHIL"
+  price: "€249"
+  unit: "/ night from"
+  note: "10% off room rate, breakfast €12.50 (was €22.50)"
+  includes:
+    - { text: "Multiple room types", type: plain }
+  email: "reserveringen@mlinhaarlem.nl"
+  phone: "+31 (0)23 512 39 10"
+  published: true
+
+- name: Metzlrhouse
+  stars: 3
+  distance: "0.8 km from PHIL"
+  price: "Corp. rate"
+  unit: "+ 5% off"
+  note: "Use code CORP5"
+  includes:
+    - { text: "Breakfast not incl.", type: no }
+  email: "reservations@metzlrhouse.com"
+  phone: "+31 (0)23 303 2216"
+  published: true
+
+- name: Lion d'Or
+  stars: 4
+  distance: "0.85 km from PHIL"
+  price: "€159"
+  unit: "/ night"
+  note: "Plus €6.50 city tax"
+  includes:
+    - { text: "Breakfast included", type: yes }
+  email: "reservations@hotelliondor.nl"
+  phone: "+31 23 532 1750"
+  published: true
+
+# Held back until confirmed (per the team: wait to hear from Monika before contacting).
+# Flip published to true and add a rate when it is ready.
+- name: Hotel 1635 Haarlem
+  stars: 4
+  distance: "0.45 km from PHIL"
+  price: "On request"
+  unit: ""
+  note: "Previously MAFF boutique"
+  email: "reservations@1635.nl"
+  phone: "+31 23 234 0690"
+  published: false
