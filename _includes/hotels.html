@@ -1,2 +1,207 @@
-{%- comment -%} Accommodation section -> renders at #accommodation --------------------------------------------------------------------------- This replaces the old (2022) hotels.html. It is wired through the existing {% include hotels.html %} line in index.html (uncomment that line). Hotel data lives in _data/hotels.yml. The only site-specific values are in this config block: {%- endcomment -%} {%- assign accent = "#e32dfd" -%} {%- comment -%} Code BEAM magenta ($brand #ff00ff, underline #e32dfd) {%- endcomment -%} {%- assign accent_ink = "#b3009c" -%} {%- comment -%} darker magenta, for text/borders on white cards {%- endcomment -%} {%- assign on_accent = "#ffffff" -%} {%- comment -%} text colour on top of accent buttons {%- endcomment -%} {%- assign chip_bg = "rgba(227,45,253,.12)" -%} {%- assign grad = "linear-gradient(135deg,#1a0030 0%,#2a0043 55%,#3a0d52 100%)" -%} {%- assign event_name = "Code BEAM Europe" -%} {%- assign logo = "/assets/images/CODE BEAM EUROPE LOGO wh-3.png" -%}
-{{ event_name }}
+{%- comment -%}
+  Accommodation section  ->  renders at #accommodation
+  ---------------------------------------------------------------------------
+  This replaces the old (2022) hotels.html. It is wired through the existing
+  {% include hotels.html %} line in index.html (uncomment that line).
+  Hotel data lives in _data/hotels.yml.
+
+  The only site-specific values are in this config block:
+{%- endcomment -%}
+{%- assign accent     = "#e32dfd" -%}   {%- comment -%} Code BEAM magenta ($brand #ff00ff, underline #e32dfd) {%- endcomment -%}
+{%- assign accent_ink = "#b3009c" -%}   {%- comment -%} darker magenta, for text/borders on white cards {%- endcomment -%}
+{%- assign on_accent  = "#ffffff" -%}   {%- comment -%} text colour on top of accent buttons {%- endcomment -%}
+{%- assign chip_bg    = "rgba(227,45,253,.12)" -%}
+{%- assign grad       = "linear-gradient(135deg,#1a0030 0%,#2a0043 55%,#3a0d52 100%)" -%}
+{%- assign event_name = "Code BEAM Europe" -%}
+{%- assign logo       = "/assets/images/CODE BEAM EUROPE LOGO wh-3.png" -%}
+
+<div class="section acc" id="accommodation">
+  <style>
+    .acc{
+      --accent:{{ accent }}; --accent-ink:{{ accent_ink }}; --on-accent:{{ on_accent }};
+      --chip:{{ chip_bg }};
+      background:{{ grad }};
+      font-family:'Montserrat',sans-serif;
+      padding:90px 20px 96px; color:#fff;
+    }
+    .acc *{box-sizing:border-box}
+    .acc .acc-wrap{max-width:1180px;margin:0 auto}
+    .acc .acc-head{text-align:center;margin-bottom:10px}
+    .acc .acc-logo{height:58px;width:auto;margin:0 auto 22px;display:block}
+    .acc .eyebrow{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 8px}
+    .acc h2.title{color:#fff;margin:0}
+    .acc hr{width:64px;height:4px;border:0;border-radius:4px;background:var(--accent);margin:16px auto 0}
+    .acc .intro{max-width:680px;margin:20px auto 50px;text-align:center;color:rgba(255,255,255,.82);font-size:16px;line-height:1.6}
+    .acc .intro strong{color:#fff;font-weight:600}
+
+    .acc .grid{display:grid;gap:22px;grid-template-columns:repeat(3,1fr)}
+    @media(max-width:920px){.acc .grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:600px){.acc .grid{grid-template-columns:1fr}}
+
+    .acc .card{background:#fff;color:#1c1830;border-radius:16px;padding:26px 24px 24px;display:flex;flex-direction:column;position:relative;overflow:hidden;transition:transform .18s ease,box-shadow .18s ease}
+    .acc .card::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:var(--accent)}
+    .acc .card:hover{transform:translateY(-4px);box-shadow:0 22px 44px -20px rgba(0,0,0,.55)}
+    .acc .name{font-size:20px;font-weight:700;margin:6px 0 2px;letter-spacing:-.01em}
+    .acc .stars{color:var(--accent);font-size:15px;letter-spacing:2px;margin-bottom:14px}
+    .acc .chip{display:inline-flex;align-items:center;gap:6px;align-self:flex-start;background:var(--chip);color:var(--accent-ink);font-size:12.5px;font-weight:700;padding:5px 11px;border-radius:999px;margin-bottom:18px}
+    .acc .price{display:flex;align-items:baseline;gap:6px;margin-bottom:4px}
+    .acc .price .amount{font-size:30px;font-weight:800;letter-spacing:-.02em;color:#1c1830}
+    .acc .price .per{font-size:13px;color:#6b6780;font-weight:500}
+    .acc .price-note{font-size:13px;color:#6b6780;margin:0 0 18px;min-height:18px}
+    .acc .incl{list-style:none;padding:0;margin:0 0 22px;display:flex;flex-wrap:wrap;gap:8px}
+    .acc .incl li{font-size:12.5px;font-weight:600;color:#4a4660;background:#f2f0f7;border-radius:8px;padding:5px 10px;line-height:1.2}
+    .acc .incl li.yes{background:rgba(16,145,90,.12);color:#0c7a4a}
+    .acc .incl li.no{background:rgba(120,113,140,.14);color:#6b6780}
+    .acc .foot{margin-top:auto;display:flex;flex-direction:column;gap:10px}
+    .acc .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:700;font-size:14px;letter-spacing:.02em;padding:13px 18px;border-radius:10px;text-align:center;cursor:pointer;transition:filter .15s ease,background .15s ease,color .15s ease}
+    .acc .btn-primary{background:var(--accent);color:var(--on-accent)}
+    .acc .btn-primary:hover{filter:brightness(1.06)}
+    .acc .btn-ghost{background:transparent;color:var(--accent-ink);border:1.5px solid var(--accent-ink)}
+    .acc .btn-ghost:hover{background:var(--accent-ink);color:#fff}
+    .acc .contact{font-size:13px;color:#6b6780;text-align:center;margin:0}
+    .acc .contact a{color:var(--accent-ink);text-decoration:none;font-weight:600}
+    .acc .disclaimer{max-width:820px;margin:44px auto 0;text-align:center;font-size:13px;color:rgba(255,255,255,.72);line-height:1.6}
+    .acc .btn:focus-visible,.acc .contact a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+    @media(prefers-reduced-motion:reduce){.acc .card{transition:none}}
+  </style>
+
+  <div class="acc-wrap">
+    <div class="acc-head">
+      <img class="acc-logo" src="{{ logo | relative_url }}" alt="{{ event_name }}">
+      <p class="eyebrow">Stay in Haarlem</p>
+      <h2 class="title">Accommodation</h2>
+      <hr>
+    </div>
+    <p class="intro">
+      We have arranged <strong>special conference rates</strong> at hotels a short walk from
+      PHIL, our venue in central Haarlem. Mention <strong>{{ event_name }}</strong> when you book.
+      Rates are per room, per night, subject to availability.
+    </p>
+
+    <div class="grid">
+      {%- for hotel in site.data.hotels -%}{%- if hotel.published -%}
+      <article class="card">
+        <div class="name">{{ hotel.name }}</div>
+        <div class="stars" aria-label="{{ hotel.stars }} star hotel">{% for i in (1..hotel.stars) %}&#9733;{% endfor %}</div>
+        <span class="chip">&#9679; {{ hotel.distance }}</span>
+        <div class="price">
+          <span class="amount">{{ hotel.price }}</span>
+          {%- if hotel.unit and hotel.unit != "" %}<span class="per">{{ hotel.unit }}</span>{% endif -%}
+        </div>
+        <p class="price-note">{{ hotel.note }}</p>
+        {%- if hotel.includes %}
+        <ul class="incl">
+          {%- for inc in hotel.includes %}<li class="{{ inc.type }}">{{ inc.text }}</li>{% endfor -%}
+        </ul>
+        {%- endif %}
+        <div class="foot">
+          {%- if hotel.book_url -%}
+          <a class="btn btn-primary" href="{{ hotel.book_url }}" target="_blank" rel="noopener">{{ hotel.book_label | default: "Book now" }} &rarr;</a>
+          {%- else -%}
+          <a class="btn btn-ghost" href="mailto:{{ hotel.email }}?subject=Accommodation%20booking%20-%20{{ event_name | url_encode }}">Email to book</a>
+          {%- if hotel.phone %}<p class="contact">or call <a href="tel:{{ hotel.phone | remove: ' ' | remove: '(' | remove: ')' }}">{{ hotel.phone }}</a></p>{% endif -%}
+          {%- endif -%}
+        </div>
+      </article>
+      {%- endif -%}{%- endfor -%}
+    </div>
+
+    <p class="disclaimer">
+      Distances are walking distance to PHIL, Lange Begijnestraat 11, 2011 HH Haarlem.
+      Rates and availability are set by each hotel and may change, so book early.
+      Haarlem is about a 15 minute train ride from Amsterdam Centraal.
+    </p>
+  </div>
+</div>
+
+
+# ---------------------------------------------------------------------------
+# Haarlem hotels for the #accommodation section.
+# Edit here, the section on the page updates automatically.
+#
+#   published:   set false to hide a hotel without deleting it
+#   stars:       whole number, rendered as filled stars
+#   distance:    walking distance to PHIL (the venue), in km
+#   price / unit / note:  the big number, its suffix, and a line under it
+#   includes:    small pills. type: yes (green) | no (grey) | plain (neutral)
+#   book_url:    if present, a solid "book" button; otherwise an email button
+#   book_label:  text on the solid button (an arrow is added automatically)
+#   email / phone: used for the "Email to book" button and the call line
+# ---------------------------------------------------------------------------
+
+- name: Carlton Square
+  stars: 4
+  distance: "1.1 km from PHIL"
+  price: "€159"
+  unit: "/ night"
+  note: "Special conference rate"
+  includes:
+    - { text: "Breakfast included", type: yes }
+    - { text: "City tax excl.", type: no }
+  book_url: "https://reservations.carltonsquare.nl/book/dates-of-stay?&adults=1&domain=portal.travelclick.com&groupID=5310399"
+  book_label: "Book conference rate"
+  email: "vera@carltonsquare.nl"
+  phone: "+31 (0)23 531 90 91"
+  published: true
+
+- name: The Ambassador City Centre
+  stars: 3
+  distance: "0.1 km from PHIL"
+  price: "€115"
+  unit: "/ night"
+  note: "Breakfast €19.50 pp/day"
+  includes:
+    - { text: "Code: CBEMQS", type: yes }
+  book_url: "https://app.mews.com/distributor/b5afb2ab-44eb-4a33-ae9d-acd000821eb3?mewsVoucherCode=CBEMQS"
+  book_label: "Book with code CBEMQS"
+  email: "Groepsreserveringen@haarlem.com"
+  phone: "+31 (0)23 512 53 00"
+  published: true
+
+- name: ML Hotel & Restaurant
+  stars: 4
+  distance: "0.1 km from PHIL"
+  price: "€249"
+  unit: "/ night from"
+  note: "10% off room rate, breakfast €12.50 (was €22.50)"
+  includes:
+    - { text: "Multiple room types", type: plain }
+  email: "reserveringen@mlinhaarlem.nl"
+  phone: "+31 (0)23 512 39 10"
+  published: true
+
+- name: Metzlrhouse
+  stars: 3
+  distance: "0.8 km from PHIL"
+  price: "Corp. rate"
+  unit: "+ 5% off"
+  note: "Use code CORP5"
+  includes:
+    - { text: "Breakfast not incl.", type: no }
+  email: "reservations@metzlrhouse.com"
+  phone: "+31 (0)23 303 2216"
+  published: true
+
+- name: Lion d'Or
+  stars: 4
+  distance: "0.85 km from PHIL"
+  price: "€159"
+  unit: "/ night"
+  note: "Plus €6.50 city tax"
+  includes:
+    - { text: "Breakfast included", type: yes }
+  email: "reservations@hotelliondor.nl"
+  phone: "+31 23 532 1750"
+  published: true
+
+# Held back until confirmed (per the team: wait to hear from Monika before contacting).
+# Flip published to true and add a rate when it is ready.
+- name: Hotel 1635 Haarlem
+  stars: 4
+  distance: "0.45 km from PHIL"
+  price: "On request"
+  unit: ""
+  note: "Previously MAFF boutique"
+  email: "reservations@1635.nl"
+  phone: "+31 23 234 0690"
+  published: false
