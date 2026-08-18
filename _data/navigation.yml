@@ -36,6 +36,8 @@
   link: "lightning-talk"
 - name: Venue
   link: "venue"
+  - name: Accommodation
+  link: "accommodation"
 #- name: Testimonials
 #  link: "testimonials-carousel-quotes"
 #- name: Hotels
