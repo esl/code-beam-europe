@@ -1,3 +1,5 @@
+<--
+
 ---
 experience:
 - Intermediate
@@ -60,3 +62,5 @@ This workshop is not a fit for complete Elixir beginners (the pace assumes worki
 *Software & setup*
 * A laptop with a recent Elixir and Erlang/OTP install (specific versions confirmed in a setup email before the session).
 * The starter repo cloned and dependencies fetched (mix deps.get) before arriving — a setup email with exact steps goes out ahead of time so we can start building, not installing.
+
+-->
