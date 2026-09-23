@@ -1,5 +1,7 @@
+{% assign on_home = false %}
+{% if page.url == "/" or page.url == "/index.html" %}{% assign on_home = true %}{% endif %}
 <nav class="navbar-fixed-top nav-menu" id="navMenu">
-    <a class="logo" href="#cover"></a>
+    <a class="logo" href="{% if on_home %}#cover{% else %}/{% endif %}"></a>
     <div class="toggle-menu">
         <!-- Burger -->
         <div class="navTrigger">
@@ -23,8 +25,10 @@
                         rel="noopener noreferrer"
                         >{{ child.name }}</a
                     >
-                    {% else %}
+                    {% elsif on_home %}
                     <a href="#{{ child.link }}">{{ child.name }}</a>
+                    {% else %}
+                    <a href="/#{{ child.link }}">{{ child.name }}</a>
                     {% endif %} {% endfor %}
                 </div>
             </div>
@@ -34,8 +38,10 @@
             {% assign first_char = item.link | slice: 0 %} {% if item.link
             contains 'https' or first_char == '/' %}
             <a href="{{ item.link }}">{{ item.name }}</a>
-            {% else %}
+            {% elsif on_home %}
             <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
+            {% else %}
+            <a href="/#{{ item.link }}">{{ item.name }}</a>
             {% endif %}
         </li>
         {% endif %} {% endfor %}
