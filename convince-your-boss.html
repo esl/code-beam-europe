@@ -98,6 +98,7 @@ description: Need sign-off to attend Code BEAM Europe? Pick online or in person,
   .cyb .cyb-faq .cyb-grid{gap:32px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
   .cyb .cyb-faq h3{font-family:'Montserrat',sans-serif;font-weight:600;font-size:17px;color:var(--white);margin:0 0 10px}
   .cyb .cyb-faq p{margin:0;font-size:16px;line-height:1.6;color:#E2DCEA}
+  .cyb #body a{color:#0074A9;text-decoration:underline}
 </style>
 
 <body>
@@ -243,6 +244,11 @@ description: Need sign-off to attend Code BEAM Europe? Pick online or in person,
     { id: 't1', title: 'Gnome Village: Understanding the BEAM Through Processes, Flows, and Runtime Behaviour', speaker: 'Erik Stenman, Måns af Klercker · 20 October, 9:00–17:00 · €418.16 (€505.97 incl. VAT)' }
   ];
 
+  // Links to the session pages, used in the email
+  var SITE = 'https://codebeameurope.com';
+  var URLS = {"e1": "/talks/update-from-the-otp-team/", "e2": "/talks/native-records/", "e3": "/talks/exploring-doctests-in-erlang/", "e4": "/talks/structuring-erlang-code-with-application-level-visibility/", "e5": "/talks/idiomatic-erlang-tips-for-erlang-beginners/", "e6": "/talks/still-typing-erlang-developer-experience-in-the-prompt-era/", "x1": "/keynotes/set-theoretic-types-from-scratch/", "x2": "/talks/clusterfutional-four-years-of-distributed-elixir-at-netzebw/", "x3": "/talks/hooked-on-performance-taming-liveviews-javascript-hooks-at-scale/", "x4": "/talks/self-healing-systems-and-when-they-fail/", "x5": "/talks/ruby-crimes-in-elixir-codebases/", "x6": "/talks/atproto-on-elixir-a-spike-into-appviews-dataplane/", "g1": "/talks/gleam-language-update/", "g2": "/talks/ditch-your-api-with-lustre-server-components-and-the-store-pattern/", "g3": "/talks/building-big-lustre-apps/", "g4": "/talks/understanding-supervision-killing-your-actors/", "g5": "/talks/same-runtime-different-language-adapting-safe-for-gleam/", "m1": "/talks/updates-from-the-atomvm-landscape/", "m2": "/talks/zero-to-embedded-with-gleam-and-atomvm/", "m3": "/talks/from-pure-code-to-physical-controls-designing-hardware-in-elixir/", "i1": "/talks/dont-crash-the-beam-safe-interop-with-ports-and-c-nodes/", "i2": "/talks/rustler-news-and-road-to-1-0/", "i3": "/talks/do-the-list-shuffle/", "a1": "/talks/dont-get-pwned-by-ai-attacks/", "a2": "/talks/erlang-ecosystem-frontier/", "a3": "/talks/when-ai-writes-the-code-what-matters-more-language-or-runtime/", "t1": "/trainings/gnome-village-understanding-the-beam/"};
+  TALKS.concat(LABS).forEach(function (t) { if (URLS[t.id]) t.url = SITE + URLS[t.id]; });
+
   // ---- State ----
   var state = { mode: 'online', stack: 'all', picked: [], labs: [], session: false, cc: false };
   var $ = function (id) { return document.getElementById(id); };
@@ -295,6 +301,12 @@ description: Need sign-off to attend Code BEAM Europe? Pick online or in person,
 
   function val(id) { return ($(id).value || '').trim().replace(/\.$/, ''); }
 
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function link(item) { return item.url ? '<a href="' + esc(item.url) + '">' + esc(item.title) + '</a>' : esc(item.title); }
+  function talkPlain(t) { return '- ' + t.title + ' (' + t.speaker + '): ' + t.blurb + (t.url ? '\n  ' + t.url : ''); }
+  function talkHtml(t) { return '&ndash; ' + link(t) + ' (' + esc(t.speaker) + '): ' + esc(t.blurb); }
+  function para(p) { return esc(p).replace(/\n/g, '<br>'); }
+
   function buildEmail() {
     var boss = val('f-boss');
     var me = val('f-name');
@@ -310,11 +322,12 @@ description: Need sign-off to attend Code BEAM Europe? Pick online or in person,
     if (names.length > 1) stackText = names.slice(0, -1).join(', ') + ' and ' + names[names.length - 1];
     var person = state.mode === 'person';
     var tutorial = person && state.labs.length > 0;
-    var parts = [];
+    var parts = [], hparts = [];
+    function add(p, h) { parts.push(p); hparts.push(h || para(p)); }
     var about = "It's the major European conference for the BEAM ecosystem. Speakers include the Erlang/OTP team at Ericsson, the creators of Elixir and Gleam, and engineers who build and run " + stackText + ' systems in production.';
 
-    parts.push(boss ? 'Hi ' + boss + ',' : 'Hi,');
-    parts.push(person
+    add(boss ? 'Hi ' + boss + ',' : 'Hi,');
+    add(person
       ? "I'd like to attend Code BEAM Europe (21–22 October, Haarlem, near Amsterdam). " + about
       : "I'd like to join Code BEAM Europe online (21–22 October). " + about);
 
@@ -322,44 +335,50 @@ description: Need sign-off to attend Code BEAM Europe? Pick online or in person,
       var lead = problem
         ? "We're working on " + problem + ', and I believe these sessions will help me to achieve its goals:'
         : 'I believe these sessions will be especially useful for our work:';
-      parts.push(lead + '\n' + picked.map(function (t) { return '- ' + t.title + ' (' + t.speaker + '): ' + t.blurb; }).join('\n'));
+      add(lead + '\n' + picked.map(talkPlain).join('\n'), esc(lead) + '<br>' + picked.map(talkHtml).join('<br>'));
     } else if (problem) {
-      parts.push("We're working on " + problem + ', and I believe the conference will help me to achieve its goals.');
+      add("We're working on " + problem + ', and I believe the conference will help me to achieve its goals.');
     }
 
     if (person) {
       var question = val('f-question');
-      var why = ['I think attending in person would be the best option, because:'];
-      why.push('- The Informal Space (live demos, hands-on clinics and hacking sessions) only happens on site');
-      why.push(question
-        ? '- I can talk to the speakers directly, including the Erlang/OTP team and the Elixir and Gleam core teams, and bring our questions on ' + question
-        : '- I can talk to the speakers directly, including the Erlang/OTP team and the Elixir and Gleam core teams');
-      why.push('- I can meet other teams running the BEAM in production and compare approaches');
-      if (tutorial) why.push('- I can join the full-day tutorial on 20 October: ' + LABS[0].title + ' (Erik Stenman, Måns af Klercker)');
-      parts.push(why.join('\n'));
+      var lines = ['I think attending in person would be the best option, because:',
+        '- The Informal Space (live demos, hands-on clinics and hacking sessions) only happens on site',
+        question
+          ? '- I can talk to the speakers directly, including the Erlang/OTP team and the Elixir and Gleam core teams, and bring our questions on ' + question
+          : '- I can talk to the speakers directly, including the Erlang/OTP team and the Elixir and Gleam core teams',
+        '- I can meet other teams running the BEAM in production and compare approaches'];
+      var hl = [esc(lines[0])].concat(lines.slice(1).map(function (l) { return '&ndash; ' + esc(l.slice(2)); }));
+      if (tutorial) {
+        var tu = LABS[0];
+        lines.push('- I can join the full-day tutorial on 20 October: ' + tu.title + ' (Erik Stenman, Måns af Klercker)' + (tu.url ? '\n  ' + tu.url : ''));
+        hl.push('&ndash; I can join the full-day tutorial on 20 October: ' + link(tu) + ' (Erik Stenman, Måns af Klercker)');
+      }
+      add(lines.join('\n'), hl.join('<br>'));
       var cost = 'The cost is ' + PRICES.person.net + ' (' + PRICES.person.vat + ' incl. VAT) for the conference ticket';
       if (tutorial) cost += ', plus ' + PRICES.tutorial.net + ' (' + PRICES.tutorial.vat + ' incl. VAT) for the tutorial';
       cost += ', including access to the talk recordings. The ticket covers the conference itself, so travel and accommodation would need to be arranged separately. If that doesn\'t fit the budget, the virtual ticket (' + PRICES.online.net + ', ' + PRICES.online.vat + ' incl. VAT) is a good fallback.';
-      parts.push(cost);
-      parts.push("Afterwards I'll share the knowledge with the team" + (state.session ? ', for example in a short session.' : '.'));
+      add(cost);
+      add("Afterwards I'll share the knowledge with the team" + (state.session ? ', for example in a short session.' : '.'));
     } else {
-      parts.push('The cost is ' + PRICES.online.net + ' (' + PRICES.online.vat + ' incl. VAT) for the virtual ticket, which includes the live stream of the talks and access to the recordings.');
-      parts.push("I'll block the time for the sessions and share the knowledge with the team" + (state.session ? ', for example in a short session.' : '.'));
+      add('The cost is ' + PRICES.online.net + ' (' + PRICES.online.vat + ' incl. VAT) for the virtual ticket, which includes the live stream of the talks and access to the recordings.');
+      add("I'll block the time for the sessions and share the knowledge with the team" + (state.session ? ', for example in a short session.' : '.'));
     }
-    if (state.cc) parts.push("I've copied the Code BEAM Europe organisers (info@codesync.global), so they can answer any questions about tickets or invoices.");
-    parts.push('Please let me know if you have any questions or need more details.');
-    parts.push(me ? 'Thanks,\n' + me : 'Thanks');
+    if (state.cc) add("I've copied the Code BEAM Europe organisers (info@codesync.global), so they can answer any questions about tickets or invoices.");
+    add('Please let me know if you have any questions or need more details.');
+    add(me ? 'Thanks,\n' + me : 'Thanks');
 
     return {
       subject: person ? 'Request: Code BEAM Europe in Haarlem, 21–22 October' : 'Request: Code BEAM Europe online, 21–22 October',
-      body: parts.join('\n\n')
+      body: parts.join('\n\n'),
+      html: hparts.join('<br><br>')
     };
   }
 
   function renderEmail() {
     var e = buildEmail();
     $('subject').textContent = e.subject;
-    $('body').textContent = e.body;
+    $('body').innerHTML = e.html;
     $('cc-row').hidden = !state.cc;
     $('mailto').href = 'mailto:?' + (state.cc ? 'cc=info%40codesync.global&' : '') + 'subject=' + encodeURIComponent(e.subject) + '&body=' + encodeURIComponent(e.body);
     $('copy').textContent = 'Copy email';
@@ -389,9 +408,15 @@ description: Need sign-off to attend Code BEAM Europe? Pick online or in person,
   $('copy').addEventListener('click', function () {
     var e = buildEmail();
     var text = (state.cc ? 'CC: info@codesync.global\n' : '') + 'Subject: ' + e.subject + '\n\n' + e.body;
+    var html = '<div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5">' + (state.cc ? '<p>CC: info@codesync.global</p>' : '') + '<p>Subject: ' + esc(e.subject) + '</p><p>' + e.html.split('<br><br>').join('</p><p>') + '</p></div>';
     var ok = function () { $('copy').textContent = 'Copied'; $('copy-err').hidden = true; };
     var fail = function () { $('copy-err').hidden = false; };
-    try { navigator.clipboard.writeText(text).then(ok, fail); } catch (err) { fail(); }
+    var plainOnly = function () { navigator.clipboard.writeText(text).then(ok, fail); };
+    try {
+      if (window.ClipboardItem && navigator.clipboard.write) {
+        navigator.clipboard.write([new ClipboardItem({ 'text/plain': new Blob([text], { type: 'text/plain' }), 'text/html': new Blob([html], { type: 'text/html' }) })]).then(ok, plainOnly);
+      } else { plainOnly(); }
+    } catch (err) { fail(); }
   });
 
   // Optional deep link: /convince-your-boss/?mode=person
