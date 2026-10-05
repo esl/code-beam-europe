@@ -1,0 +1,405 @@
+---
+layout: null
+permalink: /convince-your-boss/
+title: Convince your boss | Code BEAM Europe 2026
+description: Need sign-off to attend Code BEAM Europe? Pick online or in person, choose the sessions that matter for your codebase and get a ready-to-send email for your manager.
+---
+<!DOCTYPE html>
+<html>
+{% include imports/head.html %}
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  .cyb{
+    --black:#000101; --white:#FFFFFF; --text:#EEEEEE; --muted:#B9B6C6; --soft:#D8D6E0;
+    --purple:#7B34C7; --plum:#2A0043; --card:#1C1830; --card-on:#2A1A44; --line:#3A3354; --field-line:#6B6780;
+    --gold:#E32DFD; --gold-dark:#B3009C; --gold-text:#9A0087; --navy:#1A0322; --blue:#19F5FF; --paper:#FAFAFA;
+  }
+  .cyb, .cyb *{box-sizing:border-box}
+  .cyb{background:var(--black);color:var(--text);font-family:'Lato',sans-serif;font-size:16px;line-height:1.5;letter-spacing:normal;text-align:left}
+  .cyb h1,.cyb h2,.cyb h3,.cyb p{text-transform:none}
+  .cyb a{color:var(--blue)} .cyb a:hover{color:#8CFAFF}
+  .cyb button{font:inherit;cursor:pointer}
+  .cyb :focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+  .cyb .cyb-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+  .cyb .cyb-mono{font-family:'Roboto Mono',monospace}
+  .cyb .cyb-mont{font-family:'Montserrat',sans-serif}
+  .cyb .cyb-btn{display:inline-block;font-family:'Montserrat',sans-serif;font-weight:700;font-size:14px;letter-spacing:.02em;background:var(--gold);color:var(--navy);text-decoration:none;padding:13px 22px;border-radius:10px;border:0;min-height:44px}
+  .cyb .cyb-btn:hover{background:#EC6BFE;color:var(--navy)}
+  .cyb .cyb-btn-ghost{background:transparent;color:var(--gold-text);border:1.5px solid var(--gold-dark)}
+  .cyb .cyb-btn-ghost:hover{background:rgba(227,45,253,.12);color:var(--gold-text)}
+  .cyb .cyb-divider{width:80px;height:5px;background:linear-gradient(to right,#0074A9 50%,#E32DFD 50%)}
+
+  .cyb .cyb-top{border-bottom:1px solid #2A2540}
+  .cyb .cyb-top .cyb-wrap{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+  .cyb .cyb-top .cyb-date{font-family:'Montserrat',sans-serif;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+  .cyb .cyb-logo{display:inline-flex;align-items:center;min-height:44px}
+
+  .cyb .cyb-hero{background:var(--purple);color:var(--white)}
+  .cyb .cyb-hero .cyb-wrap{padding-top:140px;padding-bottom:64px}
+  .cyb .cyb-eyebrow{font-family:'Montserrat',sans-serif;font-size:14px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;margin-bottom:16px}
+  .cyb .cyb-hero h1{font-family:'Montserrat',sans-serif;font-weight:700;font-size:clamp(34px,5.5vw,60px);line-height:1.08;letter-spacing:-.01em;margin:0 0 24px;max-width:880px}
+  .cyb .cyb-hero .cyb-divider{margin-bottom:24px}
+  .cyb .cyb-hero p{font-size:20px;line-height:1.55;letter-spacing:.02em;max-width:720px;margin:0}
+
+  .cyb .cyb-layout{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start;padding-top:56px;padding-bottom:72px}
+  .cyb .cyb-form{flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:48px}
+  .cyb .cyb-step h2{font-family:'Montserrat',sans-serif;font-weight:600;font-size:24px;letter-spacing:.04em;color:var(--white);margin:0 0 8px;display:flex;gap:14px;align-items:baseline}
+  .cyb .cyb-step h2 span{font-size:15px;color:var(--gold);letter-spacing:.1em}
+  .cyb .cyb-step .cyb-hint{margin:0 0 18px;font-size:16px;color:var(--muted)}
+  .cyb .cyb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+
+  .cyb .cyb-card{text-align:left;display:flex;flex-direction:column;gap:6px;width:100%;padding:18px 20px;border-radius:12px;min-height:44px;color:var(--text);background:var(--card);border:2px solid var(--line)}
+  .cyb .cyb-card[aria-pressed="true"]{background:var(--card-on);border-color:var(--gold)}
+  .cyb .cyb-card .cyb-row{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}
+  .cyb .cyb-card .cyb-title{font-family:'Montserrat',sans-serif;font-weight:600;font-size:17px;line-height:1.4;color:var(--white)}
+  .cyb .cyb-card .cyb-who{font-size:15px;color:var(--blue)}
+  .cyb .cyb-card .cyb-what{font-size:16px;line-height:1.5;color:var(--soft)}
+  .cyb .cyb-badge{flex:none;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:999px;color:var(--gold);border:1px solid var(--gold)}
+  .cyb .cyb-card[aria-pressed="true"] .cyb-badge{background:var(--gold);color:var(--navy)}
+  .cyb .cyb-mode{padding:22px;gap:8px;border-color:var(--purple)}
+  .cyb .cyb-mode .cyb-name{font-family:'Montserrat',sans-serif;font-size:22px;font-weight:600;color:var(--white)}
+  .cyb .cyb-mode .cyb-price{font-family:'Montserrat',sans-serif;font-size:16px;font-weight:500;color:var(--gold)}
+  .cyb .cyb-mode .cyb-price small{color:var(--muted);font-weight:400;font-size:14px}
+
+  .cyb .cyb-pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+  .cyb .cyb-pill{font-family:'Montserrat',sans-serif;font-size:14px;font-weight:600;letter-spacing:.02em;padding:10px 18px;min-height:44px;border-radius:999px;background:transparent;color:var(--text);border:1.5px solid var(--field-line)}
+  .cyb .cyb-pill[aria-pressed="true"]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+  .cyb .cyb-list{display:flex;flex-direction:column;gap:12px}
+
+  .cyb .cyb-field{display:flex;flex-direction:column;gap:6px}
+  .cyb .cyb-field label,.cyb .cyb-field .cyb-label{font-weight:700;font-size:15px}
+  .cyb .cyb-field .cyb-sub{font-size:15px;color:var(--muted)}
+  .cyb .cyb-field input,.cyb .cyb-field textarea{font:inherit;font-size:16px;padding:12px 14px;border:1px solid var(--field-line);border-radius:10px;background:var(--card);color:var(--white);min-height:46px}
+  .cyb .cyb-field textarea{resize:vertical}
+  .cyb ::placeholder{color:#8A879C}
+  .cyb .cyb-mt{margin-top:16px}
+  .cyb .cyb-check{margin-top:18px;display:flex;align-items:center;gap:12px;background:transparent;border:0;padding:8px 0;min-height:44px;font-size:16px;color:var(--text);text-align:left}
+  .cyb .cyb-check .cyb-box{flex:none;width:22px;height:22px;border-radius:5px;display:inline-flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;border:2px solid #8A879C;color:transparent}
+  .cyb .cyb-check[aria-pressed="true"] .cyb-box{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+  .cyb [hidden]{display:none !important}
+
+  .cyb .cyb-preview{flex:1 1 400px;min-width:0;background:var(--paper);color:var(--navy);border-radius:12px;border-top:5px solid var(--gold);padding:24px;display:flex;flex-direction:column;gap:16px}
+  .cyb .cyb-preview h2{font-family:'Montserrat',sans-serif;font-weight:700;font-size:20px;letter-spacing:.04em;margin:0}
+  .cyb .cyb-preview .cyb-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+  .cyb .cyb-preview .cyb-head span{font-size:14px;color:#5A5E6B}
+  .cyb .cyb-preview .cyb-block{border-top:1px solid #D3D3D3;padding-top:16px}
+  .cyb .cyb-preview .cyb-lbl{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#5A5E6B;margin-bottom:6px}
+  .cyb #cc{font-family:'Roboto Mono',monospace;font-size:15px}
+  .cyb #subject{font-family:'Roboto Mono',monospace;font-size:15px;font-weight:500}
+  .cyb #body{font-family:'Roboto Mono',monospace;font-size:14px;line-height:1.7;white-space:pre-wrap;color:#1F2A36;overflow-wrap:anywhere}
+  .cyb .cyb-actions{display:flex;gap:12px;flex-wrap:wrap}
+  .cyb .cyb-note{margin:0;font-size:14px;line-height:1.5;color:#5A5E6B}
+  .cyb .cyb-err{margin:0;font-size:14px;color:#9A3412}
+
+  .cyb .cyb-faq{background:var(--plum)}
+  .cyb .cyb-faq .cyb-wrap{padding-top:64px;padding-bottom:72px}
+  .cyb .cyb-faq h2{font-family:'Montserrat',sans-serif;font-weight:600;font-size:30px;letter-spacing:.08em;color:var(--white);margin:0 0 16px}
+  .cyb .cyb-faq .cyb-divider{margin-bottom:32px}
+  .cyb .cyb-faq .cyb-grid{gap:32px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .cyb .cyb-faq h3{font-family:'Montserrat',sans-serif;font-weight:600;font-size:17px;color:var(--white);margin:0 0 10px}
+  .cyb .cyb-faq p{margin:0;font-size:16px;line-height:1.6;color:#E2DCEA}
+</style>
+
+<body>
+  {% include navigation_2.html %}
+<div class="cyb">
+<section class="cyb-hero">
+  <div class="cyb-wrap">
+    <div class="cyb-eyebrow">Convince your boss</div>
+    <h1>Get the email to your boss written in two minutes.</h1>
+    <div class="cyb-divider" aria-hidden="true"></div>
+    <p>Code BEAM Europe is where the Erlang/OTP team, the Elixir and Gleam core teams and the people running the BEAM in production meet. Choose how you want to attend and the sessions that matter for your codebase, and copy a ready-to-send email.</p>
+  </div>
+</section>
+
+<main class="cyb-wrap cyb-layout">
+  <div class="cyb-form">
+
+    <section class="cyb-step" aria-labelledby="s1">
+      <h2 id="s1"><span>01</span>How do you want to attend?</h2>
+      <div class="cyb-grid" style="margin-top:18px">
+        <button type="button" class="cyb-card cyb-mode" data-mode="online" aria-pressed="true">
+          <span class="cyb-name">Online</span>
+          <span class="cyb-price">&euro;146.00 <small>(&euro;175.20 incl. VAT)</small></span>
+          <span class="cyb-what">Live stream of the talks and access to the recordings afterwards. The easiest yes for any budget.</span>
+        </button>
+        <button type="button" class="cyb-card cyb-mode" data-mode="person" aria-pressed="false">
+          <span class="cyb-name">In person</span>
+          <span class="cyb-price">&euro;627.52 <small>(&euro;759.30 incl. VAT)</small></span>
+          <span class="cyb-what">Both days of talks, the Informal Space and the hallway track, plus access to the recordings. Optional full-day tutorial on 20 October.</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="cyb-step" aria-labelledby="s2">
+      <h2 id="s2"><span>02</span>Add your context</h2>
+      <p class="cyb-hint">Optional. Anything you leave empty is simply left out of the email.</p>
+      <div class="cyb-grid">
+        <div class="cyb-field"><label for="f-boss">Your boss's first name</label><input id="f-boss" type="text" placeholder="Anna" autocomplete="off"></div>
+        <div class="cyb-field"><label for="f-name">Your name</label><input id="f-name" type="text" placeholder="Sam" autocomplete="name"></div>
+      </div>
+      <div class="cyb-field cyb-mt">
+        <label for="f-problem">What are you working on right now?</label>
+        <span class="cyb-sub" id="f-problem-hint">Finish the sentence "we're working on&hellip;". One line about your project makes the email much more convincing.</span>
+        <textarea id="f-problem" rows="2" aria-describedby="f-problem-hint" placeholder="upgrading our Elixir services to OTP 29 and adopting the new type checks"></textarea>
+      </div>
+      <div class="cyb-person-only" hidden>
+        <div class="cyb-field cyb-mt"><label for="f-question">A question you'd ask the speakers</label><input id="f-question" type="text" placeholder="how to structure supervision trees for our ingest pipeline"></div>
+      </div>
+      <button type="button" class="cyb-check" id="f-session" aria-pressed="false"><span class="cyb-box" aria-hidden="true">&#10003;</span><span>I'll also run a short session for the team afterwards</span></button>
+      <button type="button" class="cyb-check" id="f-cc" aria-pressed="false" style="margin-top:0"><span class="cyb-box" aria-hidden="true">&#10003;</span><span>CC the Code BEAM Europe organisers (info@codesync.global), so they can answer your boss's questions about tickets and invoices</span></button>
+    </section>
+
+    <section class="cyb-step" aria-labelledby="s3">
+      <h2 id="s3"><span>03</span>Pick 2&ndash;3 sessions for your codebase</h2>
+      <p class="cyb-hint">A few well-chosen sessions convince better than the whole agenda. Selected: <span id="count">0</span></p>
+      <div class="cyb-pills" role="group" aria-label="Filter by topic" id="stacks"></div>
+      <div class="cyb-list" id="talks"></div>
+    </section>
+
+    <section class="cyb-step cyb-person-only" aria-labelledby="s3b" hidden>
+      <h2 id="s3b"><span>03b</span>Add the tutorial day</h2>
+      <p class="cyb-hint">A full hands-on day on 20 October, the day before the conference. Separate ticket.</p>
+      <div class="cyb-list" id="labs"></div>
+    </section>
+
+  </div>
+
+  <aside class="cyb-preview" aria-labelledby="pv">
+    <div class="cyb-head"><h2 id="pv">Your email</h2><span>updates as you type</span></div>
+    <div class="cyb-block" id="cc-row" hidden><div class="cyb-lbl">CC</div><div id="cc">info@codesync.global</div></div>
+    <div class="cyb-block"><div class="cyb-lbl">Subject</div><div id="subject"></div></div>
+    <div class="cyb-block" id="body" aria-live="polite"></div>
+    <div class="cyb-block cyb-actions">
+      <button type="button" class="cyb-btn" id="copy">Copy email</button>
+      <a class="cyb-btn cyb-btn-ghost" id="mailto" href="mailto:">Open in email app</a>
+    </div>
+    <p class="cyb-err" id="copy-err" hidden>Your browser blocked copying. Select the text above and copy it manually.</p>
+    <p class="cyb-note">Prices are the current Eventbrite prices, including the booking fee. Amounts in brackets include 21% Dutch VAT.</p>
+  </aside>
+</main>
+
+<section class="cyb-faq" aria-labelledby="faq-h">
+  <div class="cyb-wrap">
+    <h2 id="faq-h">Questions your boss might ask</h2>
+    <div class="cyb-divider" aria-hidden="true"></div>
+    <div class="cyb-grid">
+      <div><h3>"Can't you just watch the recordings?"</h3><p>Recordings are included with every ticket. The Informal Space, the tutorial and the conversations with the OTP, Elixir and Gleam teams between sessions aren't.</p></div>
+      <div><h3>"Is it only for experts?"</h3><p>No. Talks like Idiomatic Erlang sit next to deep dives from the Erlang/OTP team, so it works for people new to the BEAM and for teams running it in production.</p></div>
+      <div><h3>"How big is it?"</h3><p>Two days, two tracks plus the community-led Informal Space, 30+ speakers and 300+ attendees. Small enough to actually talk to people.</p></div>
+      <div><h3>"Is there a group price?"</h3><p>Yes: 3+ in-person tickets are &euro;683.31 each and 4+ virtual tickets &euro;157.61 each (incl. VAT). For invoices, write to <a href="mailto:info@codesync.global">info@codesync.global</a>.</p></div>
+    </div>
+  </div>
+</section>
+</div>
+  {% include footer.html %}
+  {% include imports/js.html %}
+<script>
+(function () {
+  // ---- Content: edit here when the programme or prices change ----
+  var PRICES = {
+    online:   { net: '€146.00', vat: '€175.20' },
+    person:   { net: '€627.52', vat: '€759.30' },
+    tutorial: { net: '€418.16', vat: '€505.97' }
+  };
+  var STACKS = [
+    { id: 'all', label: 'All' },
+    { id: 'erlang', label: 'Erlang/OTP', name: 'Erlang' },
+    { id: 'elixir', label: 'Elixir & Phoenix', name: 'Elixir' },
+    { id: 'gleam', label: 'Gleam', name: 'Gleam' },
+    { id: 'embedded', label: 'Embedded & hardware' },
+    { id: 'interop', label: 'Performance & interop' },
+    { id: 'ai', label: 'AI & security' }
+  ];
+  var TALKS = [
+    { id: 'e1', stack: 'erlang', title: 'Update from the OTP Team', speaker: 'Björn Gustavsson, Erlang/OTP team at Ericsson', blurb: 'what the OTP team has shipped recently and what is coming next' },
+    { id: 'e2', stack: 'erlang', title: 'Native Records', speaker: 'Björn Gustavsson, Erlang/OTP team at Ericsson', blurb: 'the new native record type in Erlang/OTP 29' },
+    { id: 'e3', stack: 'erlang', title: 'Exploring Doctests in Erlang', speaker: 'Lukas Backström, Erlang/OTP team', blurb: 'testing documentation examples with the new ct_doctests module' },
+    { id: 'e4', stack: 'erlang', title: 'Structuring Erlang Code with Application-Level Visibility', speaker: 'Erik Stenman', blurb: 'keeping a clear public API in large Erlang systems' },
+    { id: 'e5', stack: 'erlang', title: 'Idiomatic Erlang: Tips for Erlang Beginners', speaker: 'Brujo Benavides, EEF Education WG', blurb: 'writing Erlang the way experienced Erlang developers do' },
+    { id: 'e6', stack: 'erlang', title: 'Still Typing Erlang? Developer Experience in the Prompt Era', speaker: 'Roberto Aloi, Erlang DevX at WhatsApp', blurb: 'how ELP and AI tools are changing the Erlang developer experience' },
+    { id: 'x1', stack: 'elixir', title: 'Set-Theoretic Types from Scratch (keynote)', speaker: 'José Valim, creator of Elixir', blurb: "how Elixir's new gradual type system works, live coded" },
+    { id: 'x2', stack: 'elixir', title: 'ClusterFu**tional: Four Years of Distributed Elixir at NetzeBW', speaker: 'Aaron Cruz', blurb: 'lessons from running distributed Elixir in production' },
+    { id: 'x3', stack: 'elixir', title: "Hooked on Performance: Taming LiveView's JavaScript Hooks at Scale", speaker: 'Matt Swensen, Jump', blurb: 'keeping LiveView front-end performance under control as the app grows' },
+    { id: 'x4', stack: 'elixir', title: 'Self-Healing Systems and When They Fail', speaker: 'Spoorthy Sridhara', blurb: "designing supervision trees that actually recover, and the failures OTP doesn't catch" },
+    { id: 'x5', stack: 'elixir', title: 'Ruby Crimes in Elixir Codebases', speaker: 'Travis Fantina, Objective Inc.', blurb: 'habits Ruby developers bring to Elixir, and how to unlearn them' },
+    { id: 'x6', stack: 'elixir', title: "ATProto on Elixir: A Spike into AppView's DataPlane", speaker: 'Chris Beck, bitcrowd', blurb: 'building parts of the Bluesky protocol stack in Elixir' },
+    { id: 'g1', stack: 'gleam', title: 'Gleam Language Update', speaker: 'Louis Pilfold, creator of Gleam', blurb: "what's new in Gleam this year and where it's heading" },
+    { id: 'g2', stack: 'gleam', title: 'Ditch Your API with Lustre Server Components and the Store Pattern', speaker: 'Hayleigh Thompson, Gleam core team', blurb: 'full-stack Gleam apps without a hand-written API layer' },
+    { id: 'g3', stack: 'gleam', title: 'Building Big Lustre Apps', speaker: 'Rebecca Reusch, Lustre core team', blurb: 'architecture patterns for production Lustre apps' },
+    { id: 'g4', stack: 'gleam', title: 'Understanding Supervision: Killing Your Actors', speaker: 'Kero van Gelder', blurb: 'what really happens when supervised actors crash' },
+    { id: 'g5', stack: 'gleam', title: 'Same Runtime, Different Language: Adapting SAFE for Gleam', speaker: 'Robert Fiko, Erlang Solutions', blurb: 'adapting a BEAM static-analysis security tool to Gleam' },
+    { id: 'm1', stack: 'embedded', title: 'Updates from the AtomVM Landscape', speaker: 'Davide Bettio, creator of AtomVM', blurb: 'running the BEAM on microcontrollers and in WASM' },
+    { id: 'm2', stack: 'embedded', title: 'Zero to Embedded with Gleam and AtomVM', speaker: 'Giacomo Cavalieri, Gleam core team', blurb: 'getting started with embedded development in Gleam' },
+    { id: 'm3', stack: 'embedded', title: 'From Pure Code to Physical Controls: Designing Hardware in Elixir', speaker: 'Lucas Sifoni', blurb: 'building a hardware control panel with Elixir and LiveView' },
+    { id: 'i1', stack: 'interop', title: "Don't Crash the BEAM: Safe Interop with Ports and C Nodes", speaker: 'Riccardo Binetti, Remote', blurb: 'running native code without risking the production node' },
+    { id: 'i2', stack: 'interop', title: 'Rustler News and Road to 1.0', speaker: 'Benedikt Reinartz, Statkraft', blurb: "what's new in Rustler and the road to 1.0" },
+    { id: 'i3', stack: 'interop', title: 'Do the List Shuffle', speaker: 'Raimo Niskanen, Erlang/OTP team', blurb: "how the new list shuffle in OTP 29's rand module was designed and optimised" },
+    { id: 'a1', stack: 'ai', title: 'Making the Erlang Ecosystem safer by finding Vulnerabilities with AI', speaker: 'Jonatan Männchen (CISO, Erlang Ecosystem Foundation), Peter Ullrich', blurb: 'how the ecosystem handles the wave of AI-found vulnerabilities' },
+    { id: 'a2', stack: 'ai', title: 'The Erlang Ecosystem Frontier: Our Work Ahead', speaker: 'Dan Janowski', blurb: 'security, core components and regulatory compliance work across the ecosystem' },
+    { id: 'a3', stack: 'ai', title: 'When AI Writes the Code, What Matters More: Language or Runtime?', speaker: 'Iryna Kostiuk', blurb: 'whether ecosystem size and hiring still matter when AI writes the code' }
+  ];
+  var LABS = [
+    { id: 't1', title: 'Gnome Village: Understanding the BEAM Through Processes, Flows, and Runtime Behaviour', speaker: 'Erik Stenman, Måns af Klercker · 20 October, 9:00–17:00 · €418.16 (€505.97 incl. VAT)' }
+  ];
+
+  // ---- State ----
+  var state = { mode: 'online', stack: 'all', picked: [], labs: [], session: false, cc: false };
+  var $ = function (id) { return document.getElementById(id); };
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function toggle(list, id) {
+    var i = list.indexOf(id);
+    if (i >= 0) list.splice(i, 1); else list.push(id);
+  }
+  function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1) + '.'; }
+
+  function card(item, on, onClick, withBlurb) {
+    var b = el('button', 'cyb-card');
+    b.type = 'button';
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    var row = el('span', 'cyb-row');
+    row.appendChild(el('span', 'cyb-title', item.title));
+    row.appendChild(el('span', 'cyb-badge', on ? 'Added' : 'Add'));
+    b.appendChild(row);
+    b.appendChild(el('span', 'cyb-who', item.speaker));
+    if (withBlurb) b.appendChild(el('span', 'cyb-what', cap(item.blurb)));
+    b.addEventListener('click', onClick);
+    return b;
+  }
+
+  function renderLists() {
+    var stacks = $('stacks'); stacks.innerHTML = '';
+    STACKS.forEach(function (s) {
+      var b = el('button', 'cyb-pill', s.label);
+      b.type = 'button';
+      b.setAttribute('aria-pressed', state.stack === s.id ? 'true' : 'false');
+      b.addEventListener('click', function () { state.stack = s.id; renderLists(); });
+      stacks.appendChild(b);
+    });
+    var talks = $('talks'); talks.innerHTML = '';
+    TALKS.filter(function (t) { return state.stack === 'all' || t.stack === state.stack; }).forEach(function (t) {
+      talks.appendChild(card(t, state.picked.indexOf(t.id) >= 0, function () { toggle(state.picked, t.id); renderLists(); renderEmail(); }, true));
+    });
+    var labs = $('labs'); labs.innerHTML = '';
+    LABS.forEach(function (l) {
+      labs.appendChild(card(l, state.labs.indexOf(l.id) >= 0, function () { toggle(state.labs, l.id); renderLists(); renderEmail(); }, false));
+    });
+    $('count').textContent = String(state.picked.length);
+  }
+
+  function val(id) { return ($(id).value || '').trim().replace(/\.$/, ''); }
+
+  function buildEmail() {
+    var boss = val('f-boss');
+    var me = val('f-name');
+    var problem = val('f-problem');
+    var picked = TALKS.filter(function (t) { return state.picked.indexOf(t.id) >= 0; });
+    var names = [];
+    picked.forEach(function (t) {
+      var s = STACKS.filter(function (x) { return x.id === t.stack; })[0];
+      if (s && s.name && names.indexOf(s.name) < 0) names.push(s.name);
+    });
+    var stackText = 'Erlang, Elixir and Gleam';
+    if (names.length === 1) stackText = names[0];
+    if (names.length > 1) stackText = names.slice(0, -1).join(', ') + ' and ' + names[names.length - 1];
+    var person = state.mode === 'person';
+    var tutorial = person && state.labs.length > 0;
+    var parts = [];
+    var about = "It's the major European conference for the BEAM ecosystem. Speakers include the Erlang/OTP team at Ericsson, the creators of Elixir and Gleam, and engineers who build and run " + stackText + ' systems in production.';
+
+    parts.push(boss ? 'Hi ' + boss + ',' : 'Hi,');
+    parts.push(person
+      ? "I'd like to attend Code BEAM Europe (21–22 October, Haarlem, near Amsterdam). " + about
+      : "I'd like to join Code BEAM Europe online (21–22 October). " + about);
+
+    if (picked.length) {
+      var lead = problem
+        ? "We're working on " + problem + ', and I believe these sessions will help me to achieve its goals:'
+        : 'I believe these sessions will be especially useful for our work:';
+      parts.push(lead + '\n' + picked.map(function (t) { return '- ' + t.title + ' (' + t.speaker + '): ' + t.blurb; }).join('\n'));
+    } else if (problem) {
+      parts.push("We're working on " + problem + ', and I believe the conference will help me to achieve its goals.');
+    }
+
+    if (person) {
+      var question = val('f-question');
+      var why = ['I think attending in person would be the best option, because:'];
+      why.push('- The Informal Space (live demos, hands-on clinics and hacking sessions) only happens on site');
+      why.push(question
+        ? '- I can talk to the speakers directly, including the Erlang/OTP team and the Elixir and Gleam core teams, and bring our questions on ' + question
+        : '- I can talk to the speakers directly, including the Erlang/OTP team and the Elixir and Gleam core teams');
+      why.push('- I can meet other teams running the BEAM in production and compare approaches');
+      if (tutorial) why.push('- I can join the full-day tutorial on 20 October: ' + LABS[0].title + ' (Erik Stenman, Måns af Klercker)');
+      parts.push(why.join('\n'));
+      var cost = 'The cost is ' + PRICES.person.net + ' (' + PRICES.person.vat + ' incl. VAT) for the conference ticket';
+      if (tutorial) cost += ', plus ' + PRICES.tutorial.net + ' (' + PRICES.tutorial.vat + ' incl. VAT) for the tutorial';
+      cost += ', including access to the talk recordings. The ticket covers the conference itself, so travel and accommodation would need to be arranged separately. If that doesn\'t fit the budget, the virtual ticket (' + PRICES.online.net + ', ' + PRICES.online.vat + ' incl. VAT) is a good fallback.';
+      parts.push(cost);
+      parts.push("Afterwards I'll share the knowledge with the team" + (state.session ? ', for example in a short session.' : '.'));
+    } else {
+      parts.push('The cost is ' + PRICES.online.net + ' (' + PRICES.online.vat + ' incl. VAT) for the virtual ticket, which includes the live stream of the talks and access to the recordings.');
+      parts.push("I'll block the time for the sessions and share the knowledge with the team" + (state.session ? ', for example in a short session.' : '.'));
+    }
+    if (state.cc) parts.push("I've copied the Code BEAM Europe organisers (info@codesync.global), so they can answer any questions about tickets or invoices.");
+    parts.push('Please let me know if you have any questions or need more details.');
+    parts.push(me ? 'Thanks,\n' + me : 'Thanks');
+
+    return {
+      subject: person ? 'Request: Code BEAM Europe in Haarlem, 21–22 October' : 'Request: Code BEAM Europe online, 21–22 October',
+      body: parts.join('\n\n')
+    };
+  }
+
+  function renderEmail() {
+    var e = buildEmail();
+    $('subject').textContent = e.subject;
+    $('body').textContent = e.body;
+    $('cc-row').hidden = !state.cc;
+    $('mailto').href = 'mailto:?' + (state.cc ? 'cc=info%40codesync.global&' : '') + 'subject=' + encodeURIComponent(e.subject) + '&body=' + encodeURIComponent(e.body);
+    $('copy').textContent = 'Copy email';
+  }
+
+  function setMode(mode) {
+    state.mode = mode;
+    document.querySelectorAll('[data-mode]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-mode') === mode ? 'true' : 'false'); });
+    document.querySelectorAll('.cyb-person-only').forEach(function (n) { n.hidden = mode !== 'person'; });
+    renderEmail();
+  }
+
+  document.querySelectorAll('[data-mode]').forEach(function (b) {
+    b.addEventListener('click', function () { setMode(b.getAttribute('data-mode')); });
+  });
+  $('f-session').addEventListener('click', function () {
+    state.session = !state.session;
+    this.setAttribute('aria-pressed', state.session ? 'true' : 'false');
+    renderEmail();
+  });
+  $('f-cc').addEventListener('click', function () {
+    state.cc = !state.cc;
+    this.setAttribute('aria-pressed', state.cc ? 'true' : 'false');
+    renderEmail();
+  });
+  ['f-boss', 'f-name', 'f-problem', 'f-question'].forEach(function (id) { $(id).addEventListener('input', renderEmail); });
+  $('copy').addEventListener('click', function () {
+    var e = buildEmail();
+    var text = (state.cc ? 'CC: info@codesync.global\n' : '') + 'Subject: ' + e.subject + '\n\n' + e.body;
+    var ok = function () { $('copy').textContent = 'Copied'; $('copy-err').hidden = true; };
+    var fail = function () { $('copy-err').hidden = false; };
+    try { navigator.clipboard.writeText(text).then(ok, fail); } catch (err) { fail(); }
+  });
+
+  // Optional deep link: /convince-your-boss/?mode=person
+  if (/[?&]mode=person\b/.test(location.search)) setMode('person');
+
+  renderLists();
+  renderEmail();
+})();
+</script>
+</body>
+</html>
