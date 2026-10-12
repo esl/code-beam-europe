@@ -8,6 +8,7 @@ level: Intermediate
 title: "BeamAsm Goes Embedded: Porting Erlang’s JIT to ARM32"
 speakers: 
   - _participants/peer-stritzinger.md
+  - _participants/luca-succi.md
 published: true
 
 ---
