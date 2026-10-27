@@ -1,0 +1,74 @@
+<!-- Post-event popup (replaces the countdown). Shown once per browser session. -->
+<div id="cbe-after" class="cbe-after" hidden>
+  <style>
+    .cbe-after{position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(0,1,1,.74);font-family:'Lato',sans-serif}
+    .cbe-after[hidden]{display:none}
+    .cbe-after *{box-sizing:border-box}
+    .cbe-after .cbe-card{position:relative;width:100%;max-width:520px;max-height:calc(100vh - 32px);overflow:auto;background:#1C1830;color:#EEEEEE;border:2px solid #E32DFD;border-radius:14px;padding:40px 28px 30px;text-align:center;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+    .cbe-after .cbe-close{position:absolute;top:10px;right:10px;width:44px;height:44px;border:0;border-radius:10px;background:transparent;color:#EEEEEE;font-size:26px;line-height:1;cursor:pointer}
+    .cbe-after .cbe-close:hover{background:rgba(238,238,238,.1)}
+    .cbe-after h2{font-family:'Montserrat',sans-serif;font-weight:700;font-size:28px;line-height:1.2;letter-spacing:.01em;color:#FFFFFF;margin:0 0 14px;padding:0 24px;text-transform:none}
+    .cbe-after .cbe-divider{width:80px;height:5px;margin:0 auto 18px;background:linear-gradient(to right,#0074A9 50%,#E32DFD 50%)}
+    .cbe-after p{font-size:16px;line-height:1.55;color:#D8D6E0;margin:0 0 14px;letter-spacing:normal}
+    .cbe-after .cbe-link{color:#FFFFFF;text-decoration:underline;text-underline-offset:3px}
+    .cbe-after .cbe-link:hover{color:#E32DFD}
+    .cbe-after .cbe-follow{margin-top:22px;padding-top:20px;border-top:1px solid #3A3354}
+    .cbe-after .cbe-close:focus-visible,.cbe-after .cbe-link:focus-visible{outline:3px solid #19F5FF;outline-offset:2px}
+    .cbe-follow-label{font-family:'Montserrat',sans-serif;font-size:14px;font-weight:600;letter-spacing:.06em;color:#FFFFFF;margin:0 0 10px}
+    .cbe-row{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+    .cbe-row-main{margin-top:18px}
+    .cbe-social,.cbe-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:14px;letter-spacing:.03em;text-decoration:none;border-radius:10px;min-height:44px;padding:11px 18px;transition:background .15s,border-color .15s,color .15s}
+    .cbe-social{color:#FFFFFF;border:1.5px solid #6B6780;background:transparent}
+    .cbe-social:hover{border-color:#E32DFD;color:#FFFFFF;text-decoration:none}
+    .cbe-btn{background:#E32DFD;color:#1A0322;border:1.5px solid #E32DFD}
+    .cbe-btn:hover{background:#EC6BFE;border-color:#EC6BFE;color:#1A0322;text-decoration:none}
+    .cbe-btn-ghost{background:transparent;color:#FFFFFF;border-color:#FFFFFF}
+    .cbe-btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#FFFFFF;color:#FFFFFF}
+    .cbe-social:focus-visible,.cbe-btn:focus-visible{outline:3px solid #19F5FF;outline-offset:2px}
+    @media (max-width:420px){.cbe-after .cbe-card{padding:36px 18px 24px}.cbe-after h2{font-size:24px}}
+  </style>
+  <div class="cbe-card" role="dialog" aria-modal="true" aria-labelledby="cbe-after-title">
+    <button type="button" class="cbe-close" aria-label="Close">&times;</button>
+    <h2 id="cbe-after-title">Thank you for Code BEAM Europe 2026!</h2>
+    <div class="cbe-divider" aria-hidden="true"></div>
+    <p>See you in 2027! Meanwhile, <a class="cbe-link cbe-close-link" href="#schedule">browse the 2026 programme</a> and watch for the recordings on YouTube.</p>
+    <div class="cbe-follow">
+      <p class="cbe-follow-label">Follow us on</p>
+      <div class="cbe-row">
+        <a class="cbe-social" href="https://x.com/codebeamio" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 512 512" width="18" height="18"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg><span>X</span></a>
+        <a class="cbe-social" href="https://www.linkedin.com/company/code-sync/" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 448 512" width="18" height="18"><path fill="currentColor" d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z"/></svg><span>LinkedIn</span></a>
+        <a class="cbe-social" href="https://bsky.app/profile/codebeam.bsky.social" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 64 57" width="18" height="18"><path fill="currentColor" d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805ZM50.127 3.805C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745Z"/></svg><span>Bluesky</span></a>
+      </div>
+      <div class="cbe-row cbe-row-main">
+        <a class="cbe-btn" href="#newsletter"><svg aria-hidden="true" viewBox="0 0 512 512" width="18" height="18"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg><span>Subscribe to the newsletter</span></a>
+        <a class="cbe-btn cbe-btn-ghost" href="https://www.youtube.com/@CodeSync?sub_confirmation=1" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 576 512" width="18" height="18"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg><span>Subscribe on YouTube</span></a>
+      </div>
+    </div>
+  </div>
+  <script>
+  (function () {
+    var KEY = 'cbe-after-seen';
+    var root = document.getElementById('cbe-after');
+    if (!root) return;
+    try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
+    var lastFocus = null;
+    function close() {
+      root.hidden = true;
+      document.removeEventListener('keydown', onKey);
+      try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+      if (lastFocus && lastFocus.focus) lastFocus.focus();
+    }
+    function onKey(e) { if (e.key === 'Escape') close(); }
+    function open() {
+      lastFocus = document.activeElement;
+      root.hidden = false;
+      document.addEventListener('keydown', onKey);
+      root.querySelector('.cbe-close').focus();
+    }
+    root.addEventListener('click', function (e) { if (e.target === root) close(); });
+    root.querySelector('.cbe-close').addEventListener('click', close);
+    root.querySelectorAll('a[href^="#"]').forEach(function (a) { a.addEventListener('click', close); });
+    setTimeout(open, 1500);
+  })();
+  </script>
+</div>
