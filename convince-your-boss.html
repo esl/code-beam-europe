@@ -1,8 +1,8 @@
 ---
 layout: null
 permalink: /convince-your-boss/
-title: Convince your boss | Code BEAM Europe 2026
-description: Need sign-off to attend Code BEAM Europe? Pick online or in person, choose the sessions that matter for your codebase and get a ready-to-send email for your manager.
+title: "Convince your boss | Code BEAM Europe 2027"
+description: "Make the case for next year now: pick the event and the 2026 talks that matter for your codebase, and copy a ready-to-send email for your manager."
 ---
 <!DOCTYPE html>
 <html>
@@ -101,6 +101,282 @@ description: Need sign-off to attend Code BEAM Europe? Pick online or in person,
   .cyb #body a{color:#0074A9;text-decoration:underline}
 </style>
 
+<body>
+  {% include navigation_2.html %}
+<div class="cyb">
+<section class="cyb-hero">
+  <div class="cyb-wrap">
+    <h1>Make the case for next year</h1>
+    <div class="cyb-divider" aria-hidden="true"></div>
+    <p>Thank you for joining Code BEAM Europe 2026! Planning for next year starts now: ask your boss to take next year into consideration: pick the event, choose the 2026 talks that matter for your codebase, add one line about your work, and copy a ready-to-send email.</p>
+  </div>
+</section>
+
+<main class="cyb-wrap cyb-layout">
+  <div class="cyb-form">
+
+    <section class="cyb-step" aria-labelledby="s0">
+      <h2 id="s0"><span>01</span>Which event do you want to attend in 2027?</h2>
+      <div class="cyb-grid" style="margin-top:18px">
+        <button type="button" class="cyb-card cyb-mode cyb-event" data-event="cbe" aria-pressed="true">
+          <span class="cyb-name">Code BEAM Europe 2027</span>
+          <span class="cyb-what">To be announced. The major European conference for Erlang, Elixir and Gleam.</span>
+        </button>
+        <button type="button" class="cyb-card cyb-mode cyb-event" data-event="ecu" aria-pressed="false">
+          <span class="cyb-name">ElixirConf EU 2027</span>
+          <span class="cyb-what">23-24 April 2027, Lisbon, Portugal. The European Elixir conference, run by Code Sync.</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="cyb-step" aria-labelledby="s1">
+      <h2 id="s1"><span>02</span>How would you like to attend?</h2>
+      <div class="cyb-grid" style="margin-top:18px">
+        <button type="button" class="cyb-card cyb-mode" data-mode="person" aria-pressed="true">
+          <span class="cyb-name">In person</span>
+          <span class="cyb-what">Talks, the hallway track and meeting the speakers. Prices for 2027 will be announced later.</span>
+        </button>
+        <button type="button" class="cyb-card cyb-mode" data-mode="online" aria-pressed="false">
+          <span class="cyb-name">Online</span>
+          <span class="cyb-what">Live stream of the talks and access to the recordings. Prices for 2027 will be announced later.</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="cyb-step" aria-labelledby="s2">
+      <h2 id="s2"><span>03</span>Add your context</h2>
+      <p class="cyb-hint">Optional. Anything you leave empty is simply left out of the email.</p>
+      <div class="cyb-grid">
+        <div class="cyb-field"><label for="f-boss">Your boss's first name</label><input id="f-boss" type="text" placeholder="Anna" autocomplete="off"></div>
+        <div class="cyb-field"><label for="f-name">Your name</label><input id="f-name" type="text" placeholder="Sam" autocomplete="name"></div>
+      </div>
+      <div class="cyb-field cyb-mt">
+        <label for="f-problem">What are you working on right now?</label>
+        <span class="cyb-sub" id="f-problem-hint">Finish the sentence "we're working on&hellip;". One line about your project makes the email much more convincing.</span>
+        <textarea id="f-problem" rows="2" aria-describedby="f-problem-hint" placeholder="upgrading our Elixir services to OTP 29 and adopting the new type checks"></textarea>
+      </div>
+      <div class="cyb-person-only">
+        <div class="cyb-field cyb-mt"><label for="f-question">A question you'd ask the speakers</label><input id="f-question" type="text" placeholder="how to structure supervision trees for our ingest pipeline"></div>
+      </div>
+      <button type="button" class="cyb-check" id="f-session" aria-pressed="false"><span class="cyb-box" aria-hidden="true">&#10003;</span><span>I'll also run a short session for the team afterwards</span></button>
+      <button type="button" class="cyb-check" id="f-cc" aria-pressed="false" style="margin-top:0"><span class="cyb-box" aria-hidden="true">&#10003;</span><span>CC the Code Sync organisers (info@codesync.global), so they can answer your boss's questions about dates, tickets and invoices</span></button>
+    </section>
+
+    <section class="cyb-step" aria-labelledby="s3">
+      <h2 id="s3"><span>04</span>Pick 2&ndash;3 talks from Code BEAM Europe 2026</h2>
+      <p class="cyb-hint">Show your boss what you'd get: a few well-chosen talks from this year convince better than the whole agenda. Selected: <span id="count">0</span></p>
+      <div class="cyb-pills" role="group" aria-label="Filter by topic" id="stacks"></div>
+      <div class="cyb-list" id="talks"></div>
+    </section>
+
+  </div>
+
+  <aside class="cyb-preview" aria-labelledby="pv">
+    <div class="cyb-head"><h2 id="pv">Your email</h2><span>updates as you type</span></div>
+    <div class="cyb-block" id="cc-row" hidden><div class="cyb-lbl">CC</div><div id="cc">info@codesync.global</div></div>
+    <div class="cyb-block"><div class="cyb-lbl">Subject</div><div id="subject"></div></div>
+    <div class="cyb-block" id="body" aria-live="polite"></div>
+    <div class="cyb-block cyb-actions">
+      <button type="button" class="cyb-btn" id="copy">Copy email</button>
+      <a class="cyb-btn cyb-btn-ghost" id="mailto" href="mailto:">Open in email app</a>
+    </div>
+    <p class="cyb-err" id="copy-err" hidden>Your browser blocked copying. Select the text above and copy it manually.</p>
+    <p class="cyb-note">Prices for 2027 haven't been announced yet. <a href="/#newsletter" style="color:inherit;text-decoration:underline">Subscribe to the newsletter</a> to hear first.</p>
+  </aside>
+</main>
+
+<section class="cyb-faq" aria-labelledby="faq-h">
+  <div class="cyb-wrap">
+    <h2 id="faq-h">Questions your boss might ask</h2>
+    <div class="cyb-divider" aria-hidden="true"></div>
+    <div class="cyb-grid">
+      <div><h3>"Can't you just watch the recordings?"</h3><p>The 2026 recordings are free on the Code Sync YouTube channel. The Informal Space, the workshops and the conversations with the OTP, Elixir and Gleam teams between sessions aren't.</p></div><div><h3>"Is it only for experts?"</h3><p>No. Talks like Idiomatic Erlang sit next to deep dives from the Erlang/OTP team, so it works for people new to the BEAM and for teams running it in production.</p></div><div><h3>"How much will it cost?"</h3><p>Prices for 2027 haven't been announced yet. Subscribe to the newsletter to hear first, including early bird tickets.</p></div><div><h3>"Invoices, group tickets?"</h3><p>Write to <a href="mailto:info@codesync.global">info@codesync.global</a> and the team will help.</p></div>
+    </div>
+  </div>
+</section>
+</div>
+  {% include footer.html %}
+  {% include imports/js.html %}
+<script>
+(function () {
+  // ---- Content: 2027 events and the 2026 talks used as examples ----
+  var EVENTS = [
+  {
+    "id": "cbe",
+    "name": "Code BEAM Europe 2027",
+    "about": "Code BEAM Europe is the major European conference for the BEAM ecosystem. Speakers include the Erlang/OTP team at Ericsson, the creators of Elixir and Gleam, and engineers who build and run {stack} systems in production.",
+    "person": [
+      "The Informal Space (live demos, hands-on clinics and hacking sessions) only happens on site",
+      "I can talk to the speakers directly, including the Erlang/OTP team and the Elixir and Gleam core teams{q}",
+      "I can meet other teams running the BEAM in production and compare approaches"
+    ],
+    "when": "The dates and prices for 2027 haven't been announced yet, so I'd like to ask you to take it into consideration when planning next year's training and conference budget."
+  },
+  {
+    "id": "ecu",
+    "name": "ElixirConf EU 2027",
+    "about": "ElixirConf EU is the European conference for the Elixir community, run by Code Sync, the team behind Code BEAM Europe. It brings together the Elixir core team, library authors and engineers who build and run Elixir systems in production.",
+    "person": [
+      "I can talk to the speakers directly, including the Elixir core team and library authors{q}",
+      "I can meet other teams running Elixir in production and compare approaches",
+      "The hallway conversations and workshops are not part of the recordings"
+    ],
+    "when": "ElixirConf EU 2027 takes place on 23–24 April in Lisbon, Portugal. Prices haven't been announced yet, so I'd like to ask you to take it into consideration when planning next year's training and conference budget."
+  }
+];
+  var STACKS = [
+    { id: 'all', label: 'All' },
+    { id: 'erlang', label: 'Erlang/OTP', name: 'Erlang' },
+    { id: 'elixir', label: 'Elixir & Phoenix', name: 'Elixir' },
+    { id: 'gleam', label: 'Gleam', name: 'Gleam' },
+    { id: 'embedded', label: 'Embedded & hardware' },
+    { id: 'interop', label: 'Performance & interop' },
+    { id: 'ai', label: 'AI & security' }
+  ];
+  var TALKS = [
+    { id: 'e1', stack: 'erlang', title: 'Update from the OTP Team', speaker: 'Björn Gustavsson, Erlang/OTP team at Ericsson', blurb: 'what the OTP team has shipped recently and what is coming next' },
+    { id: 'e2', stack: 'erlang', title: 'Native Records', speaker: 'Björn Gustavsson, Erlang/OTP team at Ericsson', blurb: 'the new native record type in Erlang/OTP 29' },
+    { id: 'e3', stack: 'erlang', title: 'Exploring Doctests in Erlang', speaker: 'Lukas Backström, Erlang/OTP team', blurb: 'testing documentation examples with the new ct_doctests module' },
+    { id: 'e4', stack: 'erlang', title: 'Structuring Erlang Code with Application-Level Visibility', speaker: 'Erik Stenman', blurb: 'keeping a clear public API in large Erlang systems' },
+    { id: 'e5', stack: 'erlang', title: 'Idiomatic Erlang: Tips for Erlang Beginners', speaker: 'Brujo Benavides, EEF Education WG', blurb: 'writing Erlang the way experienced Erlang developers do' },
+    { id: 'e6', stack: 'erlang', title: 'Still Typing Erlang? Developer Experience in the Prompt Era', speaker: 'Roberto Aloi, Erlang DevX at WhatsApp', blurb: 'how ELP and AI tools are changing the Erlang developer experience' },
+    { id: 'x1', stack: 'elixir', title: 'Set-Theoretic Types from Scratch (keynote)', speaker: 'José Valim, creator of Elixir', blurb: "how Elixir's new gradual type system works, live coded" },
+    { id: 'x2', stack: 'elixir', title: 'ClusterFu**tional: Four Years of Distributed Elixir at NetzeBW', speaker: 'Aaron Cruz', blurb: 'lessons from running distributed Elixir in production' },
+    { id: 'x3', stack: 'elixir', title: "Hooked on Performance: Taming LiveView's JavaScript Hooks at Scale", speaker: 'Matt Swensen, Jump', blurb: 'keeping LiveView front-end performance under control as the app grows' },
+    { id: 'x4', stack: 'elixir', title: 'Self-Healing Systems and When They Fail', speaker: 'Spoorthy Sridhara', blurb: "designing supervision trees that actually recover, and the failures OTP doesn't catch" },
+    { id: 'x5', stack: 'elixir', title: 'Ruby Crimes in Elixir Codebases', speaker: 'Travis Fantina, Objective Inc.', blurb: 'habits Ruby developers bring to Elixir, and how to unlearn them' },
+    { id: 'x6', stack: 'elixir', title: "ATProto on Elixir: A Spike into AppView's DataPlane", speaker: 'Chris Beck, bitcrowd', blurb: 'building parts of the Bluesky protocol stack in Elixir' },
+    { id: 'g1', stack: 'gleam', title: 'Gleam Language Update', speaker: 'Louis Pilfold, creator of Gleam', blurb: "what's new in Gleam this year and where it's heading" },
+    { id: 'g2', stack: 'gleam', title: 'Ditch Your API with Lustre Server Components and the Store Pattern', speaker: 'Hayleigh Thompson, Gleam core team', blurb: 'full-stack Gleam apps without a hand-written API layer' },
+    { id: 'g3', stack: 'gleam', title: 'Building Big Lustre Apps', speaker: 'Rebecca Reusch, Lustre core team', blurb: 'architecture patterns for production Lustre apps' },
+    { id: 'g4', stack: 'gleam', title: 'Understanding Supervision: Killing Your Actors', speaker: 'Kero van Gelder', blurb: 'what really happens when supervised actors crash' },
+    { id: 'g5', stack: 'gleam', title: 'Same Runtime, Different Language: Adapting SAFE for Gleam', speaker: 'Robert Fiko, Erlang Solutions', blurb: 'adapting a BEAM static-analysis security tool to Gleam' },
+    { id: 'm1', stack: 'embedded', title: 'Updates from the AtomVM Landscape', speaker: 'Davide Bettio, creator of AtomVM', blurb: 'running the BEAM on microcontrollers and in WASM' },
+    { id: 'm2', stack: 'embedded', title: 'Zero to Embedded with Gleam and AtomVM', speaker: 'Giacomo Cavalieri, Gleam core team', blurb: 'getting started with embedded development in Gleam' },
+    { id: 'm3', stack: 'embedded', title: 'From Pure Code to Physical Controls: Designing Hardware in Elixir', speaker: 'Lucas Sifoni', blurb: 'building a hardware control panel with Elixir and LiveView' },
+    { id: 'i1', stack: 'interop', title: "Don't Crash the BEAM: Safe Interop with Ports and C Nodes", speaker: 'Riccardo Binetti, Remote', blurb: 'running native code without risking the production node' },
+    { id: 'i2', stack: 'interop', title: 'Rustler News and Road to 1.0', speaker: 'Benedikt Reinartz, Statkraft', blurb: "what's new in Rustler and the road to 1.0" },
+    { id: 'i3', stack: 'interop', title: 'Do the List Shuffle', speaker: 'Raimo Niskanen, Erlang/OTP team', blurb: "how the new list shuffle in OTP 29's rand module was designed and optimised" },
+    { id: 'a1', stack: 'ai', title: 'Making the Erlang Ecosystem safer by finding Vulnerabilities with AI', speaker: 'Jonatan Männchen (CISO, Erlang Ecosystem Foundation), Peter Ullrich', blurb: 'how the ecosystem handles the wave of AI-found vulnerabilities' },
+    { id: 'a2', stack: 'ai', title: 'The Erlang Ecosystem Frontier: Our Work Ahead', speaker: 'Dan Janowski', blurb: 'security, core components and regulatory compliance work across the ecosystem' },
+    { id: 'a3', stack: 'ai', title: 'When AI Writes the Code, What Matters More: Language or Runtime?', speaker: 'Iryna Kostiuk', blurb: 'whether ecosystem size and hiring still matter when AI writes the code' }
+  ];
+  var SITE = 'https://codebeameurope.com';
+  var URLS = {"e1": "/talks/update-from-the-otp-team/", "e2": "/talks/native-records/", "e3": "/talks/exploring-doctests-in-erlang/", "e4": "/talks/structuring-erlang-code-with-application-level-visibility/", "e5": "/talks/idiomatic-erlang-tips-for-erlang-beginners/", "e6": "/talks/still-typing-erlang-developer-experience-in-the-prompt-era/", "x1": "/keynotes/set-theoretic-types-from-scratch/", "x2": "/talks/clusterfutional-four-years-of-distributed-elixir-at-netzebw/", "x3": "/talks/hooked-on-performance-taming-liveviews-javascript-hooks-at-scale/", "x4": "/talks/self-healing-systems-and-when-they-fail/", "x5": "/talks/ruby-crimes-in-elixir-codebases/", "x6": "/talks/atproto-on-elixir-a-spike-into-appviews-dataplane/", "g1": "/talks/gleam-language-update/", "g2": "/talks/ditch-your-api-with-lustre-server-components-and-the-store-pattern/", "g3": "/talks/building-big-lustre-apps/", "g4": "/talks/understanding-supervision-killing-your-actors/", "g5": "/talks/same-runtime-different-language-adapting-safe-for-gleam/", "m1": "/talks/updates-from-the-atomvm-landscape/", "m2": "/talks/zero-to-embedded-with-gleam-and-atomvm/", "m3": "/talks/from-pure-code-to-physical-controls-designing-hardware-in-elixir/", "i1": "/talks/dont-crash-the-beam-safe-interop-with-ports-and-c-nodes/", "i2": "/talks/rustler-news-and-road-to-1-0/", "i3": "/talks/do-the-list-shuffle/", "a1": "/talks/dont-get-pwned-by-ai-attacks/", "a2": "/talks/erlang-ecosystem-frontier/", "a3": "/talks/when-ai-writes-the-code-what-matters-more-language-or-runtime/", "t1": "/trainings/gnome-village-understanding-the-beam/"};
+  TALKS.forEach(function (t) { if (URLS[t.id]) t.url = SITE + URLS[t.id]; });
+
+  var state = { event: EVENTS[0].id, mode: 'person', stack: 'all', picked: [], session: false, cc: false };
+  var $ = function (id) { return document.getElementById(id); };
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function toggle(list, id) { var i = list.indexOf(id); if (i >= 0) list.splice(i, 1); else list.push(id); }
+  function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1) + '.'; }
+  function card(item, on, onClick) {
+    var b = el('button', 'cyb-card'); b.type = 'button'; b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    var row = el('span', 'cyb-row'); row.appendChild(el('span', 'cyb-title', item.title)); row.appendChild(el('span', 'cyb-badge', on ? 'Added' : 'Add'));
+    b.appendChild(row); b.appendChild(el('span', 'cyb-who', item.speaker)); b.appendChild(el('span', 'cyb-what', cap(item.blurb)));
+    b.addEventListener('click', onClick); return b;
+  }
+  function renderLists() {
+    var stacks = $('stacks'); stacks.innerHTML = '';
+    STACKS.forEach(function (s) {
+      var b = el('button', 'cyb-pill', s.label); b.type = 'button';
+      b.setAttribute('aria-pressed', state.stack === s.id ? 'true' : 'false');
+      b.addEventListener('click', function () { state.stack = s.id; renderLists(); });
+      stacks.appendChild(b);
+    });
+    var talks = $('talks'); talks.innerHTML = '';
+    TALKS.filter(function (t) { return state.stack === 'all' || t.stack === state.stack; }).forEach(function (t) {
+      talks.appendChild(card(t, state.picked.indexOf(t.id) >= 0, function () { toggle(state.picked, t.id); renderLists(); renderEmail(); }));
+    });
+    $('count').textContent = String(state.picked.length);
+  }
+  function val(id) { var n = $(id); return n ? (n.value || '').trim().replace(/\.$/, '') : ''; }
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function link(item) { return item.url ? '<a href="' + esc(item.url) + '">' + esc(item.title) + '</a>' : esc(item.title); }
+  function talkPlain(t) { return '- ' + t.title + ' (' + t.speaker + '): ' + t.blurb + (t.url ? '\n  ' + t.url : ''); }
+  function talkHtml(t) { return '&ndash; ' + link(t) + ' (' + esc(t.speaker) + '): ' + esc(t.blurb); }
+  function para(p) { return esc(p).replace(/\n/g, '<br>'); }
+
+  function buildEmail() {
+    var ev = EVENTS.filter(function (e) { return e.id === state.event; })[0];
+    var boss = val('f-boss'), me = val('f-name'), problem = val('f-problem'), question = val('f-question');
+    var picked = TALKS.filter(function (t) { return state.picked.indexOf(t.id) >= 0; });
+    var names = [];
+    picked.forEach(function (t) { var s = STACKS.filter(function (x) { return x.id === t.stack; })[0]; if (s && s.name && names.indexOf(s.name) < 0) names.push(s.name); });
+    var stackText = "Erlang, Elixir and Gleam";
+    if (names.length === 1) stackText = names[0];
+    if (names.length > 1) stackText = names.slice(0, -1).join(', ') + ' and ' + names[names.length - 1];
+    var person = state.mode === 'person';
+    var parts = [], hparts = [];
+    function add(p, h) { parts.push(p); hparts.push(h || para(p)); }
+    add(boss ? 'Hi ' + boss + ',' : 'Hi,');
+    add("Code BEAM Europe 2026" + ' has just finished (21\u201322 October, Haarlem), and I\'d like to attend ' + ev.name + (person ? ' in person' : ' online') + ' next year. ' + ev.about.replace('{stack}', stackText));
+    add(ev.when);
+    if (picked.length) {
+      var lead = 'To give you an idea of what to expect, these talks from ' + "Code BEAM Europe 2026" + (problem ? " are relevant to what we're working on (" + problem + '):' : ' are especially relevant to our work:');
+      add(lead + '\n' + picked.map(talkPlain).join('\n'), esc(lead) + '<br>' + picked.map(talkHtml).join('<br>'));
+    } else if (problem) {
+      add("We're working on " + problem + ', and I believe the conference will help me to achieve its goals.');
+    }
+    if (person) {
+      var lines = ['I think attending in person would be the best option, because:'].concat(ev.person.map(function (l) { return '- ' + l.replace('{q}', question ? ', and bring our questions on ' + question : ''); }));
+      add(lines.join('\n'), [esc(lines[0])].concat(lines.slice(1).map(function (l) { return '&ndash; ' + esc(l.slice(2)); })).join('<br>'));
+      add('Travel and accommodation would need to be arranged separately. If the in-person ticket doesn\'t fit the budget, the online ticket is a good fallback.');
+      add("Afterwards I'll share the knowledge with the team" + (state.session ? ', for example in a short session.' : '.'));
+    } else {
+      add("I'll block the time for the sessions and share the knowledge with the team" + (state.session ? ', for example in a short session.' : '.'));
+    }
+    if (state.cc) add("I've copied the organisers (info@codesync.global), so they can answer any questions about dates, tickets or invoices.");
+    add('Please let me know if you have any questions or need more details.');
+    add(me ? 'Thanks,\n' + me : 'Thanks');
+    return { subject: 'Request: ' + ev.name + (person ? ' (in person)' : ' (online)'), body: parts.join('\n\n'), html: hparts.join('<br><br>') };
+  }
+  function renderEmail() {
+    var e = buildEmail();
+    $('subject').textContent = e.subject; $('body').innerHTML = e.html; $('cc-row').hidden = !state.cc;
+    $('mailto').href = 'mailto:?' + (state.cc ? 'cc=info%40codesync.global&' : '') + 'subject=' + encodeURIComponent(e.subject) + '&body=' + encodeURIComponent(e.body);
+    $('copy').textContent = 'Copy email';
+  }
+  function setMode(mode) {
+    state.mode = mode;
+    document.querySelectorAll('[data-mode]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-mode') === mode ? 'true' : 'false'); });
+    document.querySelectorAll('.cyb-person-only').forEach(function (n) { n.hidden = mode !== 'person'; });
+    renderEmail();
+  }
+  document.querySelectorAll('[data-event]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      state.event = b.getAttribute('data-event');
+      document.querySelectorAll('[data-event]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      renderEmail();
+    });
+  });
+  document.querySelectorAll('[data-mode]').forEach(function (b) { b.addEventListener('click', function () { setMode(b.getAttribute('data-mode')); }); });
+  $('f-session').addEventListener('click', function () { state.session = !state.session; this.setAttribute('aria-pressed', state.session ? 'true' : 'false'); renderEmail(); });
+  $('f-cc').addEventListener('click', function () { state.cc = !state.cc; this.setAttribute('aria-pressed', state.cc ? 'true' : 'false'); renderEmail(); });
+  ['f-boss', 'f-name', 'f-problem', 'f-question'].forEach(function (id) { $(id).addEventListener('input', renderEmail); });
+  $('copy').addEventListener('click', function () {
+    var e = buildEmail();
+    var text = (state.cc ? 'CC: info@codesync.global\n' : '') + 'Subject: ' + e.subject + '\n\n' + e.body;
+    var html = '<div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5">' + (state.cc ? '<p>CC: info@codesync.global</p>' : '') + '<p>Subject: ' + esc(e.subject) + '</p><p>' + e.html.split('<br><br>').join('</p><p>') + '</p></div>';
+    var ok = function () { $('copy').textContent = 'Copied'; $('copy-err').hidden = true; };
+    var fail = function () { $('copy-err').hidden = false; };
+    var plainOnly = function () { navigator.clipboard.writeText(text).then(ok, fail); };
+    try {
+      if (window.ClipboardItem && navigator.clipboard.write) {
+        navigator.clipboard.write([new ClipboardItem({ 'text/plain': new Blob([text], { type: 'text/plain' }), 'text/html': new Blob([html], { type: 'text/html' }) })]).then(ok, plainOnly);
+      } else { plainOnly(); }
+    } catch (err) { fail(); }
+  });
+  if (/[?&]event=elixirconf\b/.test(location.search)) { var b = document.querySelector('[data-event=ecu]'); if (b) b.click(); }
+  if (/[?&]mode=online\b/.test(location.search)) setMode('online');
+  renderLists();
+  renderEmail();
+})();
+</script>
+</body>
+</html>
+
+{% comment %} 2026 version of this page (kept for reference)
 <body>
   {% include navigation_2.html %}
 <div class="cyb">
@@ -428,3 +704,5 @@ description: Need sign-off to attend Code BEAM Europe? Pick online or in person,
 </script>
 </body>
 </html>
+
+{% endcomment %}
