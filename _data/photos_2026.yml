@@ -1,4 +1,38 @@
 # Photos from 2026 shown on the homepage (the section stays hidden while this list is empty).
-# Example:
-# - src: /assets/images/photos-2026/01.jpg
-#   alt: Code BEAM Europe 2026 in Haarlem
+# Full gallery: https://piotr846.pixieset.com/mqsummitandcodebeameurope2122october2026/
+- src: /assets/images/photos-2026/01.jpg
+  thumb: /assets/images/photos-2026/01-thumb.jpg
+  alt: "Registration at PHIL Haarlem"
+- src: /assets/images/photos-2026/02.jpg
+  thumb: /assets/images/photos-2026/02-thumb.jpg
+  alt: "Code BEAM Europe 2026 main stage"
+- src: /assets/images/photos-2026/03.jpg
+  thumb: /assets/images/photos-2026/03-thumb.jpg
+  alt: "Tonči Galić opening Track 1"
+- src: /assets/images/photos-2026/04.jpg
+  thumb: /assets/images/photos-2026/04-thumb.jpg
+  alt: "The main hall during a session"
+- src: /assets/images/photos-2026/05.jpg
+  thumb: /assets/images/photos-2026/05-thumb.jpg
+  alt: "A talk on the main stage"
+- src: /assets/images/photos-2026/06.jpg
+  thumb: /assets/images/photos-2026/06-thumb.jpg
+  alt: "Attendees in the main hall"
+- src: /assets/images/photos-2026/07.jpg
+  thumb: /assets/images/photos-2026/07-thumb.jpg
+  alt: "Welcome at the registration desk"
+- src: /assets/images/photos-2026/08.jpg
+  thumb: /assets/images/photos-2026/08-thumb.jpg
+  alt: "The Grote Foyer during a break"
+- src: /assets/images/photos-2026/09.jpg
+  thumb: /assets/images/photos-2026/09-thumb.jpg
+  alt: "A talk in Track 2"
+- src: /assets/images/photos-2026/10.jpg
+  thumb: /assets/images/photos-2026/10-thumb.jpg
+  alt: "Attendees in Track 2"
+- src: /assets/images/photos-2026/11.jpg
+  thumb: /assets/images/photos-2026/11-thumb.jpg
+  alt: "Conversations between sessions"
+- src: /assets/images/photos-2026/12.jpg
+  thumb: /assets/images/photos-2026/12-thumb.jpg
+  alt: "The Informal Space"
