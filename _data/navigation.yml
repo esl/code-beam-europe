@@ -2,10 +2,12 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome"
+- name: "2027"
+  link: "edition-2027"
 - name: Newsletter
   link: "newsletter"
-- name: TICKETS
-  link: "register"
+#- name: TICKETS
+#  link: "register"
 #- name: Call for Talks
 #  link: "cft"
 #- name: Call for Training
@@ -32,12 +34,12 @@
   link: "student"
 #- name: Volunteer
 #  link: "volunteer"
-- name: Lightning Talks
-  link: "lightning-talk"
+#- name: Lightning Talks
+#  link: "lightning-talk"
 - name: Venue
   link: "venue"
-- name: Accommodation
-  link: "accommodation"
+#- name: Accommodation
+#  link: "accommodation"
 #- name: Testimonials
 #  link: "testimonials-carousel-quotes"
 #- name: Hotels
@@ -52,6 +54,8 @@
 #  link: "blog"
 - name: Sponsors
   link: "sponsors"
+- name: Recordings
+  link: "recordings-2025"
 #- name: Join us
 #  children:
 #    - name: Volunteer
