@@ -1,0 +1,38 @@
+<!-- Ticket tiles. Content is listed in _data/tickets_2026.yml; the section stays hidden while the list is empty. -->
+{% if site.data.tickets_2026 and site.data.tickets_2026.size > 0 %}
+<div class="section tickets-block" id="tickets">
+  <style>#tickets .features ul{list-style-type:disc}</style>
+  <h2 class="title">Choose your ticket</h2>
+  <hr/>
+  <div class="items-container">
+    {% for item in site.data.tickets_2026 %}
+    <div class="ticket-item">
+      <div>
+        <h3>{{ item.title }}</h3>
+        <div class="price">
+          {{ item.price }}
+          {% if item.lead %}
+          <span>{{ item.lead }}</span>
+          {% endif %}
+        </div>
+        {% if item.note %}
+        <div class="description">
+          {{ item.note }}
+        </div>
+        {% endif %}
+        <a href="#register" title="Register">Register</a>
+        <hr />
+        <div class="features">
+          <h3>INCLUDED</h3>
+          <ul>
+            {% for feature in item.features %}
+            <li>{{ feature }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
