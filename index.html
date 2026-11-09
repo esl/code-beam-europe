@@ -13,8 +13,16 @@ countdown.html %} {% endif %}
 <!-- end of coundown block -->
 {% comment %} {% include banner-1.html %} {% endcomment %}
 <!-- end of banner-1  -->
+{% include edition-2027.html %}
+<!-- end of edition-2027 -->
+{% include sponsor-2027.html %}
+<!-- end of sponsor-2027 -->
+{% include photos-2026.html %}
+<!-- end of photos-2026 (hidden until _data/photos_2026.yml has photos) -->
 {% include welcome.html %}
 <!-- end of welcome -->
+{% include convince-your-boss-section.html %}
+<!-- end of convince-your-boss -->
 {% comment %} {% include banner-5.html %} {% endcomment %}
 <!-- end of baner-5 -->
 {% include diversity.html %}
@@ -42,7 +50,7 @@ countdown.html %} {% endif %}
 {% comment %} {% if site.data.settings.homepage_settings.gallery.show %} {%
 include gallery-grid.html %} {% endif %} {% endcomment %}
 <!-- end of gallery-grid  -->
-{% comment %} {% include schedule.html %} {% endcomment %}
+{% include schedule.html %}
 <!-- end of schedule -->
 {% comment %} {% include trainers.html %} {% endcomment %}
 <!-- end of trainers -->
@@ -51,10 +59,10 @@ include gallery-grid.html %} {% endif %} {% endcomment %}
 {% if site.data.settings.homepage_settings.tickets %} {% include
 tickets-block.html %} {% endif %}
 <!-- end of tickets -->
-{% include register.html %}
-<!-- end of register -->
-{% include banner-3.html %}
-<!-- end of banner-3 -->
+{% comment %} {% include register.html %} {% endcomment %}
+<!-- end of register (hidden after the 2026 event) -->
+{% comment %} {% include banner-3.html %} {% endcomment %}
+<!-- end of banner-3 (lightning talks, hidden after the 2026 event) -->
 {% comment %} {% include lightningtalks.html %} {% endcomment %}
 <!-- end of lightningtalks -->
 {% include members.html %}
@@ -65,8 +73,8 @@ tickets-block.html %} {% endif %}
 <!-- end of venue -->
 {% comment %} {% include tutorialvenue.html %} {% endcomment %}
 <!-- end of tutorialvenue -->
-{% include hotels.html %}
-<!-- end of hotels -->
+{% comment %} {% include hotels.html %} {% endcomment %}
+<!-- end of hotels (accommodation, hidden after the 2026 event) -->
 {% comment %} {% include covid-19.html %} {% endcomment %}
 <!-- end of covid-19 -->
 {% comment %} {% include hybrid.html %} {% endcomment %}
@@ -81,10 +89,16 @@ testimonials.html %} {% endif %}
 <!-- end of  testimonials  block -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
+{% include recordings-2026.html %}
+<!-- end of recordings-2026 (hidden until _data/recordings.yml y2026 has videos) -->
+{% include recordings-2025.html %}
+<!-- end of recordings-2025 -->
 {% include newsletter.html %}
 <!-- end of newsletter -->
 {% include contact.html %}
 <!-- end of contact -->
+{% include post-event-popup.html %}
+<!-- end of post-event popup -->
 
 <!-- modal block -->
 {% if site.data.settings.homepage_settings.modal.show %} {% include modal.html

@@ -1,0 +1,25 @@
+# Recordings shown on the homepage.
+# 2026: add the videos here once they are published (the section stays hidden while the list is empty).
+y2026: []
+y2026_playlist:
+
+y2025:
+  - id: C7BWgWdhZwE
+    title: "Keynote: A Survival Guide for the AI Age"
+    speaker: Josh Price
+  - id: CseWOnKuk7o
+    title: "Keynote: CyanView & Elixir in Broadcasts"
+    speaker: Daniil Popov, David Bourgeois
+  - id: DJwxAJoUUOU
+    title: OTP and Gleam
+    speaker: Louis Pilfold
+  - id: JvRMYRNqR9M
+    title: Erlang/OTP for Everyone
+    speaker: Brett Cameron
+  - id: tC435RGwRCI
+    title: Optimizing the BEAM's Scheduler for Many-Core Machines
+    speaker: Robin Morisset
+  - id: duEZxrsTUA4
+    title: "Beyond GenServers: Declarative AI Flows with gen_statem"
+    speaker: Coby Benveniste
+y2025_playlist: https://www.youtube.com/playlist?list=PLvL2NEhYV4Zsb00vrNRGm1db6CK53Yq5V

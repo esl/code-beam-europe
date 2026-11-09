@@ -6,6 +6,7 @@ level: Introductory and overview
 title: "Champion the BEAM"
 speakers: 
   - _participants/dan-janowski.md
+published: false
 
 ---
 You can champion the BEAM and we all should. 

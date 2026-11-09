@@ -1,0 +1,27 @@
+# Ticket tiles shown above the registration widgets, in _includes/tickets-2026.html.
+- title: "In-person Conference Ticket"
+  price: "€627.52"
+  note: "Net price, €759.30 incl. VAT."
+  features:
+    - "Live access to all talks during the 2 days of the event"
+    - "Access to the conference app and streaming"
+    - "Access to the Informal Space and the hallway track"
+    - "Access to networking and the exhibitors area at the venue"
+    - "Access to the recorded talks"
+- title: "Virtual Conference Ticket"
+  price: "€146.00"
+  note: "Net price, €175.20 incl. VAT."
+  lead: "Cannot join us in Haarlem? Opt for virtual attendance!"
+  features:
+    - "Live access to all streamed talks"
+    - "Access to the conference app"
+    - "Online networking via app"
+    - "Access to the recorded talks"
+- title: "Tutorial Day Ticket"
+  price: "€418.16"
+  note: "Net price, €505.97 incl. VAT. Separate ticket."
+  lead: "A full hands-on day on 20 October, the day before the conference."
+  features:
+    - "Gnome Village: Understanding the BEAM Through Processes, Flows, and Runtime Behaviour"
+    - "Led by Erik Stenman and Måns af Klercker"
+    - "20 October, 9:00 to 17:00"

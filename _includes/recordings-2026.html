@@ -1,0 +1,33 @@
+<!-- 2026 recordings. Videos are listed in _data/recordings.yml (y2026). -->
+{% if site.data.recordings.y2026 and site.data.recordings.y2026.size > 0 %}
+<div class="section cbe-rec" id="recordings-2026">
+  <style>
+    .cbe-rec{background:#000101;color:#EEEEEE;padding:72px 24px;text-align:center;font-family:'Lato',sans-serif}
+    .cbe-rec .cbe-rec-inner{width:100%;max-width:1240px;margin:0 auto}
+    .cbe-rec h2{font-family:'Montserrat',sans-serif;font-weight:600;font-size:32px;letter-spacing:.1em;text-transform:uppercase;color:#FFFFFF;margin:0}
+    .cbe-rec .cbe-rec-divider{width:80px;height:5px;margin:22px auto 36px;background:linear-gradient(to right,#0074A9 50%,#E32DFD 50%)}
+    .cbe-rec .cbe-rec-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:28px;max-width:1140px;margin:0 auto;text-align:left}
+    .cbe-rec .cbe-rec-frame{position:relative;padding-top:56.25%;background:#1C1830;border-radius:10px;overflow:hidden}
+    .cbe-rec .cbe-rec-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+    .cbe-rec .cbe-rec-title{display:block;font-family:'Montserrat',sans-serif;font-weight:600;font-size:16px;line-height:1.4;color:#FFFFFF;margin-top:12px}
+    .cbe-rec .cbe-rec-who{display:block;font-family:'Lato',sans-serif;font-size:15px;color:#B9B6C6;margin-top:4px}
+    .cbe-rec .cbe-rec-all{display:inline-flex;align-items:center;justify-content:center;font-family:'Montserrat',sans-serif;font-weight:700;font-size:15px;letter-spacing:.04em;background:#E32DFD;color:#1A0322;text-decoration:none;border-radius:10px;padding:14px 26px;margin-top:40px;min-height:44px}
+    .cbe-rec .cbe-rec-all:hover{background:#EC6BFE;color:#1A0322;text-decoration:none}
+    .cbe-rec .cbe-rec-all:focus-visible{outline:3px solid #19F5FF;outline-offset:2px}
+  </style>
+  <div class="cbe-rec-inner">
+  <h2>2026 Recordings</h2>
+  <div class="cbe-rec-divider" aria-hidden="true"></div>
+  <div class="cbe-rec-grid">
+    {% for v in site.data.recordings.y2026 %}
+    <div>
+      <div class="cbe-rec-frame"><iframe src="https://www.youtube-nocookie.com/embed/{{ v.id }}" title="{{ v.title | escape }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <span class="cbe-rec-title">{{ v.title }}</span>
+      {% if v.speaker %}<span class="cbe-rec-who">{{ v.speaker }}</span>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% if site.data.recordings.y2026_playlist %}<a class="cbe-rec-all" href="{{ site.data.recordings.y2026_playlist }}" target="_blank" rel="noopener">Watch all 2026 talks on YouTube</a>{% endif %}
+  </div>
+</div>
+{% endif %}

@@ -6,6 +6,7 @@ level: Intermediate
 title: "Beyond the Squeeze: Shipping a Full BEAM Stack in 16 MB-Now With Energy-Aware Booting"
 speakers: 
   - _participants/peer-stritzinger.md
+published: false
 
 ---
 Can a complete Erlang/OTP system truly thrive within just 16 MB of RAM, network effectively, and reliably boot using harvested energy?
